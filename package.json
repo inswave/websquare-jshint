@@ -1,0 +1,45 @@
+{
+  "name": "websquare-jshint",
+  "description": "JSHint for WebSquare",
+  "version": "0.1.0",
+  "homepage": "https://github.com/inswave/websquare-jshint",
+  "author": {
+    "name": "kimwooglae",
+    "email": "wlkim@inswave.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/inswave/websquare-jshint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inswave/websquare-jshint/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/inswave/websquare-min/blob/master/LICENSE"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+      "jshint": "~2.6.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "jshint",
+    "SPA",
+    "WebSquare"
+  ]
+}
