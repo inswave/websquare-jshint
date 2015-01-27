@@ -13,8 +13,8 @@ module.exports = function(grunt) {
 
     grunt.initConfig({
         clean: {
-            tests: ['tmp'],
-            traverse: ['dest']
+            tests: ['tmp', 'result'],
+            traverse: ['dest', 'result']
         },
         copy: {
             main: {
@@ -31,39 +31,19 @@ module.exports = function(grunt) {
         websquarejshint: {
             compile: {
                 options: {
-                    encoding: 'EUC-KR'
                 },
                 files: {
                     'tmp/sample.xml': ['test/sample.xml']
-                }
+                },
+                results:'result/result.txt'
             },
             traverse: {
-                files: [
-                    {expand: true, cwd: 'src/', src: ['**'], dest: 'dest/'}
-                ]
-            },
-            traverse_option: {
                 options: {
-                    js: {
-                        compress: {
-                            booleans: false
-                        },
-                        mangle: {
-                            except: ['returnValue']
-                        }
-                    }
                 },
                 files: [
                     {expand: true, cwd: 'src/', src: ['**'], dest: 'dest/'}
-                ]
-            },
-            traverse_encoding: {
-                options: {
-                    encoding: 'EUC-KR'
-                },
-                files: [
-                    {expand: true, cwd: 'src/', src: ['**'], dest: 'dest/'}
-                ]
+                ],
+                result:'result/result.txt'
             },
             options: {
                 jshintrc: 'jshintrc',
@@ -74,7 +54,5 @@ module.exports = function(grunt) {
     grunt.loadTasks('tasks');
     grunt.registerTask('test', ['clean:tests', 'websquarejshint:compile']);
     grunt.registerTask('traverse', ['clean:traverse', 'websquarejshint:traverse']);
-    grunt.registerTask('traverse_option', ['clean:traverse', 'websquarejshint:traverse_option']);
-    grunt.registerTask('traverse_encoding', ['clean:traverse', 'websquarejshint:traverse_encoding']);
     grunt.registerTask('default', ['test']);
 };
