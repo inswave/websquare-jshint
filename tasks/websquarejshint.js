@@ -161,7 +161,8 @@ module.exports = function(grunt) {
                   cliOptions.config = options;
                 }
 
-                if(cliOptions.config && globalObj) {
+                if(globalObj) {
+                    if(!cliOptions.config) cliOptions.config = {'globals':[]};
                     if( !cliOptions.config.globals ) cliOptions.config.globals = [];
                     for(var prop in globalObj) {
                         if(globalObj.hasOwnProperty(prop)) {
