@@ -52,6 +52,7 @@ module.exports = function(grunt) {
             pseudoFunc  = ['(function(){', '})'],
             min = '',
             max = '',
+            logMsg = '',
             checkFilter = function ( source ) {
                 if ( options.filter instanceof RegExp ) {
                     if ( options.filter.test( source ) ) {
@@ -167,19 +168,19 @@ module.exports = function(grunt) {
                         }
                     }
                 }
-                grunt.log.write('global object : ');
+                logMsg += '    global object : ';
                 var first = true;
                 for(var prop in cliOptions.config.globals) {
                     if(cliOptions.config.globals.hasOwnProperty(prop)) {
                         if(first) {
                             first = false;
-                            grunt.log.write(prop.red);
+                            logMsg += prop;
                         } else {
-                            grunt.log.write(',' + prop.red);
+                            logMsg += ', ' + prop;
                         }
                     }
                 }
-                grunt.log.writeln();
+                logMsg += '\n\n';
 
                 // Run JSHint on all file and collect results/data
                 var allResults = [];
@@ -219,7 +220,9 @@ module.exports = function(grunt) {
                   // Only print file name once per error
                   if (result.file !== lastfile) {
                     grunt.log.writeln((result.file ? '   ' + result.file.substring(result.file.indexOf("/"), result.file.lastIndexOf(".") ) : '').bold  + ' | ' + results.length + ' lints found.')
-                    fs.appendFileSync(resultFile, '\n' + (result.file ? '   ' + result.file.substring(result.file.indexOf("/"), result.file.lastIndexOf(".") ) : '')  + ' | ' + results.length + ' lints found.' +'\n\n');
+                    grunt.log.write(logMsg);
+                    fs.appendFileSync(resultFile, '\n\n' + (result.file ? '   ' + result.file.substring(result.file.indexOf("/"), result.file.lastIndexOf(".") ) : '')  + ' | ' + results.length + ' lints found.' +'\n');
+                    fs.appendFileSync(resultFile, logMsg);
                   }
                   lastfile = result.file;
 
@@ -290,8 +293,8 @@ module.exports = function(grunt) {
                     var node = dom.documentElement;
                     traverse(globalObj, node);
                 } catch(e) {
-                    grunt.log.error(e);
-                    grunt.log.warn("XML Parsing exception : " + filepath);
+//                    grunt.log.error(e);
+                    logMsg += "    XML Parsing exception : " + filepath +"\n";
                 }
                 return globalObj;
             },
@@ -367,6 +370,7 @@ module.exports = function(grunt) {
                         tally.dirs++;
                     } else {
                         globalObj = {};
+                        logMsg = '';
                         fileType = detectFileType( src );
 
                         if( fileType ) {
@@ -383,7 +387,7 @@ module.exports = function(grunt) {
                                     grunt.log.warn('convert euc-kr to utf-8');
                                     max = euckr2utf8.convert(max).toString('UTF-8');
                                     max = max.replace( /EUC[-]KR/, 'UTF-8' );
-                                    grunt.log.warn(max);
+//                                    grunt.log.warn(max);
 
                                 } catch(e) {
                                     grunt.log.warn('exception occured. use original');
