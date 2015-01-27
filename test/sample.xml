@@ -1,885 +1,946 @@
-<?xml version="1.0" encoding="EUC-KR"?>
-<?xml-stylesheet href="/dws/cm/css/all.css" type="text/css"?>
-<?xml-stylesheet href="/dws/cm/css/contents.css" type="text/css"?>
-<?xml-stylesheet href="/dws/cm/css/mkm.css" type="text/css"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:w2="http://www.inswave.com/websquare"
-	xmlns:xf="http://www.w3.org/2002/xforms">
-	<head>
-		<title>ø¿¥√ ≥™¿« ¡æ«’¡§∫∏ - KDB¥ÎøÏ¡ı±«</title>
-		<w2:buildDate />
-		<xf:model>
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
+    <head>
+        <w2:buildDate/>
+        <xf:model>
 			<xf:instance>
-				<data xmlns="" />
+				<data xmlns="">
+					<resGongTree>
+						<vector beforeServletCall='1247477576923'
+							beforeEJBCall='1247477576923' afterServletCall='1247477576993'
+							afterEJBCall='1247477576993' result='75'>
+							<data vectorkey='0' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='01' />
+									<gong_depth value='1.0000' />
+									<gong_nm value='Îã§ÏÇ¨ Î¨∏ÌôîÎ≥µÏßÄÏÑºÌÑ∞ Í±¥Î¶ΩÍ≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost
+										value='1128846088.244' />
+									<labor_cost value='1872896072.516' />
+									<guard_cost value='97566397' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='temp1' />
+									<regist_date value='' />
+									<modify_no value='999999' />
+									<modify_date
+										value='2009-07-08 18:06:29' />
+								</table01>
+							</data>
+							<data vectorkey='1' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='0101' />
+									<gong_depth value='2.0000' />
+									<gong_nm value='Í±¥Ï∂ïÍ≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost
+										value='1128846088.244' />
+									<labor_cost value='1872896072.516' />
+									<guard_cost value='97566397' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='temp1' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='2' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='010101' />
+									<gong_depth value='3.0000' />
+									<gong_nm value='Í∞ÄÏÑ§Í≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost value='95424826' />
+									<labor_cost value='304056549' />
+									<guard_cost value='47803576' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='temp1' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='3' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='010102' />
+									<gong_depth value='3.0000' />
+									<gong_nm value='Í∏∞Ï¥àÎ∞èÌÜ†Í≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost value='9610396' />
+									<labor_cost value='12558496' /> 
+									<guard_cost value='13316536' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='temp1' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='4' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='010103' />
+									<gong_depth value='3.0000' />
+									<gong_nm value='Ï≤†Í∑ºÏΩòÌÅ¨Î¶¨Ìä∏Í≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost value='207297923.02' />
+									<labor_cost value='1223473574.18' />
+									<guard_cost value='26949066' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='20' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='0102' />
+									<gong_depth value='2.0000' />
+									<gong_nm value='Ïù∏ÌÖåÎ¶¨Ïñ¥Í≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost value='0' />
+									<labor_cost value='0' />
+									<guard_cost value='0' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='21' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='010201' />
+									<gong_depth value='3.0000' />
+									<gong_nm value='ÎèåÎ∞èÌÉÄÏùºÍ≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost value='0' />
+									<labor_cost value='0' />
+									<guard_cost value='0' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='22' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='010202' />
+									<gong_depth value='3.0000' />
+									<gong_nm value='Î™©Í≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost value='0' />
+									<labor_cost value='0' />
+									<guard_cost value='0' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='27' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='010207' />
+									<gong_depth value='3.0000' />
+									<gong_nm value='Í∏∞ÌÉÄÍ≥µÏÇ¨[Ïù∏ÌÖåÎ¶¨Ïñ¥Í≥µÏÇ¨]' />
+									<volumn value='1' />
+									<material_cost value='0' />
+									<labor_cost value='0' />
+									<guard_cost value='0' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='28' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='01020701' />
+									<gong_depth value='4.0000' />
+									<gong_nm value='ÌÉÄÏùº Î∞è ÏÑùÍ≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost value='0' />
+									<labor_cost value='0' />
+									<guard_cost value='0' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='29' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='01020702' />
+									<gong_depth value='4.0000' />
+									<gong_nm value='Î™©Í≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost value='0' />
+									<labor_cost value='0' />
+									<guard_cost value='0' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='35' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='010208' />
+									<gong_depth value='3.0000' />
+									<gong_nm value='Í≥®Ïû¨ÎåÄ' />
+									<volumn value='1' />
+									<material_cost value='0' />
+									<labor_cost value='0' />
+									<guard_cost value='0' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+							<data vectorkey='36' type='Document'>
+								<table01>
+									<pro_code value='82356500' />
+									<gong_code value='0103' />
+									<gong_depth value='2.0000' />
+									<gong_nm value='ÌÉúÏñëÍ¥ëÏßÄÏßÄÎåÄÍ≥µÏÇ¨' />
+									<volumn value='1' />
+									<material_cost value='0' />
+									<labor_cost value='0' />
+									<guard_cost value='0' />
+									<cost_except value='' />
+									<gong_type value='' />
+									<gover_type value='F' />
+									<calc_reason value='' />
+									<marks value='' />
+									<regist_no value='' />
+									<regist_date value='' />
+									<modify_no value='' />
+									<modify_date value='' />
+								</table01>
+							</data>
+						</vector>
+					</resGongTree>
+					<response1>
+						<tree>
+							<node>
+								<label>1.ÏùºÎ∞òÏª¥Ìè¨ÎÑåÌä∏</label>
+								<value>1</value>
+								<image />
+								<selectedImage />
+								<expandedImage />
+								<node>
+									<label>11.XFORMS</label>
+									<value>11</value>
+									<image />
+									<selectedImage />
+									<expandedImage />
+									<node>
+										<label>111.input</label>
+										<value>111</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+										<node>
+											<label>
+												111.inputasdfasdfasdf
+											</label>
+											<value>111</value>
+											<image />
+											<selectedImage />
+											<expandedImage />
+											<node>
+												<label>
+													111.inputasdfasdfasdf
+												</label>
+												<value>111</value>
+												<image />
+												<selectedImage />
+												<expandedImage />
+											</node>
+										</node>
+									</node>
+									<node>
+										<label>112.output</label>
+										<value>112</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>113.switch</label>
+										<value>113</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+								</node>
+								<node>
+									<label>12.W2</label>
+									<value>12</value>
+									<image />
+									<selectedImage />
+									<expandedImage />
+									<node>
+										<label>121.tabContainer</label>
+										<value>121</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>122.tabSwitch</label>
+										<value>122</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>123.na</label>
+										<value>123</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+								</node>
+								<node>
+									<label>23.Third Party</label>
+									<value>23</value>
+									<image />
+									<selectedImage />
+									<expandedImage />
+									<node>
+										<label>231.navermap</label>
+										<value>231</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>232.googlemap</label>
+										<value>232</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>233.flickr</label>
+										<value>233</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+								</node>
+							</node>
+							<node>
+								<label>2.Í≥†Í∏âÏª¥Ìè¨ÎÑåÌä∏</label>
+								<value>2</value>
+								<image />
+								<selectedImage />
+								<expandedImage />
+								<node>
+									<label>21.XFORMS</label>
+									<value>21</value>
+									<image />
+									<selectedImage />
+									<expandedImage />
+									<node>
+										<label>211.repeat</label>
+										<value>211</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>212.select1</label>
+										<value>212</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>213.select</label>
+										<value>213</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+								</node>
+								<node>
+									<label>22.W2</label>
+									<value>22</value>
+									<image />
+									<selectedImage />
+									<expandedImage />
+									<node>
+										<label>221.grid</label>
+										<value>221</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>222.input</label>
+										<value>222</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>223.input</label>
+										<value>223</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+								</node>
+								<node>
+									<label>23.Third Party</label>
+									<value>23</value>
+									<image />
+									<selectedImage />
+									<expandedImage />
+									<node>
+										<label>231.input</label>
+										<value>231</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>232.input</label>
+										<value>232</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+									<node>
+										<label>233.input</label>
+										<value>233</value>
+										<image />
+										<selectedImage />
+										<expandedImage />
+									</node>
+								</node>
+							</node>
+						</tree>
+					</response1>
+					<res>
+						<shopping>
+							<vector>
+								<data ref="1"> 
+									<label>outer</label> 
+									<value>1-1</value> 
+									<depth>2</depth> 
+									<chk></chk> 
+									<excChk></excChk> 
+									<img></img> 
+									<folder>true</folder> 
+								</data> 
+								<data ref="1"> 
+									<label>bottom</label> 
+									<value>1-2</value> 
+									<depth>2</depth> 
+									<chk></chk> 
+									<excChk></excChk> 
+									<img></img> 
+									<folder>true</folder> 
+								</data> 
+								<data ref="1"> 
+									<label>dress</label>
+									<value>1-3</value> 
+									<depth>2</depth> 
+									<chk>T</chk> 
+									<excChk></excChk> 
+									<img></img> 
+									<folder>false</folder> 
+								</data>
+							</vector>
+						</shopping>
+					</res>
+				</data>
 			</xf:instance>
-			<w2:dataCollection>
-				<!-- ≥™¿«¿⁄ªÍ«ˆ»≤ ø‰æ‡¡§∫∏ -->
-				<w2:dataMap baseNode="map" id="dc_w67oi01Data" style="">
-					<w2:keyInfo>
-						<w2:key id="o_DepCashAmt" name="øπºˆ±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_FcurEstmAmt" name="ø‹»≠∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_StkEstmAmt" name="¡÷Ωƒ∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_RghtEstmAmt" name="±«∏Æ∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_EstmWcurCamt" name="«ÿø‹¡÷Ωƒ ∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_BondEstmAmt" name="√§±«∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_BondEstmAmt2" name="ELS∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_BncrEstmAmt" name="∆›µÂ∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_OptEstmAmt" name="º±π∞ø…º«∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<!-- <w2:key id="o_FdEstmAmt" name="«ÿø‹∆ƒª˝∆Ú∞°±›æ◊" dataType="text"></w2:key> -->
-						<w2:key id="o_TrstTot" name="Ω≈≈π∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_RetrAnnEstmAmt" name="≈¡˜ø¨±›∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_RpEstmAmt" name="RP∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_EtcEstmAmt" name="±‚≈∏∆Ú∞°±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight1" name="øπºˆ±› ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight2" name="ø‹»≠øπºˆ±› ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_StkWeight" name="¡÷Ωƒ ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight3" name="±«∏Æ∆Ú∞° ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight4" name="«ÿø‹¡÷Ωƒ ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight5" name="√§±« ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight6" name="ELS ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight7" name="∆›µÂ ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight8" name="º±π∞/ø…º« ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_FdIvstWeigth" name="«ÿø‹∆ƒª˝≈ı¿⁄∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight9" name="Ω≈≈π ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_RetrWeigth" name="≈¡˜ø¨±›≈ı¿⁄∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight10" name="RP ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_IvstWeight" name="±‚≈∏¿⁄ªÍ ∫Ò¡ﬂ" dataType="text"></w2:key>
-						<w2:key id="o_StkEstmPl" name="¡÷Ωƒ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_IvstPl3" name="±«∏Æ∆Ú∞° ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_IvstPl4" name="«ÿø‹¡÷Ωƒ ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_IvstPl5" name="√§±« ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_IvstPl6" name="ELS ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_BncrIvstPl" name="∆›µÂ ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_FuopEstmPl" name="º±π∞ø…º«∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_FdEstmPl" name="«ÿø‹∆ƒª˝ ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_TrstIvstPl" name="Ω≈≈π ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_RetrIvstPl" name="≈¡˜ ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_IvstPl9" name="RP ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_IvstPl" name="±‚≈∏¿⁄ªÍ ∆Ú∞°º’¿Õ" dataType="text"></w2:key>
-						<w2:key id="o_EstmAmtTot" name="∆Ú∞°±›æ◊«’∞Ë" dataType="text"></w2:key>
-						<w2:key id="o_EstmPlTot" name="∆Ú∞°º’¿Õ«’∞Ë" dataType="text"></w2:key>
-						<w2:key id="o_CrdtLoanAmt" name="Ω≈øÎ¥Î√‚±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_StloanBncAmt" name="¥Î¡÷¥Î¬˜±›æ◊" dataType="text"></w2:key>
-						<w2:key id="o_TotTot" name="√—«’∞Ë" dataType="text"></w2:key>A-B+C
-						<w2:key id="o_FutSellCtrtCnt" name="º±π∞∏≈µµ∞Ëæ‡ºˆ" dataType="text"></w2:key>
-						<w2:key id="o_OptSellCtrtCnt" name="ø…º«∏≈µµ∞Ëæ‡ºˆ" dataType="text"></w2:key>
-						<w2:key id="o_FutBuyCtrtCnt" name="º±π∞∏≈ºˆ∞Ëæ‡ºˆ" dataType="text"></w2:key>
-						<w2:key id="o_OptBuyCtrtCnt" name="ø…º«∏≈ºˆ∞Ëæ‡ºˆ" dataType="text"></w2:key>
-					</w2:keyInfo>
-				</w2:dataMap>
-				<!-- ∞≈∑°≥ªø™ ∏Ò∑œ -->
-				<w2:dataList id="dc_tradeList" baseNode="list" style="" repeatNode="map">
-					<w2:columnInfo>
-						<w2:column id="o_TrDate" name="∞≈∑°¿œ¿⁄	" dataType="text"></w2:column>
-						<w2:column id="o_SysAcntNo" name="Ω√Ω∫≈€∞Ë¡¬π¯»£	" dataType="text"></w2:column>
-						<w2:column id="o_TrSect" name="∞≈∑°±∏∫–	" dataType="text"></w2:column>
-						<w2:column id="o_Qty" name="ºˆ∑Æ" dataType="text"></w2:column>
-						<w2:column id="o_Uprc" name="¥‹∞°" dataType="text"></w2:column>
-						<w2:column id="o_Amt" name="±›æ◊" dataType="text"></w2:column>
-						<w2:column id="o_ItemNm" name="¡æ∏Ò∏Ì" dataType="text"></w2:column>
-					</w2:columnInfo>
-				</w2:dataList>
-			</w2:dataCollection>
 		</xf:model>
-		<script type="javascript"><![CDATA[
-			// ∆‰¿Ã¡ˆ ∞¯≈Î∞¥√º
-			var PagePram = {}, PageFunc = {};
-			// ≥™¿«¡§∫∏∫∏±‚ ∏ﬁ¿Œ ∞¥√º
-			PageFunc.myPage = (function(myPage) {
-				// ∞Ì∞¥ µÓ±ﬁ ∞¥√º
-				var userGrade = {
-					'001' : 'prestige',
-					'002' : 'royal',
-					'003' : 'ace',
-					'005' : 'general'
-				};
-				// 1. ∑Œ±◊¿Œ ¡§∫∏
-				function getLoginInfo() {
-					dwsSession.getSession(function(result) {
-						if (result.isLogin){
-							txt_userInfo.setValue('<span><strong>' + result.userName  + '</strong>( ' + userGrade[result.userGrade] + ')</span>¥‘ »Øøµ«’¥œ¥Ÿ.');
-						}
-					});
-				}
-				// 2. √—¿⁄ªÍ, ∆Ú∞°º’¿Õ ¡§∫∏ »£√‚ : HTS 6101, W67OI01
-				function selectMyAssetSummary() {
-					DWSAjax.post('/mkm/main/selectMyAssetSummary.do', {}, function(response) {
-						// ≥™¿«¿⁄ªÍ ¬˜∆Æ ±◊∏Æ±‚
-						drawMyAssetChart();
-						// ¿⁄ªÍ«ˆ»≤ º¬∆√
-						setMyAssetStatus();
-						// ¿‹∞Ì«ˆ»≤ º¬∆√
-						setMyAssetRemains(response.dc_w67oi01Grid1);
-					});
-				}
-				// 3. ø¨∂Ù√≥¡§∫∏ ¡∂»∏
-				function selectCustInfo() {
-					DWSAjax.post('/mkm/main/selectCustInfo.do', null, function(response) {
-						if(response && response.dc_a11oia5Data) {
-							txt_hp.setValue(response.dc_a11oia5Data.o_HpNo.telFormat());
-							txt_email.setValue(response.dc_a11oia5Data.o_Email);
-							txt_addr.setValue(response.dc_a11oia5Data.o_Addr);
-							txt_ivstTrndClas.setValue(response.dc_a11oia5Data.o_IvstTrndClas);
-							
-							txt_mbhp.setValue(response.dc_a11oia5Data.o_HpNo.telFormat());
-						}
-					});
-				}
-				// 4. ∞≈∑°≥ªø™¡∂»∏
-				function selectRecentTrade() {
-					var param = {};
-					param.startDt = dwsDate.addMonth(-1);
-					param.endDt = dwsDate.getCurrentDate();
-					DWSAjax.post('/mkm/main/selectRecentTrade.do', param, function(response) {
-						var i;
-						var trList = [];
-						if (response && response.dc_mkm1001t04_grd) {
-							var rCount = response.dc_mkm1001t04_grd.length;
-							// √÷±Ÿ 5∞≥ ≥ªø™∏∏ ∫∏ø©¡ÿ¥Ÿ.
-							for (i=0; i < rCount; i++) {
-								if (rCount - 5 <= i) {
-									trList.push(response.dc_mkm1001t04_grd[i]);
-								}
-							}
-						}
-						dc_tradeList.setJSON(trList);
-					});
-				}
-				// 5. º≠∫ÒΩ∫Ω≈√ª«ˆ»≤ ¡∂»∏
-				function selectBasicAcntInfo() {
-					DWSAjax.post('/mkm/main/selectBasicAcntInfo.do', null, function(response) {
-						if(response && response.dc_A11OI01_Tab2_OUT_REC) {
-							var data = response.dc_A11OI01_Tab2_OUT_REC;
-							if(data.length == 0) {
-								return;
-							}
-							// ªÁ¿ÃπˆidµÓ∑œ : 0-2, 
-							txt_signText1.setValue(data[0].o_RegDate2);
-							//OTPπﬂ±ﬁ : 2-1, 
-							txt_signText2.setValue(data[2].o_RegDate1);
-							// ¡÷πÆ∞Ë¡¬µÓ∑œ : 3-1
-							txt_signText3.setValue(data[3].o_RegDate1);
-						}
-					});
-				}
-				// 6. ø¿¥√¿« ∞Ë¡¬¡°∞À
-				function selectTodayAccountCheckList() {
-					var showCount = 1;
-					DWSAjax.post('/mkm/main/selectTodayAccountCheckList.do', null, function(response) {
-						var pattern = /(dc\_grid)([0-9]*)/; 
-						$.each(response, function(key, value) {
-							if (showCount === 3) {
-								return false;
-							}
-							if (pattern.test(key)) {
-								var i;
-								var list = response[key];
-								for (i=0; i < list.length; i++) {
-									if (showCount === 3) {
-										return false;
-									}
-									$('#txt_checkAcnt' + showCount).text(list[i].o_Msg);
-									showCount++;
-								}
-							}
-						});
-					});
-				}
-				// ¿⁄ªÍ«ˆ»≤ º¬∆√
-				function setMyAssetStatus() {
-					// ∆Ú∞°º’¿Õ +- ø°µ˚∂Û »≠ªÏ«• æ˜,¥ŸøÓ√≥∏Æ
-					if (dc_w67oi01Data.get('o_EstmPlTot').toNumber() > 0) {
-						txt_o_EstmPlTot.addClass('low');
-					} else {
-						txt_o_EstmPlTot.removeClass('low');
-					}
-					// ¿⁄ªÍ«ˆ»≤ ≈◊¿Ã∫Ì
-					var assetList = {
-						'øπºˆ±›' : {amt : dc_w67oi01Data.get('o_DepCashAmt'), rate : dc_w67oi01Data.get('o_IvstWeight1'), pi : null}, 
-						'ø‹»≠øπºˆ±›' : {amt : dc_w67oi01Data.get('o_FcurEstmAmt'),  rate : dc_w67oi01Data.get('o_IvstWeight2'), pi : null},
-						'¡÷Ωƒ' : {amt : dc_w67oi01Data.get('o_StkEstmAmt'),  rate : dc_w67oi01Data.get('o_StkWeight'), pi : dc_w67oi01Data.get('o_StkEstmPl')},
-						'±«∏Æ∆Ú∞°' : {amt : dc_w67oi01Data.get('o_RghtEstmAmt'),  rate : dc_w67oi01Data.get('o_IvstWeight3'), pi : dc_w67oi01Data.get('o_IvstPl3')},
-						'«ÿø‹¡÷Ωƒ' : {amt : dc_w67oi01Data.get('o_EstmWcurCamt'), rate : dc_w67oi01Data.get('o_IvstWeight4'), pi : dc_w67oi01Data.get('o_IvstPl4')},
-						'√§±«' : {amt : dc_w67oi01Data.get('o_BondEstmAmt'), rate : dc_w67oi01Data.get('o_IvstWeight5'), pi : dc_w67oi01Data.get('o_IvstPl5')},
-						'ELS/DLS' : {amt : dc_w67oi01Data.get('o_BondEstmAmt2'), rate : dc_w67oi01Data.get('o_IvstWeight6'), pi : dc_w67oi01Data.get('o_IvstPl6')},
-						'∆›µÂ' : {amt : dc_w67oi01Data.get('o_BncrEstmAmt'), rate : dc_w67oi01Data.get('o_IvstWeight7'), pi : dc_w67oi01Data.get('o_BncrIvstPl')},
-						'º±π∞/ø…º«' : {amt : dc_w67oi01Data.get('o_OptEstmAmt'), rate : dc_w67oi01Data.get('o_IvstWeight8'), pi : dc_w67oi01Data.get('o_FuopEstmPl')},
-						'«ÿø‹∆ƒª˝' : {amt : null, rate : null, pi : dc_w67oi01Data.get('o_FdEstmPl')},
-						'Ω≈≈π' : {amt : dc_w67oi01Data.get('o_TrstTot'), rate : dc_w67oi01Data.get('o_IvstWeight9'), pi : null}, 
-						'≈¡˜ø¨±›' : {amt : dc_w67oi01Data.get('o_RetrAnnEstmAmt'), rate : dc_w67oi01Data.get('o_RetrWeigth'), pi : null}, 
-						'RP' : {amt : dc_w67oi01Data.get('o_RpEstmAmt'), rate : dc_w67oi01Data.get('o_IvstWeight10'), pi : dc_w67oi01Data.get('o_IvstPl9')},
-						'±‚≈∏¿⁄ªÍ' : {amt : dc_w67oi01Data.get('o_EtcEstmAmt'), rate : dc_w67oi01Data.get('o_IvstWeight'), pi : dc_w67oi01Data.get('o_IvstPl')},
-						'«’∞Ë' : {amt : dc_w67oi01Data.get('o_TotTot'), rate : null, pi : dc_w67oi01Data.get('o_EstmPlTot')}
-					};
-					// ¿⁄ªÍ«ˆ»≤ ≈◊¿Ã∫Ì ≈∞º¬
-					var keySet = [];
-					$.each(assetList, function(k, v) {
-						keySet.push(k);
-					});
-					var i;
-					for (i=0; i < keySet.length; i++) {
-						// √—«’∞Ë
-						if (i === keySet.length -1) {
-							// √—∆Ú∞°±›æ◊, ∆Ú∞°º’¿Õ
-							txt_totEsti.setValue(dwsCommon.addComma(assetList[keySet[i]].amt));
-							var value = assetList[keySet[i]].pi.toNumber();
-							txt_totPi.addClass(value > 0 ? 'high' : (value < 0 ? 'low' : ''));
-							txt_totPi.setValue(value > 0 ? '<span class="fl high">°„</span>' + dwsCommon.addComma(value) : (value < 0 ? '<span class="fl low">°Â</span>' + dwsCommon.addComma(value) : value));
-							return;
-						}
-						var imgAlt = ['≥Î∂˚', '¡÷»≤', 'ø¨µŒ', '∆ƒ∂˚', '≥≤ªˆ', '∫–»´', '∫∏∂Û', '«œ¥√ªˆ', '¥Ÿ»´', '≥Ïªˆ', '±◊∑π¿Ã∫Ì∑Á', '∫Í∂ÛøÓ', '≤…∫–»´', '±◊∑π¿Ã'];
-						// ¿⁄ªÍ∆Ú∞°±›æ◊¿Ã 0∫∏¥Ÿ ≈¨∂ß º¬∆√
-						if (assetList[keySet[i]].amt !== null && assetList[keySet[i]].amt.toNumber()  > 0) {
-							var subKey = assetList[keySet[i]];
-							var index = assetSummaryGenerator.insertChild();
-							var nameObj = assetSummaryGenerator.getChild(index , 'txt_assetName');
-							nameObj.setValue(keySet[i]);
-							var imgObj = assetSummaryGenerator.getChild(index, 'img_asset');
-							var imageIndex = String(i+1).length === 1 ? ('0' + (i+1)) : i;
-							imgObj.setSrc('/dws/images/contents/icon_color_circle' + imageIndex + '.png');
-							imgObj.setAlt(imgAlt[i]);
-							var amt = assetList[keySet[i]].amt === null ? '-' : dwsCommon.addComma(assetList[keySet[i]].amt);
-							var rate = assetList[keySet[i]].rate === null ? '-' : dwsCommon.addComma(assetList[keySet[i]].rate) + '%';
-							var pi = assetList[keySet[i]].pi === null ? '-' : assetList[keySet[i]].pi;
-							assetSummaryGenerator.getChild(index , 'txt_amt').setValue(amt);
-							assetSummaryGenerator.getChild(index , 'txt_rate').setValue(rate);
-							var piObj = assetSummaryGenerator.getChild(index , 'txt_pi');
-							if (pi === '-') {
-								piObj.setValue(pi);
-							} else {
-								if (pi !== null && pi.toNumber() === 0) {
-									continue;
-								}
-								var value = pi.toNumber();
-								piObj.addClass(value > 0 ? 'high' : (value < 0 ? 'low' : ''));
-								piObj.setValue(value > 0 ? '<span class="fl high">°„</span>' + dwsCommon.addComma(value) : (value < 0 ? '<span class="fl low">°Â</span>' + dwsCommon.addComma(value).replace(/\-/, '') : '<span class="fl">' + dwsCommon.addComma(value)));
-							}
-						}
-					}
-				}
-				// ¬˜∆Æ ±◊∏Æ±‚
-				function drawMyAssetChart() {
-					var chartData = {
-						'chart' : {},
-						'data' : [
-							// øπºˆ±›
-							{'label' : dc_w67oi01Data.get('o_DepCashAmt').toNumber() > 0 ? 'øπºˆ±›, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight1')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight1').toNumber()},
-							// ø‹»≠øπºˆ±›
-							{'label' : dc_w67oi01Data.get('o_FcurEstmAmt').toNumber() > 0 ? 'ø‹»≠øπºˆ±›, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight2')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight2').toNumber()},
-							// ¡÷Ωƒ
-							{'label' : dc_w67oi01Data.get('o_StkEstmPl').toNumber() > 0 ? '¡÷Ωƒ, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_StkWeight')) + '%' : '', 'value' : dc_w67oi01Data.get('o_StkWeight').toNumber()},
-							// ±«∏Æ∆Ú∞°
-							{'label' : dc_w67oi01Data.get('o_RghtEstmAmt').toNumber() > 0 ? '±«∏Æ∆Ú∞°, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight3')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight3').toNumber()},
-							// «ÿø‹¡÷Ωƒ
-							{'label' : dc_w67oi01Data.get('o_EstmWcurCamt').toNumber() > 0 ? '«ÿø‹¡÷Ωƒ, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight4')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight4').toNumber()},
-							// √§±«
-							{'label' : dc_w67oi01Data.get('o_BondEstmAmt').toNumber() > 0 ? '√§±«, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight5')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight5').toNumber()},
-							// ELS/DLS
-							{'label' : dc_w67oi01Data.get('o_BondEstmAmt2').toNumber() > 0 ? 'ELS/DLS, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight6')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight6').toNumber()},
-							// ∆›µÂ
-							{'label' : dc_w67oi01Data.get('o_BncrEstmAmt').toNumber() > 0 ? '∆›µÂ, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight7')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight7').toNumber()},
-							// º±π∞/ø…º«
-							{'label' : dc_w67oi01Data.get('o_OptEstmAmt').toNumber() > 0 ? 'º±π∞/ø…º«, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight8')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight8').toNumber()},
-							// «ÿø‹∆ƒª˝ : æ»∫∏ø©¡‹
-							/*{'label' : '', 'value' : dc_w67oi01Data.get('').toNumber()}, */
-							// Ω≈≈π
-							{'label' : dc_w67oi01Data.get('o_TrstTot').toNumber() > 0 ? 'Ω≈≈π, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight9')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight9').toNumber()},
-							// ≈¡˜ø¨±›
-							{'label' : dc_w67oi01Data.get('o_RetrAnnEstmAmt').toNumber() > 0 ? '≈¡˜ø¨±›, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_RetrWeigth')) + '%' : '', 'value' : dc_w67oi01Data.get('o_RetrWeigth').toNumber()},
-							// RP
-							{'label' : dc_w67oi01Data.get('o_RpEstmAmt').toNumber() > 0 ? 'RP, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight10')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight10').toNumber()},
-							// ±‚≈∏
-							{'label' : dc_w67oi01Data.get('o_EtcEstmAmt').toNumber() > 0 ? '±‚≈∏, ' + dwsCommon.addComma(dc_w67oi01Data.get('o_IvstWeight')) + '%' : '', 'value' : dc_w67oi01Data.get('o_IvstWeight').toNumber()}
-						]
-					};
-					var colorArr = ["ffd66a", "f88844", "88cb1f", "247fe4", "14559c", "ef82a9", "b55bdf", "1ec4ed", "e75264", "5c900b", "55748c", "9b6d0b", "df4993", "c7cbce"];
-					chart_myAsset.setPlotColor(colorArr);
-					chart_myAsset.setJSONData(chartData);
-				}
-				// ¿‹∞Ì«ˆ»≤
-				function setMyAssetRemains(data) {
-					// data∞° æ¯¿∏∏È return
-					if (typeof data =='undefined' || !data.length > 0) return;
-					// πˆ∫Ì¡§∑ƒ
-					function bubbleSort() {
-						var swapped = true;
-						while(swapped) {
-							var i;
-							swapped = false;
-							for (i=0; i < dataList.length - 1; i++) {
-								if (dataList[i].o_Subtt.toNumber() < dataList[i + 1].o_Subtt.toNumber()) {
-									var temp = dataList[i];
-									dataList[i] = dataList[i+1];
-									dataList[i+1] = temp;
-									swapped = true;
-								}
-							}
-						}
-					}
-					var i;
-					var dataList = [];	// ¡§∑ƒµ» µ•¿Ã≈Õ∏Ò∑œ
-					// ≥ª∏≤¬˜º¯ ¡§∑ƒ«œø© ¿‹∞Ì ªÛ¿ß 4∞≥«◊∏Ò∏∏ º¬∆√«—¥Ÿ.
-					for (i=0; i < data.length; i++) {
-						dataList.push(data[i]);
-						bubbleSort();
-					}
-					// ¿‹∞Ì ªÛ¿ß 4∞≥∏¶ ±◊∏∞¥Ÿ.
-					for (i=0; i < 4; i++) {
-						// «◊∏Ò ±◊∑Ï √ﬂ∞°
-						var index = assetRemainsGenerator.insert();
-						if (dataList.length > i) {
-							var acntObj = assetRemainsGenerator.getChild(index, 'txt_acntNo');
-							acntObj.setValue(dwsCommon.formatAccount(dataList[i].o_MgmtAcntNo));
-							acntObj.unbind('click');
-							acntObj.bind('click', function(acntNo) {
-								return function() {
-									var options = {
-										param : {
-											accountNo : WebSquare.text.BASE64Encoder(acntNo)
-										}
-									};
-									dwsCommon.movePage('/dws/view/mkm/mkm1/mkm1002m01.do', options);
-								};
-							}(dataList[i].o_MgmtAcntNo));
-							assetRemainsGenerator.getChild(index, 'txt_jobSect').setValue(dataList[i].o_JobSect);
-							assetRemainsGenerator.getChild(index, 'txt_amt').setValue(dwsCommon.addComma(dataList[i].o_Subtt));
-							if(i==2){
-								assetRemainsGenerator.getChild(index, 'group178').addClass('mb_ml0');
-							}
-						} else {
-							assetRemainsGenerator.getChild(index, 'grp_remainData').setStyle('display', 'none');
-							assetRemainsGenerator.getChild(index, 'grp_noRemainData').setStyle('display', 'block');
-						}
-					}
-					
-				}
-				
-				var init = (function() {
-					// ±◊∏ÆµÂ √ ±‚»≠
-					dwsCommon.gridModule.responsiveGrid('grd_recentTradeList');
-					// ∑Œ±◊¿Œ ¡§∫∏¡∂»∏
-					getLoginInfo();
-					// ≥™¿« ¿⁄ªÍ ø‰æ‡¡§∫∏
-					selectMyAssetSummary();
-					// ø¨∂Ù√≥¡§∫∏ ¡∂»∏
-					selectCustInfo();
-					// √÷±Ÿ∞≈∑°≥ªø™
-					selectRecentTrade();
-					// º≠∫ÒΩ∫Ω≈√ª«ˆ»≤ ¡∂»∏
-					selectBasicAcntInfo();
-					// ø¿¥√¿« ∞Ë¡¬¡°∞À
-					selectTodayAccountCheckList();
-				}());
-			}(PageFunc.myPage || {}));
+        <script type="javascript"><![CDATA[ 
+        
+        function test(){
 			
-		]]></script>
-		<!-- common script -->
-		<script src="/dws/cm/js/common.js" type="javascript"></script>
-		<!-- ajax ∏µ‚ Ω∫≈©∏≥∆Æ -->
-		<script src="/dws/cm/js/dwsAjax.js" type="javascript"></script>
-		<!-- session ∏µ‚-->
-		<script src="/dws/cm/js/session.js" type="javascript"></script>
-		<style type="text/css"><![CDATA[
-		@media all and (min-width:769px){
-		#chart_box, #tbl_box {display:block !important;}
-		}
-		]]></style>
+			WebSquare.wUnit.start();
+			
+			//appendData
+			//WebSquare.wUnit.addCommand("set","trigger1.click()");
+			//WebSquare.wUnit.addCommand("pause","500");
+			
+			//findNode
+			WebSquare.wUnit.addCommand("set","trigger2.click()");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//getSelectedLabel
+			WebSquare.wUnit.addCommand("set","trigger3.click()");
+			WebSquare.wUnit.addCommand("assert","treeview3.getSelectedLabel()","Í∏∞ÌÉÄÍ≥µÏÇ¨[Ïù∏ÌÖåÎ¶¨Ïñ¥Í≥µÏÇ¨]");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//getSelectedValue
+			WebSquare.wUnit.addCommand("set","trigger4.click()");
+			WebSquare.wUnit.addCommand("assert","treeview3.getSelectedValue()","0103");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//isLeaf
+			WebSquare.wUnit.addCommand("set","trigger5.click()");
+			WebSquare.wUnit.addCommand("assert","treeview3.isLeaf()","true");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//disableCheckboxByValue
+			WebSquare.wUnit.addCommand("set","trigger6.click()");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//getParentValue
+			WebSquare.wUnit.addCommand("set","trigger7.click()");
+			WebSquare.wUnit.addCommand("assert","treeview3.getParentValue( '010202' )","0102");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//getChildData
+			WebSquare.wUnit.addCommand("set","trigger8.click()");
+			WebSquare.wUnit.addCommand("assert","textarea1.getValue()","3");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//getXPathByValue
+			WebSquare.wUnit.addCommand("set","trigger9.click()");
+			WebSquare.wUnit.addCommand("assert","treeview3.getXPathByValue( '010208' )","resGongTree/vector/data[table01/gong_code/@value='010208']");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//spanAll(false)
+			WebSquare.wUnit.addCommand("set","trigger10.click()");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//spanAll(true)
+			WebSquare.wUnit.addCommand("set","trigger11.click()");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//collapseNode
+			WebSquare.wUnit.addCommand("set","trigger12.click()");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//expandNode
+			WebSquare.wUnit.addCommand("set","trigger13.click()");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//checkByValue
+			WebSquare.wUnit.addCommand("set","trigger14.click()");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//getCheckedValues
+			WebSquare.wUnit.addCommand("set","trigger15.click()");
+			WebSquare.wUnit.addCommand("assert","treeview3.getCheckedValues()","0103,010102,010202,01020701");
+			WebSquare.wUnit.addCommand("pause","500");
+			
+			//getCheckedLabels
+			WebSquare.wUnit.addCommand("set","trigger16.click()");
+			WebSquare.wUnit.addCommand("assert","treeview3.getCheckedLabels()","ÌÉúÏñëÍ¥ëÏßÄÏßÄÎåÄÍ≥µÏÇ¨,Í∏∞Ï¥àÎ∞èÌÜ†Í≥µÏÇ¨,Î™©Í≥µÏÇ¨,ÌÉÄÏùº Î∞è ÏÑùÍ≥µÏÇ¨");
+			
+			WebSquare.wUnit.run();
+			WebSquare.wUnit.stop();
+			
+			}
+			
+//			test();
+        
+        ]]></script>
+    </head>
+    <body>
+    	<xf:output
+    		style="position:absolute;vertical-align:middle;word-wrap:break-word;top:20px;left:285px;width:148px;height:21px;background-color:#eeeeee;"
+    		id="output1">
+    		<xf:label>recursive</xf:label>
+    	</xf:output>
+    	<xf:output
+    		style="position:absolute;vertical-align:middle;word-wrap:break-word;top:20px;left:545px;width:148px;height:21px;background-color:#eeeeee;"
+    		id="output2">
+    		<xf:label>listed</xf:label>
+    	</xf:output>
+    	<xf:output
+    		style="position:absolute;vertical-align:middle;word-wrap:break-word;top:20px;left:25px;width:148px;height:21px;background-color:#eeeeee;"
+    		id="output3">
+    		<xf:label>inline</xf:label>
+    	</xf:output>
+    	<w2:treeview id="treeview2"
+    		style="border:1px solid black;vertical-align:middle;word-wrap:break-word;background-color:#ffff80;top:50px;width:200px;position:absolute;height:280px;left:285px;"
+    		labelonClickClass="tree2">
+    		<w2:itemset nodeset="response1/tree/node">
+    			<w2:label ref="label" />
+    			<w2:value ref="value" />
+    			<w2:image ref="" />
+    			<w2:selectedImage ref="" />
+    			<w2:expandedImage ref="" />
+    		</w2:itemset>
+    		<script ev:event="onclick" type="javascript"><![CDATA[ 
+//					alert(  treeview2.getSelectedLabel() );
 
+			]]></script>
+    	</w2:treeview>
+    	<w2:treeview
+    		style="border:1px solid black;position:absolute;vertical-align:middle;word-wrap:break-word;top:50px;left:25px;width:200px;height:280px;background-color:#ffff80;"
+    		id="treeview1">
+    		<w2:node>
+    			<w2:label>a1</w2:label>
+    			<w2:value>1</w2:value>
+    			<w2:checkbox></w2:checkbox>
+    			<w2:image></w2:image>
+    			<w2:selectedImage></w2:selectedImage>
+    			<w2:expandedImage></w2:expandedImage>
+    			<w2:node>
+    				<w2:label>a11</w2:label>
+    				<w2:value>11</w2:value>
+    				<w2:checkbox></w2:checkbox>
+    				<w2:image></w2:image>
+    				<w2:selectedImage></w2:selectedImage>
+    				<w2:expandedImage></w2:expandedImage>
+    				<w2:node>
+    					<w2:label>a111</w2:label>
+    					<w2:value>111</w2:value>
+    					<w2:checkbox></w2:checkbox>
+    					<w2:image></w2:image>
+    					<w2:selectedImage></w2:selectedImage>
+    					<w2:expandedImage></w2:expandedImage>
+    				</w2:node>
 
+    				<w2:node>
+    					<w2:label>a112</w2:label>
+    					<w2:value>112</w2:value>
+    					<w2:checkbox></w2:checkbox>
+    					<w2:image></w2:image>
+    					<w2:selectedImage></w2:selectedImage>
+    					<w2:expandedImage></w2:expandedImage>
+    				</w2:node>
+    			</w2:node>
+    			<w2:node>
+    				<w2:label>a12</w2:label>
+    				<w2:value>12</w2:value>
+    				<w2:checkbox></w2:checkbox>
+    				<w2:image></w2:image>
+    				<w2:selectedImage></w2:selectedImage>
+    				<w2:expandedImage></w2:expandedImage>
+    			</w2:node>
+    			<w2:node>
+    				<w2:label>a13</w2:label>
+    				<w2:value>13</w2:value>
+    				<w2:checkbox></w2:checkbox>
+    				<w2:image></w2:image>
+    				<w2:selectedImage></w2:selectedImage>
+    				<w2:expandedImage></w2:expandedImage>
+    			</w2:node>
+    		</w2:node>
+    		<w2:node>
+    			<w2:label>a2</w2:label>
+    			<w2:value>2</w2:value>
+    			<w2:checkbox></w2:checkbox>
+    			<w2:image></w2:image>
+    			<w2:selectedImage></w2:selectedImage>
+    			<w2:expandedImage></w2:expandedImage>
+    			<w2:node>
+    				<w2:label>a21</w2:label>
+    				<w2:value>21</w2:value>
+    				<w2:checkbox></w2:checkbox>
+    				<w2:image></w2:image>
+    				<w2:selectedImage></w2:selectedImage>
+    				<w2:expandedImage></w2:expandedImage>
+    			</w2:node>
+    		</w2:node>
+    		<w2:node>
+    			<w2:label>a333333333333</w2:label>
+    			<w2:value>3</w2:value>
+    			<w2:checkbox></w2:checkbox>
+    			<w2:image></w2:image>
+    			<w2:selectedImage></w2:selectedImage>
+    			<w2:expandedImage></w2:expandedImage>
+    		</w2:node>
+    		<script type="javascript" ev:event="ondrop(dragNode, dropNode, dragControl, dropControl, e)"><![CDATA[
+				alert("1 " + dragControl.id + " -> " + dropControl.id);
+				// ÏûêÍ∏∞ÏûêÏã†ÏóêÍ≤å drag dropÌï†ÎïåÎäî nodeÎßå appendNodeÎ•º ÌÜµÌï¥ Î≥ÄÍ≤ΩÌï¥Ï£ºÎ©¥ ÎêúÎã§
+    			this.appendNode(dropNode, dragNode);
+    		 ]]></script>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+				alert('click');
+			]]></script>
+    		<script ev:event="ontoggleclick(nodeElement,index,isRendered)" type="javascript"><![CDATA[
+				alert( index + " : " + isRendered );
+			]]></script>
+    	</w2:treeview>
+    	<w2:treeview
+    		style="border:1px solid black;vertical-align:middle;word-wrap:break-word;background-color:#ffff80;position:absolute;top:50px;left:545px;width:200px;height:280px;"
+    		id="treeview3" tooltipDisplay="true" dataType="listed"
+    		rowHeight="20" toggleEvent="ondblclick" checkAllChildNodes=""
+    		showCheckbox="true">
+    		<w2:itemset nodeset="resGongTree/vector/data">
+    			<w2:label ref="table01/gong_nm/@value"></w2:label>
+    			<w2:value ref="table01/gong_code/@value"></w2:value>
+    			<w2:depth ref="table01/gong_depth/@value"></w2:depth>
+    			<w2:checkbox ref=""></w2:checkbox>
+    			<w2:iconImage ref=""></w2:iconImage>
+    			<w2:image ref=""></w2:image>
+    			<w2:selectedImage ref=""></w2:selectedImage>
+    			<w2:expandedImage ref=""></w2:expandedImage>
+    		</w2:itemset>
+    	</w2:treeview>
+    	<xf:trigger id="trigger1"
+    		style="position: absolute ;height:25px;width:150px;left:92px;top:360px;"
+    		type="button">
+    		<xf:label>appendData</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		var xmlDoc = WebSquare.ModelUtil.findInstanceNodes( "res/shopping/vector/data[@ref='"+value+"']" );
+    		
+    		treeview2.appendData(0, xmlDoc);
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger2"
+    		style="position: absolute ;height:25px;width:150px;left:92px;top:385px;"
+    		type="button">
+    		<xf:label>findNode</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.findNode( '01020702' );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger3"
+    		style="position: absolute ;height:25px;width:150px;left:92px;top:410px;"
+    		type="button">
+    		<xf:label>getSelectedLabel</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.findNode( '010207' );
+    		
+    		var returnValue = treeview3.getSelectedLabel();
+    		output4.setValue( returnValue );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger4"
+    		style="position: absolute ;height:25px;width:150px;left:92px;top:435px;"
+    		type="button">
+    		<xf:label>getSelectedValue</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.findNode( '0103' );
+    		
+    		var returnValue = treeview3.getSelectedValue();
+    		output4.setValue( returnValue );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger5"
+    		style="position: absolute ;height:25px;width:150px;left:92px;top:460px;"
+    		type="button">
+    		<xf:label>isLeaf</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.findNode( '01020701' );
+    		
+    		var returnValue = treeview3.isLeaf();
+    		output4.setValue( returnValue );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger6"
+    		style="position: absolute ;height:25px;width:150px;left:242px;top:360px;"
+    		type="button">
+    		<xf:label>disableCheckboxByValue</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.disableCheckboxByValue( '010102' , true , true );
+    		treeview3.disableCheckboxByValue( '010202' , true , true );
+    		treeview3.disableCheckboxByValue( '01020701' , true , true );
+    		treeview3.disableCheckboxByValue( '0103' , true , true );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger7"
+    		style="position: absolute ;height:25px;width:150px;left:242px;top:385px;"
+    		type="button">
+    		<xf:label>getParentValue</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		var returnValue = treeview3.getParentValue( '010202' );
+    		output4.setValue( returnValue );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger8"
+    		style="position: absolute ;height:25px;width:150px;left:242px;top:410px;"
+    		type="button">
+    		<xf:label>getChildData</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		var returnValue = treeview3.getChildData( '01' );
+    		var doc = WebSquare.xml.indent( returnValue[0] );
 
-
-	</head>
-	<body class="">
-		<xf:group id="wrap" style="" class="mkm_index">
-			<w2:wframe id="header_wp" style="" src="/dws/view/com/header.xml"></w2:wframe>
-			<xf:group id="container" style="" class="">
-				<w2:wframe id="nav_wp" style="" src="/dws/view/com/nav.xml"></w2:wframe>
-				<xf:group id="content" style="" class="">
-					<xf:group id="content_body" style="" class="">
-						<xf:group id="content_header" style="">
-							<xf:group id="page_title" style="">
-								<w2:textbox id="textbox30" label="ø¿¥√ ≥™¿« ¡æ«’¡§∫∏" tagname="h1" localeRef=""></w2:textbox>
-							</xf:group>
-						</xf:group>
-						<xf:group id="contentbox" style="" class="contentbox">
-
-							<xf:group id="group40" style="" class="section sec">
-								<xf:group id="group87" style="" class="layout_5_5 border">
-									<xf:group id="group88" style="" class="leftarea_01">
-										<xf:group id="group90" style="" class="index_top_area">
-											<xf:group id="group91" style="" class="title_area">
-												<w2:textbox id="txt_userInfo" class="tit_txt" label="" tagname="span"></w2:textbox>
-											</xf:group>
-											<xf:group id="group190" style="" class="title_area grey">
-												<w2:textbox id="txt_mbhp" class="tit_txt" label="" tagname="span">
-												</w2:textbox>
-												<w2:anchor id="anchor20" style="" class="btn_modify" outerDiv="false">
-													<xf:label><![CDATA[¡§∫∏∫Ø∞Ê]]></xf:label>
-													<script ev:event="onclick" type="javascript"><![CDATA[
-														dwsCommon.movePage('/dws/view/mkm/mkm3/mkm3005m01.do');
-													]]></script>
-												</w2:anchor>
-											</xf:group>
-										</xf:group>
-										<xf:group id="group94" style="" class="title_cont_box">
-											<xf:group id="group95" style="" class="price_area">
-												<w2:textbox id="textbox67" class="title_text" label="√— ¿⁄ªÍ" tagname="span"></w2:textbox>
-												<w2:textbox id="textbox69" style="" class="price_won" label="ø¯" tagname="span"></w2:textbox>
-												<w2:textbox id="txt_o_TotTot" ref="data:dc_w67oi01Data.o_TotTot" style="" class="price_num"
-													label="" tagname="span" displayFormatter="dwsCommon.addComma">
-												</w2:textbox>
-											</xf:group>
-											<xf:group id="group96" style="" class="price_area02">
-												<w2:textbox id="textbox70" class="title_text" label="∆Ú∞°º’¿Õ" tagname="span"></w2:textbox>
-												<w2:textbox id="textbox71" style="" class="price_won" label="ø¯" tagname="span"></w2:textbox>
-												<w2:textbox id="txt_o_EstmPlTot" ref="data:dc_w67oi01Data.o_EstmPlTot" style=""
-													class="price_num" label="" tagname="span" displayFormatter="dwsCommon.addComma">
-												</w2:textbox>
-											</xf:group>
-										</xf:group>
-									</xf:group>
-									<xf:group id="group89" style="" class="rightarea_01">
-										<xf:group id="group92" style="" class="index_top_area">
-											<xf:group id="group93" style="" class="title_area">
-												<w2:textbox id="textbox64" class="tit_txt" label="ø¨∂Ù√≥¡§∫∏" tagname="span"></w2:textbox>
-
-											</xf:group>
-											<w2:anchor id="anchor2" style="" class="btn_b_cm cyber_account" outerDiv="false">
-												<xf:label><![CDATA[ø¨∂Ù√≥¡§∫∏∫Ø∞Ê]]></xf:label>
-												<script ev:event="onclick" type="javascript"><![CDATA[
-													dwsCommon.movePage('/dws/view/mkm/mkm3/mkm3005m01.do');
-												]]></script>
-											</w2:anchor>
-										</xf:group>
-										<xf:group id="group103" style="" class="title_cont_box">
-											<xf:group id="group106" style="" class="tr_row">
-												<w2:textbox id="textbox79" style="" class="th_txt" label="«⁄ µÂ ∆˘" tagname="span"></w2:textbox>
-												<w2:textbox id="txt_hp" style="" class="td_txt num" label="" tagname="span"></w2:textbox>
-											</xf:group>
-											<xf:group id="group107" style="" class="tr_row">
-												<w2:textbox id="textbox81" style="" class="th_txt" label="¿Ã ∏ﬁ ¿œ" tagname="span"></w2:textbox>
-												<w2:textbox id="txt_email" style="" class="td_txt" label="" tagname="span"></w2:textbox>
-											</xf:group>
-											<xf:group id="group108" style="" class="tr_row line">
-												<xf:group id="group167" style="" class="th_txt" tagname="span">
-													<w2:textbox id="textbox83" style="" class="first" label="¡÷" tagname="span"></w2:textbox>
-													<w2:textbox id="textbox85" style="" class="" label="º“" tagname="span"></w2:textbox>
-												</xf:group>
-												<w2:textbox id="txt_addr" style="" class="td_txt" label="" tagname="span"></w2:textbox>
-											</xf:group>
-											<xf:group id="group110" style="" class="tr_row">
-												<xf:group id="group111" style="" class="fl">
-													<w2:textbox id="textbox86" style="" class="th_txt letter" label="≈ı¿⁄º∫«‚" tagname="span"></w2:textbox>
-													<w2:textbox id="txt_ivstTrndClas" style="" class="td_txt" label="" tagname="span"></w2:textbox>
-												</xf:group>
-												<w2:anchor id="anchor3" style="" class="btn_b_cm h24 fr" outerDiv="false">
-													<xf:label><![CDATA[≈ı¿⁄¡§∫∏»Æ¿Œº≠]]></xf:label>
-													<script ev:event="onclick" type="javascript"><![CDATA[
-														dwsCommon.movePage('/dws/view/mkm/mkm4/mkm4002m01.do');
-													 ]]></script>
-												</w2:anchor>
-											</xf:group>
-										</xf:group>
-									</xf:group>
-								</xf:group>
-							</xf:group>
-							<xf:group id="group112" style="" class="section sec">
-								<xf:group id="chartsdsd" style="" class="title_area_02 line" tagname="">
-									<xf:group id="group114" style="" class="left_top_01">
-										<w2:textbox id="textbox88" style="" label="¿⁄ªÍ«ˆ»≤" tagname="h2"></w2:textbox>
-									</xf:group>
-									<xf:group id="group116" style="" class="right_top_01">
-										<w2:anchor class="btn_b_cm term" id="anchor1" outerDiv="false" style="margin-right:5px">
-											<xf:label><![CDATA[øÎæÓº≥∏Ì]]></xf:label>
-											<script ev:event="onclick" type="javascript"><![CDATA[
-											var popupOption = {
-													url : '/dws/view/mkm/mkm1/mkm1001p03.do'
-											};
-											dwsCommon.popup.open(popupOption);	
-											
-											 ]]></script>
-										</w2:anchor>
-										<w2:anchor id="anchor7" class="rbtn_01" href="#!" outerDiv="true">
-											<xf:label><![CDATA[¿⁄ªÍ«ˆ»≤ ø‰æ‡]]></xf:label>
-											<script ev:event="onclick" type="javascript"><![CDATA[
-												dwsCommon.movePage('/dws/view/mkm/mkm1/mkm1001m01.do');
-											 ]]></script>
-										</w2:anchor>
-										
-									</xf:group>
-								</xf:group>
-								<xf:group id="group185" class="layout_5_5 mt15">
-									<xf:group id="chart_box" style="" class="leftarea_01">
-										<xf:group id="group188" style="" class="chart_area">
-											<w2:fusionchart id="chart_myAsset" chartType="doughnut2d" renderAt="chart-container"
-												style="width:100%;height:271px;" drawType="" dataFormat="json" accessibility="">
-											</w2:fusionchart>
-										</xf:group>
-									</xf:group>
-									<xf:group id="tbl_box" style="" class="rightarea_01">
-										<table id="table1" summary="¿⁄ªÍ«ˆ»≤ ¡§∫∏«•" style="" class="w2tb tbl_01 chart_tbl t_center">
-											<xf:group tagname="caption">¿⁄ªÍ«ˆ»≤</xf:group>
-											<xf:group tagname="colgroup">
-												<xf:group style="width:28%;" tagname="col"></xf:group>
-												<xf:group style="" tagname="col"></xf:group>
-												<xf:group style="width:30%;" tagname="col"></xf:group>
-											</xf:group>
-											<xf:group id="group193" style="" tagname="thead">
-												<xf:group tagname="tr">
-													<xf:group style="" class="w2tb_th" tagname="th">
-														<w2:attributes>
-															<w2:scope>col</w2:scope>
-														</w2:attributes>
-														<w2:textbox id="textbox147" style="" class="th_txt" label="±∏∫–" tagname="span"></w2:textbox>
-													</xf:group>
-													<xf:group style="" class="w2tb_th" tagname="th">
-														<w2:attributes>
-															<w2:scope>col</w2:scope>
-														</w2:attributes>
-														<w2:textbox id="textbox168" style="" class="th_txt" label="¿⁄ªÍ∫Ò¡ﬂ" tagname="span"></w2:textbox>
-													</xf:group>
-													<xf:group style="" class="w2tb_th" tagname="th">
-														<w2:attributes>
-															<w2:scope>col</w2:scope>
-														</w2:attributes>
-														<w2:textbox id="textbox169" style="" class="th_txt" label="∆Ú∞°º’¿Õ" tagname="span"></w2:textbox>
-													</xf:group>
-												</xf:group>
-											</xf:group>
-											<w2:generator id="assetSummaryGenerator" tagname="tbody">
-												<xf:group style="" tagname="tr">
-													<xf:group class="w2tb_td t_left" tagname="td">
-														<xf:image id="img_asset" style="" alt="" src=""></xf:image>
-														<w2:textbox id="txt_assetName" style="" class="th_type" label="" tagname="span">
-														</w2:textbox>
-													</xf:group>
-													<xf:group style="" class="w2tb_td t_right" tagname="td">
-														<w2:textbox id="txt_amt" ref="" style="" class="num first" label="" tagname="span"
-															displayFormatter="">
-														</w2:textbox>
-														<w2:textbox id="txt_rate" ref="" style="" class="num asset_rate" label=""
-															tagname="span">
-														</w2:textbox>
-													</xf:group>
-													<xf:group style="" class="w2tb_td t_right" tagname="td">
-														<w2:textbox id="txt_pi" ref="" style="" class="num high estiPi" label=""
-															tagname="span" displayFormatter="">
-														</w2:textbox>
-													</xf:group>
-												</xf:group>
-											</w2:generator>
-											<xf:group id="group189" style="" tagname="tfoot">
-												<xf:group style="" tagname="tr">
-													<xf:group class="w2tb_td" tagname="td">
-														<w2:textbox id="textbox170" style="" class="" label="«’∞Ë" tagname="span"></w2:textbox>
-													</xf:group>
-													<xf:group style="" class="w2tb_td t_right" tagname="td">
-														<w2:textbox id="txt_totEsti" ref="" style="" class="num" label="" tagname="span"
-															displayFormatter="">
-														</w2:textbox>
-													</xf:group>
-													<xf:group style="" class="w2tb_td t_right" tagname="td">
-														<w2:textbox id="txt_totPi" ref="" style="" class="num high estiPi" label=""
-															tagname="span" displayFormatter="">
-														</w2:textbox>
-													</xf:group>
-												</xf:group>
-											</xf:group>
-										</table>
-									</xf:group>
-								</xf:group>
-								<xf:group id="group192" style="" class="controll_02">
-									<w2:anchor id="first_btn" class="" outerDiv="false">
-										<xf:label><![CDATA[on]]></xf:label>
-										<script ev:event="onclick" type="javascript"><![CDATA[
-											tbl_box.setStyle("display","none");
-											chart_box.setStyle("display","block");
-											second_btn.addClass("off");
-											first_btn.removeClass("off");
-										 ]]></script>
-									</w2:anchor>
-									<w2:anchor id="second_btn" style="" class="off" outerDiv="false">
-										<xf:label><![CDATA[off]]></xf:label>
-										<script ev:event="onclick" type="javascript"><![CDATA[
-											chart_box.setStyle("display","none");
-											tbl_box.setStyle("display","block");
-											first_btn.addClass("off");
-											second_btn.removeClass("off");
-										 ]]></script>
-									</w2:anchor>
-								</xf:group>
-							</xf:group>
-							<xf:group id="group124" style="" class="section sec">
-								<xf:group id="group125" style="" class="title_area_02 line" tagname="">
-									<xf:group id="group126" style="" class="left_top_01">
-										<w2:textbox id="textbox94" style="" label="¿‹∞Ì«ˆ»≤" tagname="h2"></w2:textbox>
-									</xf:group>
-									<xf:group id="group127" style="" class="right_top_01">
-										<w2:anchor id="anchor8" style="" class="rbtn_01" href="#!" outerDiv="true">
-											<xf:label><![CDATA[∞Ë¡¬∫∞ ¿‹∞Ì]]></xf:label>
-											<script ev:event="onclick" type="javascript"><![CDATA[
-												dwsCommon.movePage('/dws/view/mkm/mkm1/mkm1002m01.do');
-											]]></script>
-										</w2:anchor>
-									</xf:group>
-								</xf:group>
-								<w2:generator id="assetRemainsGenerator" class="balance_area">
-									<xf:group id="grp_remainData" style="" class="balance_box">
-										<xf:group id="group178" style="" class="balance_box_wrap">
-											<xf:group id="group130" style="" class="header_area">
-												<w2:anchor class="num" href="#!" id="txt_acntNo" outerDiv="false" style="">
-													<xf:label><![CDATA[]]></xf:label>
-												</w2:anchor>
-												<w2:textbox id="txt_jobSect" style="" class="small_txt" label="" tagname="span"></w2:textbox>
-											</xf:group>
-											<xf:group id="group131" style="" class="cont_area">
-												<xf:group id="group132" style="" class="tr_row">
-													<w2:textbox id="textbox99" style="" class="label_txt" label="∆Ú∞°±›æ◊" tagname="span"></w2:textbox>
-													<w2:textbox id="txt_amt" style="" class="num" label="" tagname="span"></w2:textbox>
-												</xf:group>
-												<xf:group id="group133" style="" class="tr_row"></xf:group>
-											</xf:group>
-										</xf:group>
-									</xf:group>
-									<xf:group id="grp_noRemainData" style="display:none" class="balance_box last">
-										<xf:group id="group144" style="" class="balance_box_wrap">
-											<w2:textbox id="textbox121" label="≥ªø™¿Ã&lt;br/&gt;æ¯Ω¿¥œ¥Ÿ" tagname="span"></w2:textbox>
-										</xf:group>
-									</xf:group>
-								</w2:generator>
-							</xf:group>
-							<xf:group id="group117" style="" class="section sec">
-								<xf:group id="group118" style="" class="title_area_02" tagname="">
-									<xf:group id="group119" style="" class="left_top_01">
-										<w2:textbox id="textbox92" style="" label="∞Ë¡¬∫∞ √÷±Ÿ ∫Øµø«ˆ»≤" tagname="h2"></w2:textbox>
-									</xf:group>
-									<xf:group id="group120" style="" class="right_top_01">
-										<w2:anchor id="anchor9" style="" class="rbtn_01" href="#!" outerDiv="true">
-											<xf:label><![CDATA[∞≈∑°≥ªø™ ≈Î«’¡∂»∏]]></xf:label>
-											<script ev:event="onclick" type="javascript"><![CDATA[
-												var options = {
-													param : {
-														tabIndex : 3
-													}
-												};
-												dwsCommon.movePage('/dws/view/mkm/mkm1/mkm1001m01.do', options);
-											 ]]></script>
-										</w2:anchor>
-									</xf:group>
-								</xf:group>
-								<xf:group id="group121" style="" class="grid_wrap">
-									<w2:anchor class="btn_grid_autofit" id="grd_recentTradeList_autofit" localeRef="" outerDiv="false" style="display:none">
-										<xf:label><![CDATA[±◊∏ÆµÂ ƒ√∑≥ ¿¸√º∫∏±‚]]></xf:label>
-									</w2:anchor>
-									<w2:gridView summary="∆›µÂ ¿‹∞Ì ¡§∫∏∏¶ ∫∏ø©¡÷∞Ì º±≈√«“ºˆ ¿÷¥¬ ±◊∏ÆµÂ" autoMbColumn="1, 3, 4, 5" autoPcColumn="" autoFit="allColumn" rowNumHeaderValue=""
-										readOnlyBackgroundColor="" visibleRowNum="5" rowMouseOver="false" class="grid_01" fixedColumnWithHidden="true" resize="false"
-										rowNumVisible="" selectedCellColor="transparent" dataList="dc_tradeList" id="grd_recentTradeList" readOnly=""
-										style="height:185px;" scrollByColumn="false" useShiftKey="false" oddEvenColorDisplay="">
-										<w2:caption id="caption1" style="" value="∆›µÂ ¿‹∞Ì º±≈√"></w2:caption>
-										<w2:header id="header2" style="">
-											<w2:row id="row3" style="">
-												<w2:column blockSelect="false" id="column37" style="height:30px;" inputType="text"
-													width="90" value="¿œ¿⁄">
-												</w2:column>
-												<w2:column blockSelect="false" id="column21" style="height:30px;" inputType="text"
-													width="130" value="∞Ë¡¬π¯»£">
-												</w2:column>
-												<w2:column blockSelect="false" id="column19" style="height:30px;" inputType="text"
-													width="60" value="±∏∫–">
-												</w2:column>
-												<w2:column blockSelect="false" id="column44" style="height:30px" inputType="text"
-													width="130" value="¡æ∏Ò∏Ì">
-												</w2:column>
-												<w2:column blockSelect="false" id="column17" style="height:30px;" inputType="text"
-													width="80" value="ºˆ∑Æ">
-												</w2:column>
-												<w2:column blockSelect="false" id="column15" style="height:30px;" inputType="text"
-													width="130" value="¥‹∞°">
-												</w2:column>
-												<w2:column blockSelect="false" id="column41" style="height:30px;" inputType="text"
-													width="130" value="±›æ◊">
-												</w2:column>
-											</w2:row>
-										</w2:header>
-										<w2:gBody id="gBody2" style="">
-											<w2:row id="row4" style="">
-												<w2:column blockSelect="false" id="o_TrDate" applyFormat="all" style="height:30px;"
-													inputType="text" width="90" value="" textAlign="" displayFormat="####-##-##">
-												</w2:column>
-												<w2:column blockSelect="false" id="o_SysAcntNo" style="height:30px;" inputType="text"
-													width="130" value="" textAlign="" displayFormatter="dwsCommon.formatAccount">
-												</w2:column>
-												<w2:column blockSelect="false" id="o_TrSect" style="height:30px;" inputType="text"
-													width="60" value="" textAlign="">
-												</w2:column>
-												<w2:column blockSelect="false" id="o_ItemNm" style="height:30px" inputType="text"
-													width="70">
-												</w2:column>
-												<w2:column blockSelect="false" id="o_Qty" imageHeight="17" style="height:30px;" alt="√∑∫Œ∆ƒ¿œ"
-													inputType="text" width="90" value="" imagesrc="/dws/images/inc/icon_disk_01.png" textAlign="right"
-													displayFormatter="dwsCommon.addComma" imageWidth="16">
-												</w2:column>
-												<w2:column blockSelect="false" id="o_Uprc" style="height:30px;" inputType="text" width="100"
-													value="" textAlign="right" displayFormatter="dwsCommon.addComma">
-												</w2:column>
-												<w2:column blockSelect="false" id="o_Amt" style="height:30px;" inputType="text" width="100"
-													value="" textAlign="right" displayFormatter="dwsCommon.addComma">
-												</w2:column>
-											</w2:row>
-										</w2:gBody>
-									</w2:gridView>
-								</xf:group>
-							</xf:group>
-							<xf:group id="group149" style="" class="section sec">
-								<xf:group id="group156" style="" class="layout_3_4_3">
-									<xf:group id="group157" style="" class="leftarea_03">
-										<xf:group id="group150" style="" class="title_area_02 line" tagname="">
-											<xf:group id="group151" style="" class="left_top_01">
-												<w2:textbox id="textbox122" style="" label="º≠∫ÒΩ∫ Ω≈√ª ∞¸∏Æ" tagname="h2"></w2:textbox>
-											</xf:group>
-											<xf:group id="group152" style="" class="right_top_01">
-												<w2:anchor id="anchor14" class="link_txt" outerDiv="false">
-													<xf:label><![CDATA[Ω≈√ª«ˆ»≤]]></xf:label>
-												</w2:anchor>
-											</xf:group>
-										</xf:group>
-										<xf:group id="group168" style="" class="cont_type_24 dash" tagname="ul">
-											<xf:group id="group169" style="" tagname="li">
-												<w2:textbox id="textbox131" style="" class="left_txt" label="ªÁ¿Ãπˆ IDµÓ∑œ" tagname="span">
-												</w2:textbox>
-												<xf:group id="group182" style="" class="fr">
-													<w2:textbox id="txt_signText1" style="" class="center_txt" label="øœ∑·" tagname="span"></w2:textbox>
-													<w2:anchor id="anchor17" class="right_txt" outerDiv="false">
-														<xf:label><![CDATA[∫Ø∞Ê]]></xf:label>
-														<script ev:event="onclick" type="javascript"><![CDATA[
-															var options = {
-																param : {
-																	tabIndex : 1
-																}
-															};
-															dwsCommon.movePage('/dws/view/mkm/mkm3/mkm3001m01.do', options);
-														 ]]></script>
-													</w2:anchor>
-												</xf:group>
-											</xf:group>
-											<xf:group id="group171" style="" tagname="li">
-												<w2:textbox id="textbox134" style="" class="left_txt" label="OTPπﬂ±ﬁ" tagname="span"></w2:textbox>
-												<xf:group id="group183" style="" class="fr">
-													<w2:textbox id="txt_signText2" style="" class="center_txt" label="øœ∑·" tagname="span"></w2:textbox>
-													<w2:anchor id="anchor18" class="right_txt" outerDiv="false">
-														<xf:label><![CDATA[∫Ø∞Ê]]></xf:label>
-														<script ev:event="onclick" type="javascript"><![CDATA[ 
-															var options = {
-																param : {
-																	tabIndex : 1
-																}
-															};
-															dwsCommon.movePage('/dws/view/mkm/mkm3/mkm3001m01.do', options);
-														]]></script>
-													</w2:anchor>
-												</xf:group>
-											</xf:group>
-											<xf:group id="group172" style="" tagname="li">
-												<w2:textbox id="textbox136" style="" class="left_txt" label="¡÷πÆ∞Ë¡¬µÓ∑œ" tagname="span"></w2:textbox>
-												<xf:group id="group184" style="" class="fr">
-													<w2:textbox id="txt_signText3" style="" class="center_txt" label="øœ∑·" tagname="span"></w2:textbox>
-													<w2:anchor id="anchor19" class="right_txt" outerDiv="false">
-														<xf:label><![CDATA[∫Ø∞Ê]]></xf:label>
-														<script ev:event="onclick" type="javascript"><![CDATA[ 
-															var options = {
-																param : {
-																	tabIndex : 1
-																}
-															};
-															dwsCommon.movePage('/dws/view/mkm/mkm3/mkm3001m01.do', options);
-														]]></script>
-													</w2:anchor>
-												</xf:group>
-											</xf:group>
-										</xf:group>
-									</xf:group>
-									<xf:group id="group162" style="" class="centerarea_03">
-										<xf:group id="group163" style="" class="title_area_02 line" tagname="">
-											<xf:group id="group164" style="" class="left_top_01">
-												<w2:textbox id="textbox124" style="" label="ø¿¥√¿« ∞Ë¡¬¡°∞À" tagname="h2"></w2:textbox>
-											</xf:group>
-											<xf:group id="group165" style="" class="right_top_01">
-												<w2:anchor id="anchor16" style="" class="link_txt" outerDiv="false">
-													<xf:label><![CDATA[¥ı∫∏±‚]]></xf:label>
-													<script ev:event="onclick" type="javascript"><![CDATA[
-														dwsCommon.movePage('/dws/view/mkm/mkm1/mkm1004m01.do');
-													 ]]></script>
-												</w2:anchor>
-											</xf:group>
-										</xf:group>
-										<xf:group id="group166" style="" class="list_type03" tagname="ul">
-											<w2:textbox id="txt_checkAcnt1" label="" tagname="li"></w2:textbox>
-											<w2:textbox id="txt_checkAcnt2" style="" label="" tagname="li"></w2:textbox>
-											<w2:textbox id="txt_checkAcnt3" style="" label="" tagname="li"></w2:textbox>
-										</xf:group>
-									</xf:group>
-									<xf:group class="rightarea_03" id="group194" style="">
-										<xf:group id="group195" style="" tagname="a" toolTip="">
-											<w2:attributes>
-												<w2:href>#</w2:href>
-											</w2:attributes>
-											<xf:image alt="SMS/¿Ã∏ﬁ¿œ Ω≈√ª" id="image4" src="/dws/images/contents/mkm_banner01.png">
-												<script ev:event="onclick" type="javascript"><![CDATA[
-													dwsCommon.movePage('/dws/view/mku/mku2/mku2004m01.do');
-												 ]]></script>
-											</xf:image>
-										</xf:group>
-										<xf:group class="" id="group196" style="" tagname="a" toolTip="">
-											<w2:attributes>
-												<w2:href>#</w2:href>
-											</w2:attributes>
-											<xf:image alt="∞Ë¡¬¡§∫∏ ¡∂»∏" id="image5" ref="" src="/dws/images/contents/mkm_banner02.png" class="">
-												<script ev:event="onclick" type="javascript"><![CDATA[
-													dwsCommon.movePage('/dws/view/mkm/mkm3/mkm3001m01.do');
-												 ]]></script>
-											</xf:image>
-										</xf:group>
-									</xf:group>
-								</xf:group>
-							</xf:group>
-
-							<xf:group id="group98" style="" class="contbox">
-								<xf:group id="group97" style="" class="banner_area">
-									<xf:group id="group99" style="" class="bn1" tagname="a">
-										<w2:attributes>
-											<w2:href>#</w2:href>
-										</w2:attributes>
-										<xf:image id="image1" alt="∫–Ω«Ω≈∞Ì ªÁ∞ÌµÓ∑œ" src="/dws/images/contents/mkm_index_banner01.png">
-											<script ev:event="onclick" type="javascript"><![CDATA[
-												dwsCommon.movePage('/dws/view/mkm/mkm3/mkm3007m01.do');
-											 ]]></script>
-										</xf:image>
-									</xf:group>
-									<xf:group id="group100" style="" class="bn2" tagname="a">
-										<w2:attributes>
-											<w2:href>#</w2:href>
-										</w2:attributes>
-										<xf:image id="image2" style="" alt="Ω∫∏∂∆Æ ªÛ¥„ºæ≈Õ 1644-3322"
-											src="/dws/images/contents/mkm_index_banner02.png">
-											<script ev:event="onclick" type="javascript"><![CDATA[
-												dwsCommon.movePage('/dws/view/mki/mki2/mki2004m01.do');
-											 ]]></script>
-										</xf:image>
-									</xf:group>
-									<xf:group id="group10980" style="" class="" tagname="a" >
-										<w2:attributes>
-											<w2:href>tel:1588-3322</w2:href>
-										</w2:attributes>
-											<xf:image id="image3" style="" alt="∞Ì∞¥ºæ≈Õ æ»≥ª 1588-3322" class="bn3"
-												src="/dws/images/contents/mkm_index_banner03.png">	 									
-											</xf:image>
-									</xf:group>
-								</xf:group>
-							</xf:group>
-						</xf:group>
-					</xf:group>
-				</xf:group>
-			</xf:group>
-			<w2:wframe id="footer" style="" src="/dws/view/com/footer.xml"></w2:wframe>
-		</xf:group>
-	</body>
+    		textarea1.setValue( returnValue.length );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger9"
+    		style="position: absolute ;height:25px;width:150px;left:242px;top:435px;"
+    		type="button">
+    		<xf:label>getXPathByValue</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		var returnValue = treeview3.getXPathByValue( '010208' );
+    		output4.setValue( returnValue );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger10"
+    		style="position: absolute ;height:25px;width:150px;left:392px;top:360px;"
+    		type="button">
+    		<xf:label>spanAll(false)</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.spanAll( false );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger11"
+    		style="position: absolute ;height:25px;width:150px;left:392px;top:385px;"
+    		type="button">
+    		<xf:label>spanAll(true)</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.spanAll( true );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger12"
+    		style="position: absolute ;height:25px;width:150px;left:392px;top:410px;"
+    		type="button">
+    		<xf:label>collapseNode</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.collapseNode( '010207' );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger13"
+    		style="position: absolute ;height:25px;width:150px;left:392px;top:435px;"
+    		type="button">
+    		<xf:label>expandNode</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.expandNode( '010207' );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger14"
+    		style="position: absolute ;height:25px;width:150px;left:542px;top:360px;"
+    		type="button">
+    		<xf:label>checkByValue</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		treeview3.checkByValue( '010102' , true , true );
+    		treeview3.checkByValue( '010202' , true , true );
+    		treeview3.checkByValue( '01020701' , true , true );
+    		treeview3.checkByValue( '0103' , true , true );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger15"
+    		style="position: absolute ;height:25px;width:150px;left:542px;top:385px;"
+    		type="button">
+    		<xf:label>getCheckedValues</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		var returnValue = treeview3.getCheckedValues();
+    		output4.setValue( returnValue );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:trigger id="trigger16"
+    		style="position: absolute ;height:25px;width:150px;left:542px;top:410px;"
+    		type="button">
+    		<xf:label>getCheckedLabels</xf:label>
+    		<script ev:event="onclick" type="javascript"><![CDATA[
+    		
+    		var returnValue = treeview3.getCheckedLabels();
+    		output4.setValue( returnValue );
+    		
+    		 ]]></script>
+    	</xf:trigger>
+    	<xf:output id="output4"
+    		style="position: absolute ;left:276px;top:519px;width: 221px;height: 71px;"
+    		label="">
+    		<xf:label></xf:label>
+    	</xf:output>
+    	<xf:textarea id="textarea1"
+    		style="position: absolute ;left: 709px;top: 360px;width: 227px;height: 202px;">
+    	</xf:textarea>
+    </body>
 </html>

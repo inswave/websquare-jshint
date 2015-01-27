@@ -54,5 +54,5 @@ module.exports = function(grunt) {
     grunt.loadTasks('tasks');
     grunt.registerTask('test', ['clean:tests', 'websquarejshint:compile']);
     grunt.registerTask('traverse', ['clean:traverse', 'websquarejshint:traverse']);
-    grunt.registerTask('default', ['traverse']);
+    grunt.registerTask('default', ['test']);
 };
