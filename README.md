@@ -20,11 +20,11 @@ grunt.loadNpmTasks('websquare-jshint');
 
 *This plugin was designed to work with Grunt 0.4.x. If you're still using grunt v0.3.x it's strongly recommended that [you upgrade](http://gruntjs.com/upgrading-from-0.3-to-0.4).*
 
-## websquarejsint task
+## websquarejshint task
 _Run this task with the `grunt websquarejshint` command._
 
 ## Detailed Guide
-[WebSquare-jshint 사용 방법](https://github.com/inswave/websquare-jshint/wiki/websquare-jshint-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95)
+[WebSquare-jshint guide](https://github.com/inswave/websquare-jshint/wiki/websquare-jshint-%EC%82%AC%EC%9A%A9-%EB%B0%A9%EB%B2%95)
 
 ## Release History
 
