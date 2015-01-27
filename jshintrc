@@ -46,7 +46,7 @@
     "evil"          : false,     // true: Tolerate use of `eval` and `new Function()`
     "expr"          : false,     // true: Tolerate `ExpressionStatement` as Programs
     "funcscope"     : false,     // true: Tolerate defining variables inside control statements
-    "globalstrict"  : false,     // true: Allow global "use strict" (also enables 'strict')
+    "globalstrict"  : true,     // true: Allow global "use strict" (also enables 'strict')
     "iterator"      : false,     // true: Tolerate using the `__iterator__` property
     "lastsemic"     : false,     // true: Tolerate omitting a semicolon for the last statement of a 1-line block
     "laxbreak"      : false,     // true: Tolerate possibly unsafe line breakings
@@ -87,7 +87,12 @@
     "-W116": false,    // [W116] Expected '{' and instead saw 'return'
     "-W083": false,    // [W083] Don't make functions within a loop.
     "-W069": false,    // [W069] ['secuSect'] is better written in dot notation.
-
+    "-W061": false,    // [W061] eval can be harmful.
+    "-W032": false,    // [W032] Unnecessary semicolon.
+    "-W014": false,    // [W014] Bad line breaking before '+'.
+    "-W033": false,    // [W033] Missing semicolon.
+//    "-I001": false,    // [I001] Comma warnings can be turned off with 'laxcomma'.
+    "-W004": false,    // [W004] 'dateDay' is already defined.
 
     // Custom Globals
     "globals"       : { 
@@ -100,6 +105,10 @@
         "dwsSession" : true,
         "dc_w67oi01Data" : true,
         "PageFunc" : true,
-        "PageParam" : true
+        "PageParam" : true,
+        "PsnlInfoAgree" : true,
+        "StringUtils" : true,
+        "CustomUtils" : true,
+        "dwsValidator" : true
     }        // additional predefined global variables
 }

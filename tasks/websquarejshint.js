@@ -51,7 +51,7 @@ module.exports = function(grunt) {
             eventRegex  = /ev\:event/,
             pseudoFunc  = ['(function(){', '})'],
             min = '',
-            max = '',
+            sourceStr = '',
             logMsg = '',
             checkFilter = function ( source ) {
                 if ( options.filter instanceof RegExp ) {
@@ -154,33 +154,35 @@ module.exports = function(grunt) {
                     options.devel = options.debug = grunt.option('debug');
                     // Tweak a few things.
                     if (grunt.option('debug')) {
-                      options.maxerr = Infinity;
+                      options.sourceStrerr = Infinity;
                     }
                   }
                   // pass all of the remaining options directly to jshint
                   cliOptions.config = options;
                 }
 
-                if(globalObj) {
+                if(cliOptions.config && globalObj) {
+                    if( !cliOptions.config.globals ) cliOptions.config.globals = [];
                     for(var prop in globalObj) {
                         if(globalObj.hasOwnProperty(prop)) {
                             cliOptions.config.globals[prop] = globalObj[prop];
                         }
                     }
-                }
-                logMsg += '    global object : ';
-                var first = true;
-                for(var prop in cliOptions.config.globals) {
-                    if(cliOptions.config.globals.hasOwnProperty(prop)) {
-                        if(first) {
-                            first = false;
-                            logMsg += prop;
-                        } else {
-                            logMsg += ', ' + prop;
+
+                    logMsg += '    global object : ';
+                    var first = true;
+                    for(var prop in cliOptions.config.globals) {
+                        if(cliOptions.config.globals.hasOwnProperty(prop)) {
+                            if(first) {
+                                first = false;
+                                logMsg += prop;
+                            } else {
+                                logMsg += ', ' + prop;
+                            }
                         }
                     }
+                    logMsg += '\n\n';
                 }
-                logMsg += '\n\n';
 
                 // Run JSHint on all file and collect results/data
                 var allResults = [];
@@ -284,7 +286,7 @@ module.exports = function(grunt) {
 
                 grunt.log.writeln();
             },
-            extractWebSquareID = function(str, filepath) {
+            extractWebSquareID = function(str) {
                 var globalObj = {};
                 try {
                     var parser = new DOMParser();
@@ -293,15 +295,14 @@ module.exports = function(grunt) {
                     var node = dom.documentElement;
                     traverse(globalObj, node);
                 } catch(e) {
-//                    grunt.log.error(e);
-                    logMsg += "    XML Parsing exception : " + filepath +"\n";
+                    logMsg += "    XML Parsing exception\n";
                 }
                 return globalObj;
             },
             traverse = function(globalObj, node) {
                 if( node.nodeType == 1 ) {
-                    if(node.getAttribute("id")) {
-                        grunt.log.verbose("detect global object from " + node.nodeName + ", variable : " + node.getAttribute("id"));
+                    if(node.getAttribute("id") && !skipNode(node.nodeName)) {
+                        grunt.verbose.writeln("detect global object from " + node.nodeName + ", variable : " + node.getAttribute("id"));
                         globalObj[node.getAttribute("id")] = true;
                     }
                     if( stopNode(node.nodeName) ) {
@@ -310,13 +311,20 @@ module.exports = function(grunt) {
                     var childList = node.childNodes;
                     for( var i = 0 ; i < childList.length ; i++ ) {
                         var child = childList.item(i);
-                        grunt.log.verbose("node info : " + child.nodeName );
+                        grunt.verbose.writeln("node info : " + child.nodeName );
                         traverse(globalObj, child);
                     }
                 }
             },
             stopNode = function (nodeName) {
-                var nameList = ["w2:dataMap", "w2:dataList", "xf:instance", "w2:gridView", "w2:grid", "w2:tabControl", "xf:submission"];
+                var nameList = ["w2:dataMap", "w2:dataList", "xf:instance", "w2:gridView", "w2:grid", "xf:submission"];
+                for (var i = nameList.length - 1; i >= 0; i--) {
+                    if( nameList[i] == nodeName ) return true;
+                };
+                return false;
+            },
+            skipNode = function (nodeName) {
+                var nameList = ["w2:tabs", "w2:content"];
                 for (var i = nameList.length - 1; i >= 0; i--) {
                     if( nameList[i] == nodeName ) return true;
                 };
@@ -374,37 +382,34 @@ module.exports = function(grunt) {
                         fileType = detectFileType( src );
 
                         if( fileType ) {
-                            grunt.verbose.writeln( fileType + ' do jslint ' + src.cyan + ' -> ' + dest.cyan );
-
-                            max = fs.readFileSync( src );
-                            var maxStr =  max + "";
-                            var strIdx = maxStr.indexOf('\n')
-//                            grunt.log.warn( 'type : ' + (typeof max ));
-//                            grunt.log.warn( fileType + ' do jslint ' + src.cyan + ' -> ' + dest.cyan + 'type : ' + (typeof max) + ', euc-kr : ' + max.toLowerCase().indexOf("euc-kr") + ', contents ' + (max.length > 50 ? max.substring(0,50) : max) );
-                            grunt.log.warn( fileType + ' do jslint ' + src.cyan + ' -> ' + dest.cyan + ', contents : ' + (strIdx > 0 ? maxStr.substring(0,strIdx) : maxStr) );
-                            if(maxStr.toLowerCase().indexOf("euc-kr") > 0 ) {
-                                try {
-                                    grunt.log.warn('convert euc-kr to utf-8');
-                                    max = euckr2utf8.convert(max).toString('UTF-8');
-                                    max = max.replace( /EUC[-]KR/, 'UTF-8' );
-//                                    grunt.log.warn(max);
-
-                                } catch(e) {
-                                    grunt.log.warn('exception occured. use original');
-                                    max = maxStr;
-                                }
-                            }
-                            max += grunt.util.normalizelf( grunt.util.linefeed );
-                            grunt.verbose.writeln( 'convert ' + max );
-
                             try {
+                                grunt.verbose.writeln( fileType + ' do jslint ' + src.cyan + ' -> ' + dest.cyan );
+
+                                sourceStr = fs.readFileSync( src );
                                 if( fileType === 'XML' ) {
+                                    var sourceStr1 =  sourceStr + "";
+                                    var strIdx = sourceStr1.indexOf('\n')
+                                    grunt.log.warn( fileType + ' do jslint ' + src.cyan + ' -> ' + dest.cyan + ', contents : ' + (strIdx > 0 ? sourceStr1.substring(0,strIdx) : sourceStr1) );
+                                    if(sourceStr1.toLowerCase().indexOf("euc-kr") > 0 ) {
+                                        try {
+                                            grunt.log.warn('convert euc-kr to utf-8');
+                                            sourceStr = euckr2utf8.convert(sourceStr).toString('UTF-8');
+                                            sourceStr = sourceStr.replace( /EUC[-]KR/, 'UTF-8' );
+                                        } catch(e) {
+                                            logMsg += "exception occured. use original : " + src + "\n";
+                                            grunt.log.warn('exception occured. use original');
+                                            sourceStr = sourceStr1;
+                                        }
+                                    }
+                                    sourceStr += grunt.util.normalizelf( grunt.util.linefeed );
+                                    grunt.verbose.writeln( 'convert ' + sourceStr );
+
                                     dest = dest + ".js";
                                     var myArray;
                                     var retStr = "";
                                     var startPoint = 0;
-                                    while ((myArray = scriptRegex.exec(max)) !== null) {
-                                        var len = max.substring(startPoint, myArray.index).split("\n").length;
+                                    while ((myArray = scriptRegex.exec(sourceStr)) !== null) {
+                                        var len = sourceStr.substring(startPoint, myArray.index).split("\n").length;
                                         startPoint = scriptRegex.lastIndex;
                                         var arr = [];
                                         for(var idx1 = 0 ; idx1 < len - 1; idx1++) {
@@ -415,10 +420,23 @@ module.exports = function(grunt) {
 
                                     min = retStr;
 
-                                    globalObj = extractWebSquareID(max, src);
+                                    globalObj = extractWebSquareID(sourceStr, src);
 
                                 } else if( fileType === "JS" ) {
-                                    min = retStr;
+                                    grunt.log.warn( fileType + ' do jslint ' + src.cyan + ' -> ' + dest.cyan );
+                                    try {
+                                        grunt.log.warn('convert euc-kr to utf-8');
+                                        sourceStr = euckr2utf8.convert(sourceStr).toString('UTF-8');
+                                        sourceStr = sourceStr.replace( /EUC[-]KR/, 'UTF-8' );
+                                    } catch(e) {
+                                        logMsg += "exception occured during convert euc-kr to utf-8. use original : " + src + "\n";
+                                        grunt.log.warn('exception occured. use original');
+                                        sourceStr = sourceStr1;
+                                    }
+                                    sourceStr += grunt.util.normalizelf( grunt.util.linefeed );
+                                    grunt.verbose.writeln( 'convert ' + sourceStr );
+
+                                    min = sourceStr;
                                 }
                             } catch( err ) {
                                 grunt.warn( src + '\n' + err );
@@ -430,7 +448,7 @@ module.exports = function(grunt) {
                                 grunt.log.warn(dest);
                                 grunt.file.write( dest, min );
                                 grunt.verbose.writeln( fileType + ' jshint ' + src.cyan + ' -> ' + dest.cyan );
-                                grunt.verbose.writeln( maxmin( max, min ) );
+                                grunt.verbose.writeln( maxmin( sourceStr, min ) );
                                 countWithFileType( fileType );
                                 jsHint(dest, options, globalObj);
                             }

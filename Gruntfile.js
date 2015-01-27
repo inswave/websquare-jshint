@@ -46,7 +46,8 @@ module.exports = function(grunt) {
                 result:'result/result.txt'
             },
             options: {
-                jshintrc: 'jshintrc',
+                jshintrc : true
+//                jshintrc: 'jshintrc',
             }
         }
     });
