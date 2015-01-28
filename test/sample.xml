@@ -1,946 +1,3111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml"
-    xmlns:ev="http://www.w3.org/2001/xml-events"
-    xmlns:w2="http://www.inswave.com/websquare" xmlns:xf="http://www.w3.org/2002/xforms">
-    <head>
-        <w2:buildDate/>
-        <xf:model>
+<?xml-stylesheet href="/dws/cm/css/all.css" type="text/css"?>
+<?xml-stylesheet href="/dws/cm/css/contents.css" type="text/css"?>
+<?xml-stylesheet href="/dws/cm/css/mku.css" type="text/css"?>
+<?xml-stylesheet href="/dws/cm/css/mkt.css" type="text/css"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:w2="http://www.inswave.com/websquare"
+	xmlns:xf="http://www.w3.org/2002/xforms">
+	<head>
+		<title>펀드 상세보기</title>
+		<w2:buildDate />
+		<xf:model>
 			<xf:instance>
-				<data xmlns="">
-					<resGongTree>
-						<vector beforeServletCall='1247477576923'
-							beforeEJBCall='1247477576923' afterServletCall='1247477576993'
-							afterEJBCall='1247477576993' result='75'>
-							<data vectorkey='0' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='01' />
-									<gong_depth value='1.0000' />
-									<gong_nm value='다사 문화복지센터 건립공사' />
-									<volumn value='1' />
-									<material_cost
-										value='1128846088.244' />
-									<labor_cost value='1872896072.516' />
-									<guard_cost value='97566397' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='temp1' />
-									<regist_date value='' />
-									<modify_no value='999999' />
-									<modify_date
-										value='2009-07-08 18:06:29' />
-								</table01>
-							</data>
-							<data vectorkey='1' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='0101' />
-									<gong_depth value='2.0000' />
-									<gong_nm value='건축공사' />
-									<volumn value='1' />
-									<material_cost
-										value='1128846088.244' />
-									<labor_cost value='1872896072.516' />
-									<guard_cost value='97566397' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='temp1' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='2' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='010101' />
-									<gong_depth value='3.0000' />
-									<gong_nm value='가설공사' />
-									<volumn value='1' />
-									<material_cost value='95424826' />
-									<labor_cost value='304056549' />
-									<guard_cost value='47803576' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='temp1' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='3' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='010102' />
-									<gong_depth value='3.0000' />
-									<gong_nm value='기초및토공사' />
-									<volumn value='1' />
-									<material_cost value='9610396' />
-									<labor_cost value='12558496' /> 
-									<guard_cost value='13316536' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='temp1' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='4' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='010103' />
-									<gong_depth value='3.0000' />
-									<gong_nm value='철근콘크리트공사' />
-									<volumn value='1' />
-									<material_cost value='207297923.02' />
-									<labor_cost value='1223473574.18' />
-									<guard_cost value='26949066' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='20' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='0102' />
-									<gong_depth value='2.0000' />
-									<gong_nm value='인테리어공사' />
-									<volumn value='1' />
-									<material_cost value='0' />
-									<labor_cost value='0' />
-									<guard_cost value='0' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='21' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='010201' />
-									<gong_depth value='3.0000' />
-									<gong_nm value='돌및타일공사' />
-									<volumn value='1' />
-									<material_cost value='0' />
-									<labor_cost value='0' />
-									<guard_cost value='0' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='22' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='010202' />
-									<gong_depth value='3.0000' />
-									<gong_nm value='목공사' />
-									<volumn value='1' />
-									<material_cost value='0' />
-									<labor_cost value='0' />
-									<guard_cost value='0' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='27' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='010207' />
-									<gong_depth value='3.0000' />
-									<gong_nm value='기타공사[인테리어공사]' />
-									<volumn value='1' />
-									<material_cost value='0' />
-									<labor_cost value='0' />
-									<guard_cost value='0' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='28' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='01020701' />
-									<gong_depth value='4.0000' />
-									<gong_nm value='타일 및 석공사' />
-									<volumn value='1' />
-									<material_cost value='0' />
-									<labor_cost value='0' />
-									<guard_cost value='0' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='29' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='01020702' />
-									<gong_depth value='4.0000' />
-									<gong_nm value='목공사' />
-									<volumn value='1' />
-									<material_cost value='0' />
-									<labor_cost value='0' />
-									<guard_cost value='0' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='35' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='010208' />
-									<gong_depth value='3.0000' />
-									<gong_nm value='골재대' />
-									<volumn value='1' />
-									<material_cost value='0' />
-									<labor_cost value='0' />
-									<guard_cost value='0' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-							<data vectorkey='36' type='Document'>
-								<table01>
-									<pro_code value='82356500' />
-									<gong_code value='0103' />
-									<gong_depth value='2.0000' />
-									<gong_nm value='태양광지지대공사' />
-									<volumn value='1' />
-									<material_cost value='0' />
-									<labor_cost value='0' />
-									<guard_cost value='0' />
-									<cost_except value='' />
-									<gong_type value='' />
-									<gover_type value='F' />
-									<calc_reason value='' />
-									<marks value='' />
-									<regist_no value='' />
-									<regist_date value='' />
-									<modify_no value='' />
-									<modify_date value='' />
-								</table01>
-							</data>
-						</vector>
-					</resGongTree>
-					<response1>
-						<tree>
-							<node>
-								<label>1.일반컴포넌트</label>
-								<value>1</value>
-								<image />
-								<selectedImage />
-								<expandedImage />
-								<node>
-									<label>11.XFORMS</label>
-									<value>11</value>
-									<image />
-									<selectedImage />
-									<expandedImage />
-									<node>
-										<label>111.input</label>
-										<value>111</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-										<node>
-											<label>
-												111.inputasdfasdfasdf
-											</label>
-											<value>111</value>
-											<image />
-											<selectedImage />
-											<expandedImage />
-											<node>
-												<label>
-													111.inputasdfasdfasdf
-												</label>
-												<value>111</value>
-												<image />
-												<selectedImage />
-												<expandedImage />
-											</node>
-										</node>
-									</node>
-									<node>
-										<label>112.output</label>
-										<value>112</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>113.switch</label>
-										<value>113</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-								</node>
-								<node>
-									<label>12.W2</label>
-									<value>12</value>
-									<image />
-									<selectedImage />
-									<expandedImage />
-									<node>
-										<label>121.tabContainer</label>
-										<value>121</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>122.tabSwitch</label>
-										<value>122</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>123.na</label>
-										<value>123</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-								</node>
-								<node>
-									<label>23.Third Party</label>
-									<value>23</value>
-									<image />
-									<selectedImage />
-									<expandedImage />
-									<node>
-										<label>231.navermap</label>
-										<value>231</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>232.googlemap</label>
-										<value>232</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>233.flickr</label>
-										<value>233</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-								</node>
-							</node>
-							<node>
-								<label>2.고급컴포넌트</label>
-								<value>2</value>
-								<image />
-								<selectedImage />
-								<expandedImage />
-								<node>
-									<label>21.XFORMS</label>
-									<value>21</value>
-									<image />
-									<selectedImage />
-									<expandedImage />
-									<node>
-										<label>211.repeat</label>
-										<value>211</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>212.select1</label>
-										<value>212</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>213.select</label>
-										<value>213</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-								</node>
-								<node>
-									<label>22.W2</label>
-									<value>22</value>
-									<image />
-									<selectedImage />
-									<expandedImage />
-									<node>
-										<label>221.grid</label>
-										<value>221</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>222.input</label>
-										<value>222</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>223.input</label>
-										<value>223</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-								</node>
-								<node>
-									<label>23.Third Party</label>
-									<value>23</value>
-									<image />
-									<selectedImage />
-									<expandedImage />
-									<node>
-										<label>231.input</label>
-										<value>231</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>232.input</label>
-										<value>232</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-									<node>
-										<label>233.input</label>
-										<value>233</value>
-										<image />
-										<selectedImage />
-										<expandedImage />
-									</node>
-								</node>
-							</node>
-						</tree>
-					</response1>
-					<res>
-						<shopping>
-							<vector>
-								<data ref="1"> 
-									<label>outer</label> 
-									<value>1-1</value> 
-									<depth>2</depth> 
-									<chk></chk> 
-									<excChk></excChk> 
-									<img></img> 
-									<folder>true</folder> 
-								</data> 
-								<data ref="1"> 
-									<label>bottom</label> 
-									<value>1-2</value> 
-									<depth>2</depth> 
-									<chk></chk> 
-									<excChk></excChk> 
-									<img></img> 
-									<folder>true</folder> 
-								</data> 
-								<data ref="1"> 
-									<label>dress</label>
-									<value>1-3</value> 
-									<depth>2</depth> 
-									<chk>T</chk> 
-									<excChk></excChk> 
-									<img></img> 
-									<folder>false</folder> 
-								</data>
-							</vector>
-						</shopping>
-					</res>
-				</data>
+				<data xmlns="" />
 			</xf:instance>
+			<w2:dataCollection>
+				<!-- 펀드 상세정보 조회 조건 -->
+				<w2:dataMap id="dc_selectDetail" baseNode="map">
+					<w2:keyInfo>
+						<w2:key id="itemCd" name="상품코드" dataType="text"></w2:key>
+						<w2:key id="fundCd" name="펀드코드" dataType="text"></w2:key>
+					</w2:keyInfo>
+				</w2:dataMap>
+				<!-- 펀드 기본정보 결과 List (dc_detailInfoMap) -->
+				<w2:dataMap id="dc_detailInfoMap" baseNode="map">
+					<w2:keyInfo>
+						<w2:key id="ITEM_CD" name="종목코드" dataType="text"></w2:key>
+						<w2:key id="FUND_CD" name="펀드코드" dataType="text"></w2:key>
+						<w2:key id="ITEM_IFNM" name="종목약어명" dataType="text"></w2:key>
+						<w2:key id="ITEM_NM" name="종목명" dataType="text"></w2:key>
+						<w2:key id="RCMD_FUND_YN" name="추천펀드여부" dataType="text"></w2:key>
+						<w2:key id="MMS3_YIRT" name="3개월수익률" dataType="number"></w2:key>
+						<w2:key id="OPR_ATTR_NM" name="운용속성명" dataType="text"></w2:key>
+						<w2:key id="IVST_RISK_DEG_GRAD_CD" name="투자위험도등급코드" dataType="text"></w2:key>
+						<w2:key id="IVST_RISK_DEG_GRAD_NM" name="투자위험도등급명" dataType="text"></w2:key>
+						<w2:key id="FUND_SET_OTXT_AMT" name="펀드설정원본금액" dataType="number"></w2:key>
+						<w2:key id="STPT_IND" name="설정액증감" dataType="number"></w2:key>
+						<w2:key id="BSPR_DATE" name="기준가일자" dataType="date"></w2:key>
+						<w2:key id="STLM_BASE_DATE" name="결산기준일자" dataType="date"></w2:key>
+						<w2:key id="OPRC_IFNM" name="운용사약어명" dataType="text"></w2:key>
+						<w2:key id="WEB_URL" name="운용사홈페이지URL" dataType="text"></w2:key>
+						<w2:key id="TRD_BSPR" name="매매기준가" dataType="number"></w2:key>
+						<w2:key id="YDAY_CMPR_YIRT" name="전일대비수익률" dataType="number"></w2:key>
+						<w2:key id="IVST_ZONE_NM" name="투자지역명" dataType="text"></w2:key>
+						<w2:key id="TOT_FEE_RATE" name="총보수율" dataType="number"></w2:key>
+						<w2:key id="SET_DATE" name="설정일자" dataType="date"></w2:key>
+						<w2:key id="YY_DEV" name="표준편차" dataType="number"></w2:key>
+						<w2:key id="ONLN_BUY_ENBL_YN" name="온라인매수가능여부" dataType="text"></w2:key>
+						<w2:key id="BASE_TIME_BEF_REP_DCNT" name="기준시간이전환매일수" dataType="number"></w2:key>
+						<w2:key id="BASE_TIME_BEF_REP_BSPR_DCNT" name="기준시간이전환매기준가일수" dataType="number"></w2:key>
+						<w2:key id="BASE_TIME_BEF_BUY_DCNT" name="기준시간이전매수일수" dataType="number"></w2:key>
+						<w2:key id="BASE_TIME_AFT_REP_DCNT" name="기준시간이후환매일수" dataType="number"></w2:key>
+						<w2:key id="BASE_TIME_AFT_REP_BSPR_DCNT" name="기준시간이후환매기준가일수" dataType="number"></w2:key>
+						<w2:key id="BASE_TIME_AFT_BUY_DCNT" name="기준시간이후매수일수" dataType="number"></w2:key>
+						<w2:key id="LATETRDN_BASE_TIME" name="LATE트레이딩기준시각" dataType="text"></w2:key>
+						<w2:key id="BM_NM" name="벤치마크한글명" dataType="text"></w2:key>
+						<w2:key id="ZEROIN_TYPE_LCD" name="제로인대유형코드" dataType="text"></w2:key>
+						<w2:key id="ZEROIN_TYPE_LNM" name="제로인대유형명" dataType="text"></w2:key>
+						<w2:key id="ZEROIN_TYPE_CD" name="제로인유형코드" dataType="text"></w2:key>
+						<w2:key id="ZEROIN_TYPE_NM" name="제로인유형명" dataType="text"></w2:key>
+						<w2:key id="SPCL_FRM_SECT" name="특수형태구분" dataType="text"></w2:key>
+					</w2:keyInfo>
+				</w2:dataMap>
+				<!-- 펀드 환매정보 목록 List (dc_hwanMaeList) -->
+				<w2:dataList id="dc_hwanMaeList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="LEVY_GB" name="LEVY_GB" dataType="text"></w2:column>
+						<w2:column id="TERM_UNIT_CD" name="TERM_UNIT_CD" dataType="text"></w2:column>
+						<w2:column id="FEE_RT_AMT" name="FEE_RT_AMT" dataType="text"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 펀드 판매선취정보 목록 List (dc_panMaeBeforeList) -->
+				<w2:dataList id="dc_panMaeBeforeList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="LEVY_GB" name="LEVY_GB" dataType="text"></w2:column>
+						<w2:column id="TERM_UNIT_CD" name="TERM_UNIT_CD" dataType="text"></w2:column>
+						<w2:column id="FEE_RT_AMT" name="FEE_RT_AMT" dataType="text"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 펀드 판매후취정보 목록 List (dc_panMaeAfterList) -->
+				<w2:dataList id="dc_panMaeAfterList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="LEVY_GB" name="LEVY_GB" dataType="text"></w2:column>
+						<w2:column id="TERM_UNIT_CD" name="TERM_UNIT_CD" dataType="text"></w2:column>
+						<w2:column id="FEE_RT_AMT" name="FEE_RT_AMT" dataType="text"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 펀드 기간수익률, 벤치마크 목록 List (dc_giganFundSuikList) -->
+				<w2:dataList id="dc_giganFundSuikList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="SILH_SUIK_RT" name="실수익률" dataType="number"></w2:column>
+						<w2:column id="BM_SUIK_RT" name="벤치마크수익률" dataType="number"></w2:column>
+						<w2:column id="GIGAN_SUIK_RANK2" name="GIGAN_SUIK_RANK2" dataType="number"></w2:column>
+						<w2:column id="TERM" name="TERM" dataType="text"></w2:column>
+						<w2:column id="GIJUN_YMD" name="GIJUN_YMD" dataType="text"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 펀드 동일유형 평균 목록 List (dc_giganSuikList) -->
+				<w2:dataList id="dc_giganSuikList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="TYPE_MAX" name="TYPE_MAX" dataType="number"></w2:column>
+						<w2:column id="TYPE_AVG" name="TYPE_AVG" dataType="number"></w2:column>
+						<w2:column id="TYPE_MIN" name="TYPE_MIN" dataType="number"></w2:column>
+						<w2:column id="GUBUN" name="GUBUN" dataType="text"></w2:column>
+						<w2:column id="TERM" name="TERM" dataType="text"></w2:column>
+						<w2:column id="GIJUN_YMD" name="GIJUN_YMD" dataType="text"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 펀드 각종 수수료 목록 List (dc_feeRTList) -->
+				<w2:dataList id="dc_feeRTList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="FEE_CD" name="보수종류코드" dataType="text"></w2:column>
+						<w2:column id="ORG_CD" name="기관코드" dataType="text"></w2:column>
+						<w2:column id="FEE_RT" name="보수율" dataType="number"></w2:column>
+						<w2:column id="GUBUN" name="GUBUN" dataType="text"></w2:column>
+						<w2:column id="ORG_NM" name="ORG_NM" dataType="text"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 펀드 투자한도 조회 목록 List (dc_riskAnalysisList) -->
+				<w2:dataList id="dc_riskAnalysisList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="SECT" name="SECT" dataType="text"></w2:column>
+						<w2:column id="YIRT6" name="YIRT6" dataType="text"></w2:column>
+						<w2:column id="GIJUN_YMD" name="GIJUN_YMD" dataType="text"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 펀드 투자한도 목록 List (dc_ivstRTList) -->
+				<w2:dataList id="dc_ivstRTList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="IVST_OBJ_CD" name="투자대상구분코드" dataType="text"></w2:column>
+						<w2:column id="MIN_IVST_RT" name="최소투자비율" dataType="text"></w2:column>
+						<w2:column id="MAX_IVST_RT" name="최대투자비율" dataType="text"></w2:column>
+						<w2:column id="IVST_NM" name="IVST_NM" dataType="text"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 펀드 자산배분 평가액 결과 Map (dc_appotionAkMap) -->
+				<w2:dataMap id="dc_appotionAkMap" baseNode="map">
+					<w2:keyInfo>
+						<w2:key id="GIJUN_YMD" name="GIJUN_YMD" dataType="date"></w2:key>
+						<w2:key id="STOCK_AK" name="STOCK_AK" dataType="number"></w2:key>
+						<w2:key id="STOCK_OTHER_AK" name="STOCK_OTHER_AK" dataType="number"></w2:key>
+						<w2:key id="BOND_AK" name="BOND_AK" dataType="number"></w2:key>
+						<w2:key id="BOND_OTHER_AK" name="BOND_OTHER_AK" dataType="number"></w2:key>
+						<w2:key id="FUND_AK" name="FUND_AK" dataType="number"></w2:key>
+						<w2:key id="CASH_AK" name="CASH_AK" dataType="number"></w2:key>
+						<w2:key id="GITA_AK" name="GITA_AK" dataType="number"></w2:key>
+						<w2:key id="MESU_STOCK" name="MESU_STOCK" dataType="number"></w2:key>
+						<w2:key id="MESU_INTEREST" name="MESU_INTEREST" dataType="number"></w2:key>
+					</w2:keyInfo>
+				</w2:dataMap>
+				<!-- 펀드 자산배분 비중 결과 Map (dc_appotionRtMap) -->
+				<w2:dataMap id="dc_appotionRtMap" baseNode="map">
+					<w2:keyInfo>
+						<w2:key id="GIJUN_YMD" name="GIJUN_YMD" dataType="date"></w2:key>
+						<w2:key id="STOCK_RT" name="STOCK_RT" dataType="number"></w2:key>
+						<w2:key id="STOCK_OTHER_RT" name="STOCK_OTHER_RT" dataType="number"></w2:key>
+						<w2:key id="BOND_RT" name="BOND_RT" dataType="number"></w2:key>
+						<w2:key id="BOND_OTHER_RT" name="BOND_OTHER_RT" dataType="number"></w2:key>
+						<w2:key id="FUND_RT" name="FUND_RT" dataType="number"></w2:key>
+						<w2:key id="CASH_RT" name="CASH_RT" dataType="number"></w2:key>
+						<w2:key id="GITA_RT" name="GITA_RT" dataType="number"></w2:key>
+						<w2:key id="MESU_STOCK" name="MESU_STOCK" dataType="number"></w2:key>
+						<w2:key id="MESU_INTEREST" name="MESU_INTEREST" dataType="number"></w2:key>
+					</w2:keyInfo>
+				</w2:dataMap>
+				<!-- 펀드 주요투자대상 결과 Map (dc_mainIvstTgt) -->
+				<w2:dataMap id="dc_mainIvstTgt" baseNode="map">
+					<w2:keyInfo>
+						<w2:key id="STOCK_RT" name="STOCK_RT" dataType="number"></w2:key>
+						<w2:key id="BOND_RT" name="BOND_RT" dataType="number"></w2:key>
+						<w2:key id="FUND_RT" name="FUND_RT" dataType="number"></w2:key>
+						<w2:key id="CASH_RT" name="CASH_RT" dataType="number"></w2:key>
+						<w2:key id="GITA_RT" name="GITA_RT" dataType="number"></w2:key>
+					</w2:keyInfo>
+				</w2:dataMap>
+				<!-- 펀드 동일 유형내 수익률 상위 펀드 목록 조회 List (dc_top3SuikRTList) -->
+				<w2:dataList id="dc_top3SuikRTList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="ITEM_CD" name="ITEM_CD" dataType="text"></w2:column>
+						<w2:column id="FUND_FNM" name="FUND_FNM" dataType="text"></w2:column>
+						<w2:column id="SILH_SUIK_RT" name="SILH_SUIK_RT" dataType="number"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 이 펀드를 조회한 고객님들이 본 상위펀드 목록 조회 List (dc_top3FvrList) -->
+				<w2:dataList id="dc_top3FvrList" baseNode="list" saveRemovedData="true" repeatNode="map">
+					<w2:columnInfo>
+						<w2:column id="ITEM_CD" name="ITEM_CD" dataType="text"></w2:column>
+						<w2:column id="ITEM_NM" name="ITEM_NM" dataType="text"></w2:column>
+						<w2:column id="MMS3_YIRT" name="MMS3_YIRT" dataType="number"></w2:column>
+					</w2:columnInfo>
+				</w2:dataList>
+				<!-- 종목검색 결과 -->
+				<w2:dataMap id="dc_input" baseNode="map">
+					<w2:keyInfo>
+						<w2:key id="_marketGb" name="_marketGb" dataType="text"></w2:key>
+						<w2:key id="_extGb" name="_extGb" dataType="text"></w2:key>
+						<w2:key id="ipt_name" name="펀드명" dataType="text"></w2:key>
+						<w2:key id="ipt_code" name="펀드코드" dataType="text"></w2:key>
+					</w2:keyInfo>
+				</w2:dataMap>
+			</w2:dataCollection>
 		</xf:model>
-        <script type="javascript"><![CDATA[ 
-        
-        function test(){
+		<script type="javascript"><![CDATA[
+			// page function object
+			var abcdefg;
+			var PageParam = {
+				itemCd: "",			// 상품코드
+				from: "",			// 목록 Key
+				initT0: false,		// TAB 초기화 완료 여부 (Tab0)
+			 	initT1: false,		// TAB 초기화 완료 여부 (Tab1)
+				today: "",			// 금일	
+				b1month: "",		// 1개월
+				b3month: "",		// 3개월
+				b1year: "",			// 1년
+				msg: "스마트 상담센터(1644-3322)로 연락주세요.\n\n● 이용가능 시간은 평일 08:00 ~ 19:30 입니다.\n● 토요일, 일요일 및 공휴일에는 상담서비스를 제공하지 않습니다.",
+				colorArr: ["ffd66a", "f88844", "88cb1f", "247fe4", "14559c", "ef82a9", "b55bdf", "1ec4ed", "e75264", "5c900b", "55748c", "9b6d0b", "df4993", "c7cbce"]
+			};
 			
-			WebSquare.wUnit.start();
-			
-			//appendData
-			//WebSquare.wUnit.addCommand("set","trigger1.click()");
-			//WebSquare.wUnit.addCommand("pause","500");
-			
-			//findNode
-			WebSquare.wUnit.addCommand("set","trigger2.click()");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//getSelectedLabel
-			WebSquare.wUnit.addCommand("set","trigger3.click()");
-			WebSquare.wUnit.addCommand("assert","treeview3.getSelectedLabel()","기타공사[인테리어공사]");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//getSelectedValue
-			WebSquare.wUnit.addCommand("set","trigger4.click()");
-			WebSquare.wUnit.addCommand("assert","treeview3.getSelectedValue()","0103");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//isLeaf
-			WebSquare.wUnit.addCommand("set","trigger5.click()");
-			WebSquare.wUnit.addCommand("assert","treeview3.isLeaf()","true");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//disableCheckboxByValue
-			WebSquare.wUnit.addCommand("set","trigger6.click()");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//getParentValue
-			WebSquare.wUnit.addCommand("set","trigger7.click()");
-			WebSquare.wUnit.addCommand("assert","treeview3.getParentValue( '010202' )","0102");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//getChildData
-			WebSquare.wUnit.addCommand("set","trigger8.click()");
-			WebSquare.wUnit.addCommand("assert","textarea1.getValue()","3");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//getXPathByValue
-			WebSquare.wUnit.addCommand("set","trigger9.click()");
-			WebSquare.wUnit.addCommand("assert","treeview3.getXPathByValue( '010208' )","resGongTree/vector/data[table01/gong_code/@value='010208']");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//spanAll(false)
-			WebSquare.wUnit.addCommand("set","trigger10.click()");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//spanAll(true)
-			WebSquare.wUnit.addCommand("set","trigger11.click()");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//collapseNode
-			WebSquare.wUnit.addCommand("set","trigger12.click()");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//expandNode
-			WebSquare.wUnit.addCommand("set","trigger13.click()");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//checkByValue
-			WebSquare.wUnit.addCommand("set","trigger14.click()");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//getCheckedValues
-			WebSquare.wUnit.addCommand("set","trigger15.click()");
-			WebSquare.wUnit.addCommand("assert","treeview3.getCheckedValues()","0103,010102,010202,01020701");
-			WebSquare.wUnit.addCommand("pause","500");
-			
-			//getCheckedLabels
-			WebSquare.wUnit.addCommand("set","trigger16.click()");
-			WebSquare.wUnit.addCommand("assert","treeview3.getCheckedLabels()","태양광지지대공사,기초및토공사,목공사,타일 및 석공사");
-			
-			WebSquare.wUnit.run();
-			WebSquare.wUnit.stop();
-			
-			}
-			
-//			test();
-        
-        ]]></script>
-    </head>
-    <body>
-    	<xf:output
-    		style="position:absolute;vertical-align:middle;word-wrap:break-word;top:20px;left:285px;width:148px;height:21px;background-color:#eeeeee;"
-    		id="output1">
-    		<xf:label>recursive</xf:label>
-    	</xf:output>
-    	<xf:output
-    		style="position:absolute;vertical-align:middle;word-wrap:break-word;top:20px;left:545px;width:148px;height:21px;background-color:#eeeeee;"
-    		id="output2">
-    		<xf:label>listed</xf:label>
-    	</xf:output>
-    	<xf:output
-    		style="position:absolute;vertical-align:middle;word-wrap:break-word;top:20px;left:25px;width:148px;height:21px;background-color:#eeeeee;"
-    		id="output3">
-    		<xf:label>inline</xf:label>
-    	</xf:output>
-    	<w2:treeview id="treeview2"
-    		style="border:1px solid black;vertical-align:middle;word-wrap:break-word;background-color:#ffff80;top:50px;width:200px;position:absolute;height:280px;left:285px;"
-    		labelonClickClass="tree2">
-    		<w2:itemset nodeset="response1/tree/node">
-    			<w2:label ref="label" />
-    			<w2:value ref="value" />
-    			<w2:image ref="" />
-    			<w2:selectedImage ref="" />
-    			<w2:expandedImage ref="" />
-    		</w2:itemset>
-    		<script ev:event="onclick" type="javascript"><![CDATA[ 
-//					alert(  treeview2.getSelectedLabel() );
+			// page function object
+		    var PageFunc = {};
+		    
+		    // 초기화
+		    PageFunc.fn_init = function() {
+		    debugger;
+		    	 abcdefg1 = {};
+		    	PageParam.itemCd = WebSquare.net.getParameter("itemCd");
+		    	PageParam.from   = WebSquare.net.getParameter("from");
+		    	PageParam.tabIndex = WebSquare.net.getParameter("tabIndex");
+		    	if (PageParam.from == "")
+		    		PageParam.from = "mkt3001m01";	// 랭킹펀드
+		    	
+		    	// 날짜 기본정보
+		    	PageParam.today   = dwsDate.getCurrentDate();
+		    	PageParam.b1month = WebSquare.date.dateAdd(PageParam.today, -30);
+		    	PageParam.b3month = WebSquare.date.dateAdd(PageParam.today, -90);
+		    	PageParam.b1year  = WebSquare.date.dateAdd(PageParam.today, -365);
+		    		
+		    	// 임시 
+		    	//tab_main.setSelectedTabIndex(1);
+		    	
+		    	// 설명보기('?'아이콘) 팝업 처리
+		    	$("#wrap").click(function(event) {
+		    		var currElement = $(event.target);
+		    		var curId = currElement.attr("id");
+		    		if (curId == "img_question0" || curId == "img_question1" || curId == "img_question2" ||
+						curId == "grp_toolTip0"  || curId == "grp_toolTip1"  || curId == "grp_toolTip2"  ||
+						curId == "wrap")
+						return;
+		    		
+					var objParent = currElement.parent();
+					var parentId  = objParent.attr("id"); 
+					
+					while (parentId != "wrap" && objParent != null) {
+						if (parentId == "grp_toolTip0" || parentId == "grp_toolTip1" || parentId == "grp_toolTip2" || curId == "wrap")
+							return;
+						objParent = objParent.parent();
+						parentId  = objParent.attr("id"); 
+					} 
+					
+					PageFunc.fn_showTooltip("");
+		    	});
+		    			    	
+   			    // 펀드정보 처리
+		    	PageFunc.fn_selectDetailT0();
+		    };
+		    
+		    // 펀드 상세 조회 (Tab0)
+		    PageFunc.fn_selectDetailT0 = function() {
+		    	// 조회조건 설정	
+		    	dc_selectDetail.set("itemCd", PageParam.itemCd);				// 상품코드 
+		    	
+		    	// 조회 시작
+		    	DWSAjax.post("/mkt/mkt3/mkt3001j04/selectDetailT0.do", dc_selectDetail.getJSON(), function(response) {
+		    		// 조회 후 후처리
+		    		PageFunc.fn_callBack("selectDetailT0", response);
+		        });
+		    };
+		    
+		    // 펀드 상세 조회 (Tab1)
+		    PageFunc.fn_selectDetailT1 = function() {
+		    	// 조회조건 설정	
+		    	dc_selectDetail.set("itemCd", PageParam.itemCd);				// 상품코드 
+		    	dc_selectDetail.set("fundCd", dc_detailInfoMap.get("FUND_CD"));	// 펀드코드
+		    	
+		    	// 조회 시작
+		    	DWSAjax.post("/mkt/mkt3/mkt3001j04/selectDetailT1.do", dc_selectDetail.getJSON(), function(response) {
+		    		// 조회 후 후처리
+		    		PageFunc.fn_callBack("selectDetailT1", response);
+		        });
+		    };
+		    
+		    // 동일 유형내 수익률 상위 펀드 목록 조회
+		    PageFunc.fn_selectTop3SuikRT = function(term) {
+		    	DWSAjax.post("/mkt/mkt3/mkt3001j04/selectTop3SuikRT.do", {
+		    			fundCd: dc_detailInfoMap.get("FUND_CD"),
+		    			term: term
+		    		}, 
+		    		function(response) {
+			    		PageFunc.fn_callBack("selectTop3SuikRT", response);
+			        });
+		    };
+		    
+		    // 이 펀드를 조회한 고객님들이 본 상위펀드 목록 조회
+		    PageFunc.fn_selectTop3Fvr = function() {
+		    	DWSAjax.post("/mkt/mkt3/mkt3001j04/selectTop3Fvr.do", {
+		    			itemCd: PageParam.itemCd
+		    		}, 
+		    		function(response) {
+			    		PageFunc.fn_callBack("selectTop3Fvr", response);
+			        });
+		    };
+		    
+		    // 로그인 후처리 정보 조회
+		    PageFunc.fn_selectAfterLoginInfo = function() {
+		    	DWSAjax.post("/mkt/mkt3/mkt3001j04/selectAfterLoginInfo.do", {
+		    			dummy: "DUMMY"
+		    		}, 
+		    		function(response) {
+			    		PageFunc.fn_callBack("selectAfterLoginInfo", response);
+			        });
+		    };
+		    
+		    // [최근 3개월 수익률 추이] 차트 데이터 조회
+		    PageFunc.fn_yirt3ChartDateT0 = function() {
+		    	// 차트 컨트롤에 전달할 JSON 개체
+		    	var chartJson = {
+		        	chart: {},
+		        	categories: [ 
+		        		{ category: [] } 
+		        	],
+		        	dataset: []
+		        };
+		        
+		        // 날짜 구간 조회
+		        DWSAjax.post("/mkt/mkt3/mkt3001p01/selectCompareChartDates.do", { 
+		        		from: PageParam.b3month, 
+		        		to: PageParam.today,
+		        		mode: "mm-dd" 
+		        	}, 
+		        	function(response) {
+			    		PageFunc.fn_callBackChart("yirt3_dates", response, chartJson);
+			        });
+			        
+			    // 수익률 데이터 설정
+				DWSAjax.post("/mkt/mkt3/mkt3001p01/selectCompareChartInfo.do", { 
+	    				itemCd: PageParam.itemCd, 
+	    				itemNm: "",
+	    				from: PageParam.b3month, 
+	    				to: PageParam.today 
+	    			}, 
+		        	function(response) {
+			    		PageFunc.fn_callBackChart("yirt3_data", response, chartJson);
+		        	});
+		    };
+		    
+		    // [펀드규모 추이] 차트 데이터 조회
+		    PageFunc.fn_otxtChartDateT0 = function() {
+		    	// 차트 컨트롤에 전달할 JSON 개체
+		    	var chartJson = {
+		        	chart: {},
+		        	categories: [ 
+		        		{ category: [] } 
+		        	],
+		        	dataset: []
+		        };
+		        
+		        // 날짜 구간 조회
+		        DWSAjax.post("/mkt/mkt3/mkt3001p01/selectCompareChartDates.do", { 
+		        		from: PageParam.b1year, 
+		        		to: PageParam.today,
+		        		mode: "mm-dd" 
+		        	}, 
+		        	function(response) {
+			    		PageFunc.fn_callBackChart("otxt_dates", response, chartJson);
+			        });
+			        
+			    // 펀드규모 데이터 설정
+				DWSAjax.post("/mkt/mkt3/mkt3001p01/selectOtxtAmtInfo.do", { 
+	    				itemCd: PageParam.itemCd, 
+	    				itemNm: "",
+	    				from: PageParam.b1year, 
+	    				to: PageParam.today 
+	    			}, 
+		        	function(response) {
+			    		PageFunc.fn_callBackChart("otxt_data", response, chartJson);
+		        	});
+		    };
+		    
+		    // [수익률 추이] 차트 데이터 조회
+		    PageFunc.fn_yirtChartDateT1 = function(startDate) {
+		    	// 차트 컨트롤에 전달할 JSON 개체
+		    	var chartJson = {
+		        	chart: {},
+		        	categories: [ 
+		        		{ category: [] } 
+		        	],
+		        	dataset: []
+		        };
+		        
+		        // 날짜 구간 조회
+		        DWSAjax.post("/mkt/mkt3/mkt3001p01/selectCompareChartDates.do", { 
+		        		from: startDate, 
+		        		to: PageParam.today,
+		        		mode: "yyyy-mm-dd"
+		        	}, 
+		        	function(response) {
+			    		PageFunc.fn_callBackChart("yirt_dates", response, chartJson);
+			        });
+			        
+			    // 수익률 데이터 설정
+				DWSAjax.post("/mkt/mkt3/mkt3001p01/selectCompareChartInfo.do", { 
+	    				itemCd: PageParam.itemCd, 
+	    				itemNm: txt_ITEM_NAME.getValue(),
+	    				from: startDate, 
+	    				to: PageParam.today 
+	    			}, 
+		        	function(response) {
+			    		PageFunc.fn_callBackChart("yirt_data", response, chartJson);
+		        	});
+		    };
+		    
+		    // 차트 데이터 조회 (지수)
+		    PageFunc.fn_selectChartSubInfoT1 = function(index, key, checked) {
+		    	var label		 = cbx_chart_T1.itemArr[index].label;		// 코스피, 코스닥, DOWJONES, NASDAQH, (홍콩)지수
+		    	var chartJson	 = charYirt_T1.fc().getJSONData();		// 기존 차트의 JSON 데이터
+		    	var anchorradius = btn_fc1Month_T1.hasClass("on") ? "3" : "2";
+		    	
+		    	if (checked) {
+		    		// 체크 추가 시: 서버에서 데이터를 가져와서 차트에 추가한다.
+		    		DWSAjax.post("/mkt/mkt3/mkt3001p01/selectChartSubInfo.do", 
+						{
+							key: key,
+							baseDate: PageParam.today,
+							dataCount: chartJson.categories[0].category.length.toString()
+						}, 
+		        		function(response) {
+		        			chartJson.dataset.push({
+			        			seriesname: label,
+			        			anchorradius: anchorradius,
+			        			color: PageParam.colorArr[parseInt(index, 10) + 3],
+			        			dashed: "1",
+			        			linedashlen: "15",
+			        			linedashgap: "2",
+			        			data: []
+			        		});
+			    			chartJson.dataset[chartJson.dataset.length - 1].data = response.dc_chartSubInfoList;
+			    			charYirt_T1.fc().setJSONData(chartJson);
+		        		});
+		    	} else {
+		    		// 체크 해제 시: 차트 데이터에서 해당 데이터를 제거한다.
+		    		var newDataset = [];
+		    		var count = chartJson.dataset.length;
+		    		for (var i = 0; i < count; i++) {
+		    			if (chartJson.dataset[i].seriesname != label) {
+		    				newDataset.push(chartJson.dataset[i]);
+		    			} 
+		    		}
+		    		chartJson.dataset = newDataset;
+		    		charYirt_T1.fc().setJSONData(chartJson);
+		    	}
+		    };
+		    
+		    // 조회 후 후처리
+		    PageFunc.fn_callBack = function(val, response) {
+		    	switch (val) {
+		    		case "selectDetailT0":				// 조회 (Tab0)
+		    			// 종목코드, 펀드코드, 기준가일자
+		    			var ITEM_CD		= dc_detailInfoMap.get("ITEM_CD");
+		    			var FUND_CD		= dc_detailInfoMap.get("FUND_CD");
+		    			var BSPR_DATE	= dc_detailInfoMap.get("BSPR_DATE");
+		    			var ITEM_NM		= dc_detailInfoMap.get("ITEM_NM");
+		    			
+		    			// ********** [기본영역] **********
+		    			
+		    			// 종목명
+		    			txt_ITEM_NAME.setValue(ITEM_NM);
+		    			document.title = ITEM_NM + " - KDB대우증권";
+		    									
+		    			// 추천펀드여부
+		    			if (dc_detailInfoMap.get("RCMD_FUND_YN") == "Y") {
+		    				img_RCMD_FUND_YN.show("");
+		    			}
+		    			// 3개월수익율
+		    			txt_MMS3_YIRT.setValue(dc_detailInfoMap.get("MMS3_YIRT"));
+		    			txt_MMS3_YIRT.addClass(parseFloat(dc_detailInfoMap.get("MMS3_YIRT")) > 0 ? 'high' : (parseFloat(dc_detailInfoMap.get("MMS3_YIRT")) < 0 ? 'low' : ''));
+		    			
+		    			// 운용속성명
+		    			txt_OPR_ATTR_NM.setValue(dc_detailInfoMap.get("OPR_ATTR_NM"));
 
-			]]></script>
-    	</w2:treeview>
-    	<w2:treeview
-    		style="border:1px solid black;position:absolute;vertical-align:middle;word-wrap:break-word;top:50px;left:25px;width:200px;height:280px;background-color:#ffff80;"
-    		id="treeview1">
-    		<w2:node>
-    			<w2:label>a1</w2:label>
-    			<w2:value>1</w2:value>
-    			<w2:checkbox></w2:checkbox>
-    			<w2:image></w2:image>
-    			<w2:selectedImage></w2:selectedImage>
-    			<w2:expandedImage></w2:expandedImage>
-    			<w2:node>
-    				<w2:label>a11</w2:label>
-    				<w2:value>11</w2:value>
-    				<w2:checkbox></w2:checkbox>
-    				<w2:image></w2:image>
-    				<w2:selectedImage></w2:selectedImage>
-    				<w2:expandedImage></w2:expandedImage>
-    				<w2:node>
-    					<w2:label>a111</w2:label>
-    					<w2:value>111</w2:value>
-    					<w2:checkbox></w2:checkbox>
-    					<w2:image></w2:image>
-    					<w2:selectedImage></w2:selectedImage>
-    					<w2:expandedImage></w2:expandedImage>
-    				</w2:node>
+						// 투자위험도등급코드
+						var IVST_RISK_DEG_GRAD_CD	= dc_detailInfoMap.get("IVST_RISK_DEG_GRAD_CD");
+						var IVST_RISK_DEG_GRAD_NM	= dc_detailInfoMap.get("IVST_RISK_DEG_GRAD_NM");
+						var riskClass				= "";
+		    			var riskGrade				= "";
+					    if (IVST_RISK_DEG_GRAD_CD == "05" || IVST_RISK_DEG_GRAD_CD == "5" || IVST_RISK_DEG_GRAD_CD == "V") {		// 초저위험
+					    	riskClass = "bg31";
+		    				riskGrade = "1";
+		    			} else if (IVST_RISK_DEG_GRAD_CD == "04" || IVST_RISK_DEG_GRAD_CD == "4" || IVST_RISK_DEG_GRAD_CD == "W") {	// 저위험
+		    				riskClass = "bg32";
+		    				riskGrade = "2";	
+		    			} else if (IVST_RISK_DEG_GRAD_CD == "03" || IVST_RISK_DEG_GRAD_CD == "3" || IVST_RISK_DEG_GRAD_CD == "X") {	// 중위험
+		    				riskClass = "bg32";
+		    				riskGrade = "3";	
+		    			} else if (IVST_RISK_DEG_GRAD_CD == "02" || IVST_RISK_DEG_GRAD_CD == "2" || IVST_RISK_DEG_GRAD_CD == "Y") {	// 고위험
+		    				riskClass = "bg33";
+		    				riskGrade = "4";
+		    			} else if (IVST_RISK_DEG_GRAD_CD == "01" || IVST_RISK_DEG_GRAD_CD == "1" || IVST_RISK_DEG_GRAD_CD == "Z") {	// 초고위험
+		    				riskClass = "bg33";
+		    				riskGrade = "5";
+		    			}
+					    txt_IVST_RISK_DEG_GRAD_NM.setValue(IVST_RISK_DEG_GRAD_NM);
+					    txt_IVST_RISK_DEG_GRAD_NM.addClass(riskClass);
+					    
+					    // 펀드설정원본금액
+					    txt_FUND_SET_OTXT_AMT.setValue((Math.floor((parseFloat(dc_detailInfoMap.get("FUND_SET_OTXT_AMT"))  / 100000000) * 100) / 100));
+					    
+					    // 기준가일자
+					    txt_BSPR_DATE.setValue(BSPR_DATE);
+					    
+					    // 기본정보				
+					    txt_OPRC_IFNM.setValue(dc_detailInfoMap.get("OPRC_IFNM"));					// 운용사약어명
+					    txt_TRD_BSPR.setValue(dc_detailInfoMap.get("TRD_BSPR"));					// 매매기준가
+					    var YDAY_CMPR_YIRT = parseFloat(dc_detailInfoMap.get("YDAY_CMPR_YIRT"));	// 전일대비수익률
+					    
+					    txt_YDAY_CMPR_YIRT.setValue((YDAY_CMPR_YIRT > 0 ? "▲" : "▼") + (Math.floor(YDAY_CMPR_YIRT * 100) / 100));
+					    txt_YDAY_CMPR_YIRT.addClass((YDAY_CMPR_YIRT > 0) ? "high" : "low");
+					    txt_IVST_ZONE_NM.setValue(dc_detailInfoMap.get("IVST_ZONE_NM"));			// 투자지역명
+					    var TOT_FEE_RATE = parseFloat(dc_detailInfoMap.get("TOT_FEE_RATE"));		// 총보수율
+					    txt_TOT_FEE_RATE.setValue("연 " + (Math.floor(TOT_FEE_RATE * 100) / 100).formatByComma() + "%");
+					    txt_SET_DATE.setValue(dc_detailInfoMap.get("SET_DATE"));					// 설정일자
+					    
+					    // PDF 다운로드
+					    btn_PDF1.setUserData("ITEM_CD", ITEM_CD);
+					    btn_PDF2.setUserData("ITEM_CD", ITEM_CD);
+					    btn_PDF3.setUserData("ITEM_CD", ITEM_CD);
+					    btn_PDF5.setUserData("ITEM_CD", ITEM_CD);
+					    
+					    // ********** [쉬운설명] **********
+					    
+					    // [투자유형] 투자지역
+					    txt_IVST_ZONE_NM_T0.setValue("투자지역 : " + dc_detailInfoMap.get("IVST_ZONE_NM"));
+					    
+					    // [투자유형] 주요투자대상
+					    var tmp_STOCK_RT = parseFloat(dc_mainIvstTgt.get("STOCK_RT"));
+					    var tmp_BOND_RT	 = parseFloat(dc_mainIvstTgt.get("BOND_RT"));
+					    var tmp_FUND_RT	 = parseFloat(dc_mainIvstTgt.get("FUND_RT"));
+					    var tmp_CASH_RT	 = parseFloat(dc_mainIvstTgt.get("CASH_RT"));
+					    var tmp_GITA_RT	 = parseFloat(dc_mainIvstTgt.get("GITA_RT"));
+					    var MAX_RT		 = 0;
+					    var MAX_DESC	 = "";
+					    
+					    if (tmp_STOCK_RT > MAX_RT) {
+					    	MAX_RT	 = tmp_STOCK_RT;
+					    	MAX_DESC = "주식";
+					    }
+					    
+					    if (tmp_BOND_RT > MAX_RT) {
+					    	MAX_RT	 = tmp_BOND_RT;
+					    	MAX_DESC = "채권";
+					    }
+					    
+					    if (tmp_FUND_RT > MAX_RT) {
+					    	MAX_RT	 = tmp_FUND_RT;
+					    	MAX_DESC = "펀드";
+					    }
+					    
+					    if (tmp_CASH_RT > MAX_RT) {
+					    	MAX_RT	 = tmp_CASH_RT;
+					    	MAX_DESC = "유동성";
+					    }
+					    
+					    if (tmp_GITA_RT > MAX_RT) {
+					    	MAX_RT	 = tmp_GITA_RT;
+					    	MAX_DESC = "기타";
+					    }
+					    
+					    txt_MAIN_IVST_TGT_T0.setValue("주요투자대상 : " + MAX_DESC + " (" + (Math.floor(MAX_RT * 100) / 100).formatByComma() + "%)");
+					    
+					    // [투자유형] 운용사
+					    var WEB_URL = dc_detailInfoMap.get("WEB_URL").trim();
+					    if (WEB_URL == "") {
+					    	txt_OPRC_IFNM_T0.setValue("운용사 : " + dc_detailInfoMap.get("OPRC_IFNM"));
+					    } else {
+					    	if (WEB_URL.indexOf("http://") < 0 || WEB_URL.indexOf("https://"))
+					    		WEB_URL = "http://" + WEB_URL;
+					    	txt_OPRC_IFNM_T0.setValue("운용사 : <a href=\"" + WEB_URL + "\" target=\"_blank\">" + dc_detailInfoMap.get("OPRC_IFNM") + "</a>");
+					    }
+					    
+					    // [투자유형] 이미지
+					    txt_ZEROIN_TYPE_LNM_T0.setValue(dc_detailInfoMap.get("ZEROIN_TYPE_LNM"));
+					    txt_ZEROIN_TYPE_NM_T0.setValue(dc_detailInfoMap.get("ZEROIN_TYPE_NM"));
+					    var ZEROIN_TYPE_LCD = dc_detailInfoMap.get("ZEROIN_TYPE_LCD");
+					    if (ZEROIN_TYPE_LCD == "11") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type5");	// MMF
+					    } else if (ZEROIN_TYPE_LCD == "24" || ZEROIN_TYPE_LCD == "64") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type9");	// 부동산형
+					    } else if (ZEROIN_TYPE_LCD == "23") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type8");	// 절대수익추구형
+					    } else if (ZEROIN_TYPE_LCD == "20" || ZEROIN_TYPE_LCD == "60") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type1");	// 주식형
+					    } else if (ZEROIN_TYPE_LCD == "21" || ZEROIN_TYPE_LCD == "61") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type2");	// 주식혼합형
+					    } else if (ZEROIN_TYPE_LCD == "10" || ZEROIN_TYPE_LCD == "50") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type4");	// 채권형
+					    } else if (ZEROIN_TYPE_LCD == "22" || ZEROIN_TYPE_LCD == "62") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type3");	// 채권혼합형
+					    } else if (ZEROIN_TYPE_LCD == "65") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type6");	// 커머더티형
+					    } else if (ZEROIN_TYPE_LCD == "29" || ZEROIN_TYPE_LCD == "69") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type10");	// 기타
+					    } else if (ZEROIN_TYPE_LCD == "63") {				
+					    	txt_ZEROIN_TYPE_LNM_T0.addClass("type7");	// 멀티에셋형
+					    }
+					    
+					    // [투자위험] 위험등급 
+					    var RISK_KEY = PageFunc.fn_riskKey(IVST_RISK_DEG_GRAD_CD);
+					    RISK_IMG_T0.setSrc("/dws/images/inc/icon_grade_01_" + RISK_KEY + ".png");
+					    RISK_IMG_T0.setAlt(IVST_RISK_DEG_GRAD_NM);
+					    txt_IVST_RISK_DEG_GRAD_NM_T0.setValue(IVST_RISK_DEG_GRAD_NM);
+					    txt_IVST_RISK_DEG_GRAD_NM_T0.addClass("tt_dg_" + RISK_KEY);
+					    txt_IVST_RISK_DEG_GRAD_T0.setValue(" (" + riskGrade + "등급) 상품입니다.");
+					    
+					    // [투자위험] 표준편차 
+					    var YY_DEV = dc_detailInfoMap.get("YY_DEV");
+					    if (YY_DEV == "")
+					    	YY_DEV = "-";
+					    else 
+					    	YY_DEV = (Math.floor(parseFloat(YY_DEV) * 100) / 100).formatByComma() + "%";
+					    txt_YY_DEV_T0.setValue(YY_DEV);
+					    
+					    // [투자위험] 로그인 여부에 따른 투자성향 처리
+						if (response.userName == "") {
+							txt_cPatternNm_T0.setValue("고객님의 투자성향 : ");
+							txt_cPatternTy_T0.setValue("[비로그인 중]");
+							btn_cPattern_T0.setValue("로그인");
+							btn_cPattern_T0.setUserData("type", "login");
+							
+							btn_concern.setUserData("type", "login");
+							btn_concern2.setUserData("type", "login");
+						} else {
+							txt_cPatternNm_T0.setValue(response.userName + "님의 투자성향 : ");
+							DWSAjax.post("/mkm/main/selectCustInfo.do", null, function(response) {
+								txt_cPatternTy_T0.setValue(response.dc_a11oia5Data.o_IvstTrndClas);
+							});
+							btn_cPattern_T0.setValue("변경");
+							btn_cPattern_T0.setUserData("type", "change");
+							
+							btn_concern.setUserData("type", "regist");
+							btn_concern2.setUserData("type", "regist");
+						}
+						
+						// [구매방법] 임의식, 적립식
+						var SPCL_FRM_SECT = dc_detailInfoMap.get("SPCL_FRM_SECT");
+						if (SPCL_FRM_SECT == "12") {
+							SPCL_FRM_SECT = "적립식";
+						} else {
+							SPCL_FRM_SECT = "임의식, 적립식";
+						}
+						txt_SPCL_FRM_SECT_T0.setValue("이 상품은 <span class=\"point\">" + SPCL_FRM_SECT + "</span>으로 투자가 가능한 상품입니다.");
+						
+						// [구매방법] 온라인구매, 지점구매
+						var ONLN_BUY_ENBL_YN = dc_detailInfoMap.get("ONLN_BUY_ENBL_YN");
+						var BUY_ENBL_TYPE	 = "";
+						
+						if (ONLN_BUY_ENBL_YN == "Y") {
+							BUY_ENBL_TYPE = "온라인구매";
+						} else {
+							BUY_ENBL_TYPE = "지점구매";
+							btn_buyTop.setDisabled(true);
+							btn_buyBottom.hide();
+						}
+						txt_BUY_ENBL_TYPE_T0.setValue("상품구매는 <span class=\"point\">" + BUY_ENBL_TYPE + "</span>가 가능한 상품입니다.");
+																							
+						// [구매방법] 보수    
+						txt_TOT_FEE_RATE_T0.setValue("연 " + (Math.floor(TOT_FEE_RATE * 100) / 100).formatByComma() + "%");
+						
+					    // [구매방법, 수수료/보수율 안내] 선취수수료
+					    var rowCount = dc_panMaeBeforeList.getRowCount();
+					    if (rowCount > 0) {
+					    	var LEVY_GB = dc_panMaeBeforeList.getCellData(0, "LEVY_GB").trim();
+					    	if (LEVY_GB == "")
+					    		LEVY_GB = "";
+					    	txt_PANMAEBEFORE_T0.setValue(LEVY_GB + dc_panMaeBeforeList.getCellData(0, "FEE_RT_AMT"));
+					    	txt_PANMAEBEFORE_T1.setValue(LEVY_GB + dc_panMaeBeforeList.getCellData(0, "FEE_RT_AMT"));
+					    } else {
+					    	txt_PANMAEBEFORE_T0.setValue("없음");
+					    	txt_PANMAEBEFORE_T1.setValue("없음");
+					    }
+					    
+					    // [구매방법, 수수료/보수율 안내] 환매수수료, 환매제한기간
+					    var HWANMAE		 = "";
+					    var HWANMAEGIGAN = "";
+					    var HWANMAEFEE1	 = "";
+					    var rowCount = dc_hwanMaeList.getRowCount();
+					    for (var i = 0; i < rowCount; i++) {
+					    	var LEVY_GB		 = dc_hwanMaeList.getCellData(i, "LEVY_GB"); 
+					    	var TERM_UNIT_CD = dc_hwanMaeList.getCellData(i, "TERM_UNIT_CD");
+					    	var FEE_RT_AMT	 = dc_hwanMaeList.getCellData(i, "FEE_RT_AMT");
+					    	HWANMAE		 += "<br/>" + LEVY_GB + " " + TERM_UNIT_CD + " " + FEE_RT_AMT;
+					    	HWANMAEGIGAN += "<br/>" + TERM_UNIT_CD;
+					    	HWANMAEFEE1	 += "<br/>" + LEVY_GB + " " + FEE_RT_AMT;
+					    }
+					    if (HWANMAE.length > 5)
+					    	HWANMAE = HWANMAE.substr(5);
+					    txt_HWANMAE_T0.setValue(HWANMAE);
+					    
+					    if (HWANMAEGIGAN.length > 5)
+					    	HWANMAEGIGAN = HWANMAEGIGAN.substr(5);
+					    txt_HWANMAE_T1.setValue(HWANMAEGIGAN);
+					    
+					    if (HWANMAEFEE1.length > 5)
+					    	HWANMAEFEE1 = HWANMAEFEE1.substr(5);
+					    txt_HWANMAEFEE1_T1.setValue(HWANMAEFEE1);
+					    
+					    // [최근 3개월 수익률 추이] 기준일자
+						txt_BSPR_DATE_1_T0.setValue(BSPR_DATE);
+						
+						// [최근 3개월 수익률 추이] 3개월투자성과 수익율
+						txt_MMS3_YIRT_T0.setValue(dc_detailInfoMap.get("MMS3_YIRT"));
+						
+						// [펀드규모 추이] 기준일자
+						txt_BSPR_DATE_2_T0.setValue(BSPR_DATE);
+						
+						// [펀드규모 추이] 증감률
+						var FUND_SET_OTXT_AMT	= parseFloat(dc_detailInfoMap.get("FUND_SET_OTXT_AMT"));	// 펀드설정원본금액
+						var STPT_IND 			= parseFloat(dc_detailInfoMap.get("STPT_IND"));				// 설정액증감
+						var STPT_IND_DESC		= ""; 
+						if (STPT_IND < 0) {
+							STPT_IND_DESC = "% 감소";
+						} else {
+							STPT_IND_DESC = "% 증가";
+						}
+						var STPT_IND_RT = (Math.floor((STPT_IND / FUND_SET_OTXT_AMT * 100) * 100) / 100).formatByComma();
+						
+						txt_STPT_IND_T0.setValue((Math.floor(((FUND_SET_OTXT_AMT + STPT_IND) / 100000000) * 100) / 100).formatByComma() + "억원");
+						
+						txt_STPT_IND_RT_T0.setValue(STPT_IND_RT + STPT_IND_DESC);
+						
+						// ********** [상세정보] **********
+					    
+					    var LATETRDN_BASE_TIME			= dc_detailInfoMap.get("LATETRDN_BASE_TIME");
+					    var BASE_TIME_BEF_BUY_DCNT		= dc_detailInfoMap.get("BASE_TIME_BEF_BUY_DCNT");
+					    var BASE_TIME_AFT_BUY_DCNT		= dc_detailInfoMap.get("BASE_TIME_AFT_BUY_DCNT");
+					    var BASE_TIME_AFT_REP_BSPR_DCNT	= dc_detailInfoMap.get("BASE_TIME_AFT_REP_BSPR_DCNT");
+					    var BASE_TIME_BEF_REP_DCNT		= dc_detailInfoMap.get("BASE_TIME_BEF_REP_DCNT");
+					    var BASE_TIME_AFT_BUY_DCNT		= dc_detailInfoMap.get("BASE_TIME_AFT_BUY_DCNT");
+					    
+					    // [펀드 상세내용] 투자지역/투자유형
+					    txt_IVST_ZONE_OPR_ATTR_NM_T1.setValue(dc_detailInfoMap.get("IVST_ZONE_NM") + "/" + dc_detailInfoMap.get("OPR_ATTR_NM"));
+					    
+					    // [펀드 상세내용] 입금:가격적용일, 입금:매입일
+					    txt_BASE_TIME_BEF_BUY_DCNT1_T1.setValue(LATETRDN_BASE_TIME + "시이전 " + BASE_TIME_BEF_BUY_DCNT + "일 (" + LATETRDN_BASE_TIME + "시이후 " + BASE_TIME_AFT_BUY_DCNT + "일)");
+					    txt_BASE_TIME_BEF_BUY_DCNT2_T1.setValue(LATETRDN_BASE_TIME + "시이전 " + BASE_TIME_BEF_BUY_DCNT + "일 (" + LATETRDN_BASE_TIME + "시이후 " + BASE_TIME_AFT_BUY_DCNT + "일)");
+					    
+					    // [펀드 상세내용] 환매:가격적용일, 환매:출금일
+					    txt_BASE_TIME_AFT_BUY_DCNT1_T1.setValue(LATETRDN_BASE_TIME + "시이전 " + BASE_TIME_AFT_REP_BSPR_DCNT + "일 (" + LATETRDN_BASE_TIME + "시이후 " + BASE_TIME_AFT_REP_BSPR_DCNT + "일)");
+					    txt_BASE_TIME_AFT_BUY_DCNT2_T1.setValue(LATETRDN_BASE_TIME + "시이전 " + BASE_TIME_BEF_REP_DCNT      + "일 (" + LATETRDN_BASE_TIME + "시이후 " + BASE_TIME_AFT_BUY_DCNT + "일)");
+					    
+					    // [보수율 및 대금지급 기준] 환매대금 지급일수, 환매기준가 적용일수
+					    txt_BASE_TIME_AFT_BUY_DCNT1_T0.setValue(LATETRDN_BASE_TIME + "시이전 " + BASE_TIME_AFT_REP_BSPR_DCNT + "일 (" + LATETRDN_BASE_TIME + "시이후 " + BASE_TIME_AFT_REP_BSPR_DCNT + "일)");
+					    txt_BASE_TIME_AFT_BUY_DCNT2_T0.setValue(LATETRDN_BASE_TIME + "시이전 " + BASE_TIME_BEF_REP_DCNT      + "일 (" + LATETRDN_BASE_TIME + "시이후 " + BASE_TIME_AFT_BUY_DCNT + "일)");
+					    
+						// 오늘 본 상품 등록 (펀드)
+						var rvGoods = {
+							itemType : "03",
+							itemCode : PageParam.itemCd,
+							itemName : ITEM_NM,
+							marketGb : dc_detailInfoMap.get("OPR_ATTR_NM")
+						};
+						RecentGoods.setGoods(rvGoods);
+						
+						// ********** [차트정보] **********
+						
+				    	PageFunc.fn_yirt3ChartDateT0();					// [최근 3개월 수익률 추이] 차트 데이터 조회
+						PageFunc.fn_otxtChartDateT0();					// [펀드규모 추이] 차트 데이터 조회
+						
+						// ********** [하단정보] **********
+						
+						PageFunc.fn_selectTop3SuikRT("3");				// 동일 유형내 수익률 상위 펀드 목록 조회
+		    			PageFunc.fn_selectTop3Fvr();					// 이 펀드를 조회한 고객님들이 본 상위펀드 목록 조회
+						break;
+		    			
+		    		case "selectDetailT1":				// 조회 (Tab1)
+		    		
+		    			// ********** [상세정보] **********
+		    			
+		    			// [펀드 상세내용, 수수료/보수율 안내] 수탁사
+					  	var rowCount = dc_feeRTList.getRowCount();
+					    for (var i = 0; i < rowCount; i ++) {
+					    	var FEE_CD = dc_feeRTList.getCellData(i, "FEE_CD");	// 보수종류코드
+					    	var FEE_RT = dc_feeRTList.getCellData(i, "FEE_RT");	// 보수율
+					    	var ORG_NM = dc_feeRTList.getCellData(i, "ORG_NM");
+					    	
+					    	if (FEE_CD == "FA01") {			// 사무보수
+					    		txt_SAMUFEE_T1.setValue(FEE_RT);
+					    	} else if (FEE_CD == "FA02") {	// 수탁보수, 수탁사
+					    		txt_SUTAKEFEE_T1.setValue(FEE_RT);
+					    		txt_SUTAKCOMPANY_T1.setValue(ORG_NM);
+					    	} else if (FEE_CD == "FA04") {	// 판매보수
+					    		txt_PANMAEFEE_T1.setValue(FEE_RT);
+					    	} else if (FEE_CD == "FA05") {	// 운용보수
+					    		txt_UNYOUNGFEE_T1.setValue(FEE_RT);
+					    	} else if (FEE_CD == "FA10") {	// 총보수
+					    		txt_TOTALFEE_T1.setValue(FEE_RT);
+					    	}
+					    }
+					    
+					    // [동일유형 내 수익률 비교] 펀드, 벤치마크
+					    var keys = [1, 3, 6, 12, 36];
+					    var SUIK_GIJUN_YMD = "";
+					    
+					    for (var i = 0; i < keys.length; i++) {
+					    	eval("txt_SILH_SUIK_RT_" + keys[i] + "_T1").setValue("-");
+					    	eval("txt_BM_SUIK_RT_" + keys[i] + "_T1").setValue("-");
+					    	eval("txt_TYPE_AVG_" + keys[i] + "_T1").setValue("-");
+					    	eval("txt_GIGAN_SUIK_RANK2_" + keys[i] + "_T1").setValue("-");
+					    }
+					    
+					    var rowCount = dc_giganFundSuikList.getRowCount();
+					    for (var i = 0; i < rowCount; i ++) {
+					    	var TERM	 		 = dc_giganFundSuikList.getCellData(i, "TERM");
+					    	var GIJUN_YMD		 = dc_giganFundSuikList.getCellData(i, "GIJUN_YMD");
+					    	var GIGAN_SUIK_RANK2 = parseFloat(dc_giganFundSuikList.getCellData(i, "GIGAN_SUIK_RANK2"));
+					    	
+					    	if (SUIK_GIJUN_YMD == "" && GIJUN_YMD != "")
+					    		SUIK_GIJUN_YMD = GIJUN_YMD;
+					    	
+					    	var SUIK_RANK2_DESC = "보통";
+					    	var SUIK_RANK2_KEY  = "02";
+					    	if (GIGAN_SUIK_RANK2 > 0 && GIGAN_SUIK_RANK2 <= 33.3) {
+					    		SUIK_RANK2_DESC = "양호";
+					    		SUIK_RANK2_KEY  = "01";
+					    	} else if (GIGAN_SUIK_RANK2 > 33.3 && GIGAN_SUIK_RANK2 <= 66.6) {
+					    		SUIK_RANK2_DESC = "보통";
+					    		SUIK_RANK2_KEY  = "02";
+					    	} else if (GIGAN_SUIK_RANK2 > 66.6) {
+					    		SUIK_RANK2_DESC = "나쁨";
+					    		SUIK_RANK2_KEY  = "03";
+					    	}
+					    	eval("txt_GIGAN_SUIK_RANK2_" + TERM + "_T1").setValue(SUIK_RANK2_DESC);
+					    	eval("img_GIGAN_SUIK_RANK2_" + TERM + "_T1").setAlt(SUIK_RANK2_DESC);
+					    	eval("img_GIGAN_SUIK_RANK2_" + TERM + "_T1").setSrc("/dws/images/inc/icon_status_" + SUIK_RANK2_KEY + ".png");
+					    	eval("img_GIGAN_SUIK_RANK2_" + TERM + "_T1").show("");
+					    		 
+					    	eval("txt_SILH_SUIK_RT_" + TERM + "_T1").setValue(dc_giganFundSuikList.getCellData(i, "SILH_SUIK_RT"));	// 실수익률
+					    	eval("txt_BM_SUIK_RT_" + TERM + "_T1").setValue(dc_giganFundSuikList.getCellData(i, "BM_SUIK_RT"));		// 벤치마크수익률
+					    }
+					    
+					    // [동일유형 내 수익률 비교] 동일유형 평균
+					    var rowCount = dc_giganSuikList.getRowCount();
+					    for (var i = 0; i < rowCount; i ++) {
+					    	var TERM	  = dc_giganSuikList.getCellData(i, "TERM");
+					    	var GIJUN_YMD = dc_giganSuikList.getCellData(i, "GIJUN_YMD");
+					    	if (SUIK_GIJUN_YMD == "" && GIJUN_YMD != "")
+					    		SUIK_GIJUN_YMD = GIJUN_YMD;
+					    		
+					    	eval("txt_TYPE_AVG_" + TERM + "_T1").setValue(dc_giganSuikList.getCellData(i, "TYPE_AVG"));				// 동일유형 평균
+					    }
+					    txt_SUIK_GIJUN_YMD.setValue(SUIK_GIJUN_YMD);
+					    
+					    // [동일유형 내 수익률 비교] 동일유형, 벤치마크
+					    txt_BM_NM_T1.setValue("동일유형은 (" + dc_detailInfoMap.get("ZEROIN_TYPE_NM") + ") 이며, 벤치마크는 (" + dc_detailInfoMap.get("BM_NM") + ") 입니다.");
+					    
+					    // [자산현황] 기준일자, 국내주식,  해외주식, 국내채권,  해외채권, 펀드 , 유동성, 주식선물 순포지션, 채권선물 순포지션 
+					    txt_AK_RT_GIJUN_YMD_T1.setValue(dc_appotionAkMap.get("GIJUN_YMD"));
+					    txt_STOCK_AK_T1.setValue(PageFunc.fn_nvlNum8(dc_appotionAkMap.get("STOCK_AK")));
+						txt_STOCK_OTHER_AK_T1.setValue(PageFunc.fn_nvlNum8(dc_appotionAkMap.get("STOCK_OTHER_AK")));
+						txt_BOND_AK_T1.setValue(PageFunc.fn_nvlNum8(dc_appotionAkMap.get("BOND_AK")));
+						txt_BOND_OTHER_AK_T1.setValue(PageFunc.fn_nvlNum8(dc_appotionAkMap.get("BOND_OTHER_AK")));
+						txt_FUND_AK_T1.setValue(PageFunc.fn_nvlNum8(dc_appotionAkMap.get("FUND_AK")));
+						txt_CASH_AK_T1.setValue(PageFunc.fn_nvlNum8(dc_appotionAkMap.get("CASH_AK")));
+						txt_MESU_STOCK_AK_T1.setValue(PageFunc.fn_nvlNum8(dc_appotionAkMap.get("MESU_STOCK")));
+						txt_MESU_INTEREST_AK_T1.setValue(PageFunc.fn_nvlNum8(dc_appotionAkMap.get("MESU_INTEREST")));
+						
+						txt_STOCK_RT_T1.setValue(PageFunc.fn_nvlNumPer(dc_appotionRtMap.get("STOCK_RT")));
+						txt_STOCK_OTHER_RT_T1.setValue(PageFunc.fn_nvlNumPer(dc_appotionRtMap.get("STOCK_OTHER_RT")));
+						txt_BOND_RT_T1.setValue(PageFunc.fn_nvlNumPer(dc_appotionRtMap.get("BOND_RT")));
+						txt_BOND_OTHER_RT_T1.setValue(PageFunc.fn_nvlNumPer(dc_appotionRtMap.get("BOND_OTHER_RT")));
+						txt_FUND_RT_T1.setValue(PageFunc.fn_nvlNumPer(dc_appotionRtMap.get("FUND_RT")));
+						txt_CASH_RT_T1.setValue(PageFunc.fn_nvlNumPer(dc_appotionRtMap.get("CASH_RT")));
+						txt_MESU_STOCK_RT_T1.setValue(PageFunc.fn_nvlNumPer(dc_appotionRtMap.get("MESU_STOCK")));
+						txt_MESU_INTEREST_RT_T1.setValue(PageFunc.fn_nvlNumPer(dc_appotionRtMap.get("MESU_INTEREST")));
+					    
+					    // [동일유형 내 평가] 표준편차, Sharpe Ratio, 젠센알파
+					    var rowCount = dc_riskAnalysisList.getRowCount();
+					    for (var i = 0; i < rowCount; i ++) {
+						    var SECT	= dc_riskAnalysisList.getCellData(i, "SECT");
+							var YIRT6	= dc_riskAnalysisList.getCellData(i, "YIRT6");
+							if (i == 0)
+								txt_YY_DEV_GIJUN_YMD_T1.setValue(dc_riskAnalysisList.getCellData(i, "GIJUN_YMD"));
+							
+							if (SECT == "01") {				// 표준편차
+								txt_YY_DEV_1_T1.setValue(PageFunc.fn_nvlNumPer(YIRT6));
+							} else if (SECT == "02") {		// 표준편차 (동일유형)
+								txt_YY_DEV_2_T1.setValue(PageFunc.fn_nvlNumPer(YIRT6));
+								
+								var tVal1 = dc_riskAnalysisList.getCellData(i - 1, "YIRT6");
+								var tVal2 = dc_riskAnalysisList.getCellData(i, "YIRT6");
+								if (tVal1 != "" && tVal2 != "") {
+									if (parseFloat(tVal1) - parseFloat(tVal1) <= 0) {
+										img_YY_DEV_EVL_T1.setSrc("/dws/images/inc/icon_status_03.png");
+										img_YY_DEV_EVL_T1.setAlt("나쁨");
+										txt_YY_DEV_EVL_T1.setValue(" 나쁨");
+									} else {
+										img_YY_DEV_EVL_T1.setSrc("/dws/images/inc/icon_status_01.png");
+										img_YY_DEV_EVL_T1.setAlt("양호");
+										txt_YY_DEV_EVL_T1.setValue(" 양호");
+									}
+									img_YY_DEV_EVL_T1.show("");
+								}
+							} else if (SECT == "03") {		// Sharpe Ratio
+								txt_SHARP_1_T1.setValue(PageFunc.fn_nvlNumPer(YIRT6));
+							} else if (SECT == "04") {		// Sharpe Ratio (동일유형)
+								txt_SHARP_2_T1.setValue(PageFunc.fn_nvlNumPer(YIRT6));
+								
+								var tVal1 = dc_riskAnalysisList.getCellData(i - 1, "YIRT6");
+								var tVal2 = dc_riskAnalysisList.getCellData(i, "YIRT6");
+								if (tVal1 != "" && tVal2 != "") {
+									if (parseFloat(tVal1) - parseFloat(tVal1) <= 0) {
+										img_SHARP_EVL_T1.setSrc("/dws/images/inc/icon_status_03.png");
+										img_SHARP_EVL_T1.setAlt("나쁨");
+										txt_SHARP_EVL_T1.setValue(" 나쁨");
+									} else {
+										img_SHARP_EVL_T1.setSrc("/dws/images/inc/icon_status_01.png");
+										img_SHARP_EVL_T1.setAlt("양호");
+										txt_SHARP_EVL_T1.setValue(" 양호");
+									}
+									img_SHARP_EVL_T1.show("");
+								}
+							} else if (SECT == "05") {		// 젠센알파
+								txt_ALPHA_MKT_1_T1.setValue(PageFunc.fn_nvlNumPer(YIRT6));
+							} else if (SECT == "06") {		// 젠센알파 (동일유형)
+								txt_ALPHA_MKT_2_T1.setValue(PageFunc.fn_nvlNumPer(YIRT6));
+								
+								var tVal1 = dc_riskAnalysisList.getCellData(i - 1, "YIRT6");
+								var tVal2 = dc_riskAnalysisList.getCellData(i, "YIRT6");
+								if (tVal1 != "" && tVal2 != "") {
+									if (parseFloat(tVal1) - parseFloat(tVal1) <= 0) {
+										img_ALPHA_MKT_EVL_T1.setSrc("/dws/images/inc/icon_status_03.png");
+										img_ALPHA_MKT_EVL_T1.setAlt("나쁨");
+										txt_ALPHA_MKT_EVL_T1.setValue(" 나쁨");
+									} else {
+										img_ALPHA_MKT_EVL_T1.setSrc("/dws/images/inc/icon_status_01.png");
+										img_ALPHA_MKT_EVL_T1.setAlt("양호");
+										txt_ALPHA_MKT_EVL_T1.setValue(" 양호");
+									}
+									img_ALPHA_MKT_EVL_T1.show("");
+								}
+							}  
+					    }
+					    
+		    			// [주요자산 투자한도] 총 주식, 총 채권, 유동성, 수익증권, 기타자산
+						txt_TOTALIVST_T1.setValue("-");
+					    txt_TOTALBOND_T1.setValue("-");
+					    txt_TOTALCASH_T1.setValue("-");
+					    txt_TOTALSUIK_T1.setValue("-");
+					    txt_TOTALETC_T1.setValue("-");
+					    		
+						var rowCount = dc_ivstRTList.getRowCount();
+					    for (var i = 0; i < rowCount; i ++) {
+					    	var IVST_OBJ_CD = dc_ivstRTList.getCellData(i, "IVST_OBJ_CD");							// 투자대상구분코드
+					    	var MIN_IVST_RT = (Math.floor(parseFloat(dc_ivstRTList.getCellData(i, "MIN_IVST_RT")) * 100) / 100);	// 최소투자비율
+					    	var MAX_IVST_RT = (Math.floor(parseFloat(dc_ivstRTList.getCellData(i, "MAX_IVST_RT")) * 100) / 100);	// 최대투자비율
+					    	var result = MIN_IVST_RT + "% ~ " +  MAX_IVST_RT + "%";
+					    	if (IVST_OBJ_CD == "FB10") {			// 총 주식
+					    		txt_TOTALIVST_T1.setValue(result);
+					    	} else if (IVST_OBJ_CD == "FB20") {		// 총 채권
+					    		txt_TOTALBOND_T1.setValue(result);
+					    	} else if (IVST_OBJ_CD == "FB31") {		// 유동성
+					    		txt_TOTALCASH_T1.setValue(result);
+					    	} else if (IVST_OBJ_CD == "FB32") {		// 수익증권
+					    		txt_TOTALSUIK_T1.setValue(result);
+					    	} else if (IVST_OBJ_CD == "FB33") {		// 기타자산
+					    		txt_TOTALETC_T1.setValue(result);
+					    	}
+					    }
+					    
+					    // ********** [차트정보] **********
+						
+						PageFunc.fn_yirtChartDateT1(PageParam.b1month);	// [수익률 추이] 차트 데이터 조회 시작
+		    			break;
+		    		
+		    		case "selectTop3SuikRT":			// 동일 유형내 수익률 상위 펀드 목록 조회
+		    			for (var i = 0; i < 3; i++) {
+		    				var objFUND_FNM = eval("txt_FUND_FNM_B" + i); 
+							objFUND_FNM.setValue("[펀드정보 없음]");
+							objFUND_FNM.setUserData("ITEM_CD", "");
+							objFUND_FNM.setStyle("cursor", "default");
+							
+							eval("txt_SILH_SUIK_RT_B" + i).setValue('');
+							window["txt_SILH_SUIK_RT_B" + i + '_PERCENT'].setValue('');
+		    			}
+		    			
+		    			var rowCount = dc_top3SuikRTList.getRowCount();
+		    			for (var i = 0; i < rowCount; i++) {
+		    				var ITEM_CD		 = dc_top3SuikRTList.getCellData(i, "ITEM_CD");
+							var FUND_FNM	 = dc_top3SuikRTList.getCellData(i, "FUND_FNM");
+							var SILH_SUIK_RT = dc_top3SuikRTList.getCellData(i, "SILH_SUIK_RT");
+							
+							var objFUND_FNM = eval("txt_FUND_FNM_B" + i);
+							objFUND_FNM.setValue(FUND_FNM);
+							objFUND_FNM.setUserData("ITEM_CD", ITEM_CD);
+							objFUND_FNM.setStyle("cursor", "pointer");
+							eval("txt_SILH_SUIK_RT_B" + i).setValue(SILH_SUIK_RT);
+							var silhSuikRt = parseFloat(SILH_SUIK_RT);
+							window["txt_SILH_SUIK_RT_B" + i].addClass(silhSuikRt > 0 ? 'high' : (silhSuikRt < 0 ? 'low' : ''));
+							window["txt_SILH_SUIK_RT_B" + i + '_PERCENT'].setValue('%');
+							window["txt_SILH_SUIK_RT_B" + i + '_PERCENT'].addClass(silhSuikRt > 0 ? 'high' : (silhSuikRt < 0 ? 'low' : ''));
+		    			}
+						
+		    			break;
+		    		
+		    		case "selectTop3Fvr":				// 이 펀드를 조회한 고객님들이 본 상위펀드 목록 조회
+		    			for (var i = 0; i < 3; i++) {
+		    				var objITEM_NM = eval("txt_ITEM_NM_B" + i); 
+							objITEM_NM.setValue("[펀드정보 없음]");
+							objITEM_NM.setUserData("ITEM_CD", "");
+							objITEM_NM.setStyle("cursor", "default");
+							
+							eval("txt_MMS3_YIRT_B" + i).setValue('');
+							window["txt_MMS3_YIRT_B" + i + '_PERCENT'].setValue('');
+		    			}
+		    			
+		    			var rowCount = dc_top3FvrList.getRowCount();
+		    			for (var i = 0; i < rowCount; i++) {
+		    				var ITEM_CD		= dc_top3FvrList.getCellData(i, "ITEM_CD");
+							var ITEM_NM	 	= dc_top3FvrList.getCellData(i, "ITEM_NM");
+							var MMS3_YIRT	= dc_top3FvrList.getCellData(i, "MMS3_YIRT");
+							
+							var objITEM_NM = eval("txt_ITEM_NM_B" + i);
+							objITEM_NM.setValue(ITEM_NM);
+							objITEM_NM.setUserData("ITEM_CD", ITEM_CD);
+							objITEM_NM.setStyle("cursor", "pointer");
+							
+							eval("txt_MMS3_YIRT_B" + i).setValue(MMS3_YIRT);
+							var mms3Yirt = parseFloat(MMS3_YIRT);
+							window["txt_MMS3_YIRT_B" + i].addClass(mms3Yirt > 0 ? 'high' : (mms3Yirt < 0 ? 'low' : ''));
+							window["txt_MMS3_YIRT_B" + i + '_PERCENT'].setValue('%');
+							window["txt_MMS3_YIRT_B" + i + '_PERCENT'].addClass(mms3Yirt > 0 ? 'high' : (mms3Yirt < 0 ? 'low' : ''));
+		    			}
+		    			break;
+		    			
+		    		case "selectAfterLoginInfo":		// 로그인 후처리 정보 조회
+		    			// [투자위험] 로그인 여부에 따른 투자성향 처리
+						if (response.userName == "") {
+							txt_cPatternNm_T0.setValue("고객님의 투자성향 : ");
+							txt_cPatternTy_T0.setValue("[비로그인 중]");
+							btn_cPattern_T0.setValue("로그인");
+							btn_cPattern_T0.setUserData("type", "login");
+							
+							btn_concern.setUserData("type", "login");
+							btn_concern2.setUserData("type", "login");
+						} else {
+							DWSAjax.post("/mkt/mkt3/mkt3001j04/selectAfterLoginInfo.do", null, function(response) {
+								txt_cPatternNm_T0.setValue(response.userName + "님의 투자성향 : ");
+								txt_cPatternTy_T0.setValue(response.dc_a11oia5Data.o_IvstTrndClas);
+							});
+							btn_cPattern_T0.setValue("변경");
+							btn_cPattern_T0.setUserData("type", "change");
+							
+							btn_concern.setUserData("type", "regist");
+							btn_concern2.setUserData("type", "regist");
+						}
+		    			break;
+		    				
+		    		default :
+		    			break;
+		    	}
+		    };
+		    
+		    // [최근 3개월 수익률 추이] 차트 데이터 조회 후 후처리
+		    PageFunc.fn_callBackChart = function(val, response, chartJson) {
+		    	var anchorradius = btn_fc1Month_T1.hasClass("on") ? "3" : "2";
+		    	switch (val) {
+		    		case "yirt3_dates":		// [최근 3개월 수익률 추이] 카테고리 목록 (날짜) 설정
+		    		case "otxt_dates":		// [펀드규모 추이] 카테고리 목록 (날짜) 설정
+		    		case "yirt_dates":		// [수익률 추이] 카테고리 목록 (날짜) 설정
+		    			chartJson.categories[0].category = response.dateList;
+		    			break;
+		    			
+		    		case "yirt3_data":		// [최근 3개월 수익률 추이] 데이터 영역 추가
+		    		case "otxt_data":		// [펀드규모 추이] 데이터 영역 추가
+		    			chartJson.dataset.push({
+		        			seriesname: response.itemNm,
+		        			anchorradius: "2",
+		        			data: []
+		        		});
+		    			chartJson.dataset[chartJson.dataset.length - 1].data = response.dataList;
+						break;
+						
+					case "yirt_data":		// [수익률 추이] 데이터 영역 추가
+			    		chartJson.dataset.push({
+		        			seriesname: response.itemNm,
+		        			anchorradius: anchorradius,
+		        			data: []
+		        		});
+		    			chartJson.dataset[chartJson.dataset.length - 1].data = response.dataList;
+		    			
+		    			// 펀드비교 팝업 지수 데이터 설정
+				    	var indexs		   = cbx_chart_T1.getSelectedIndex(",");
+				    	var categoryLength = chartJson.categories[0].category.length;
+				    	if (indexs != "" && categoryLength > 0 && chartJson.dataset.length > 0) {
+				    		DWSAjax.post("/mkt/mkt3/mkt3001p01/selectChartSubInfoAll.do", 
+								{
+									keys: cbx_chart_T1.getValue(","),
+									baseDate: PageParam.today,
+									dataCount: categoryLength.toString()
+								}, 
+				        		function(response) {
+				        			PageFunc.fn_callBackChart("yirt_subData", response, chartJson);
+				        		});
+				    	}
+						break;
+						
+					case "yirt_subData":	// [수익률 추이] 지수 데이터 영역 추가
+		    			var indexsList	= cbx_chart_T1.getSelectedIndex(",").split(",");
+		    			var subList		= response.dc_chartSubInfoList;
+		    			
+		    			for (var i = 0; i < subList.length; i++) {
+		    				var label = cbx_chart_T1.itemArr[indexsList[i]].label;
+		    				chartJson.dataset.push({
+			        			seriesname: label,
+			        			anchorradius: anchorradius,
+			        			color: PageParam.colorArr[parseInt(indexsList[i], 10) + 3],
+			        			dashed: "1",
+			        			lineDashLen: "15",
+			        			data: []
+			        		});
+			        		chartJson.dataset[chartJson.dataset.length - 1].data = subList[i];
+		    			}
+						break;
+							
+		    		default:
+		    			break;
+		    	}
+		    	
+		    	var labelStepCnt = 0;
+		    	if (chartJson.dataset.length > 0)
+		    		labelStepCnt = parseInt(chartJson.dataset[0].data.length / 2, 10) - 1;
+		    	
+		    	if ((val == "yirt3_dates" || val == "yirt3_data") &&
+		    		chartJson.categories[0].category.length > 0 && chartJson.dataset.length > 0) {	// [최근 3개월 수익률 추이] 차트 렌더링
+					charYirt3_T0.setChartAttribute({ numberSuffix: " %", labelStep: labelStepCnt, yAxisValuesPadding: 7 });
+					charYirt3_T0.setJSONData(chartJson);
+		    	} else if ((val == "otxt_dates" || val == "otxt_data") &&
+		    		chartJson.categories[0].category.length > 0 && chartJson.dataset.length > 0) {	// [펀드규모 추이] 차트 렌더링
+		    		charOtxt_T0.setChartAttribute({ numberSuffix: " 억", labelStep: labelStepCnt, yAxisValuesPadding: 7 });
+					charOtxt_T0.setJSONData(chartJson);
+		    	} else if (val == "yirt_dates" || val == "yirt_data" || val == "yirt_subData") {	// [수익률 추이] 차트 렌더링
+		    		// 지수 선택여부
+			    	var subValues = cbx_chart_T1.getValue();
+			    	var subLength = 0;
+			    	if (subValues != "") {
+			    		subLength = cbx_chart_T1.getSelectedIndex(",").split(",").length;
+			    	}
+			    	
+		    		if (chartJson.categories[0].category.length > 0 && chartJson.dataset.length == subLength + 1) {	
+			    		charYirt_T1.applyStyle("font", "font", { size : 12, bold : 0 }, ["legend"]);
+						charYirt_T1.setChartAttribute({ numberSuffix: " %", labelStep: labelStepCnt, yAxisValuesPadding: 7 });
+						charYirt_T1.setJSONData(chartJson);
+					}
+		    	}
+		    };
+		    
+		    // 주식종목 조회 팝업 콜백 함수
+		    PageFunc.fn_setStockCode = function(stcd, stcdNm, mktCd) {
+		    	PageFunc.fn_appendChartItemT1(stcdNm, stcd);
+		    };
+		    
+		    // 주식종목 항목 추가
+		    PageFunc.fn_appendChartItemT1 = function(name, value) {
+		    	var itemCount = cbx_chart_T1.getItemCount();
+		    	
+		    	if (itemCount > 5) {	// 이미 주식종목이 추가된 경우, 제거함
+		    		var objDeleted = cbx_chart_T1.deleteItem(5);
+		    		
+		    		// 차트 데이터에서 해당 데이터를 제거한다.
+		    		var chartJson  = charYirt_T1.fc().getJSONData();
+		    		var newDataset = [];
+		    		var count = chartJson.dataset.length;
+		    		for (var i = 0; i < count; i++) {
+		    			if (chartJson.dataset[i].seriesname != objDeleted.label) {
+		    				newDataset.push(chartJson.dataset[i]);
+		    			} 
+		    		}
+		    		
+		    		if (count > newDataset.length) {
+			    		chartJson.dataset = newDataset;
+			    		charYirt_T1.fc().setJSONData(chartJson);
+		    		}
+		    	}
 
-    				<w2:node>
-    					<w2:label>a112</w2:label>
-    					<w2:value>112</w2:value>
-    					<w2:checkbox></w2:checkbox>
-    					<w2:image></w2:image>
-    					<w2:selectedImage></w2:selectedImage>
-    					<w2:expandedImage></w2:expandedImage>
-    				</w2:node>
-    			</w2:node>
-    			<w2:node>
-    				<w2:label>a12</w2:label>
-    				<w2:value>12</w2:value>
-    				<w2:checkbox></w2:checkbox>
-    				<w2:image></w2:image>
-    				<w2:selectedImage></w2:selectedImage>
-    				<w2:expandedImage></w2:expandedImage>
-    			</w2:node>
-    			<w2:node>
-    				<w2:label>a13</w2:label>
-    				<w2:value>13</w2:value>
-    				<w2:checkbox></w2:checkbox>
-    				<w2:image></w2:image>
-    				<w2:selectedImage></w2:selectedImage>
-    				<w2:expandedImage></w2:expandedImage>
-    			</w2:node>
-    		</w2:node>
-    		<w2:node>
-    			<w2:label>a2</w2:label>
-    			<w2:value>2</w2:value>
-    			<w2:checkbox></w2:checkbox>
-    			<w2:image></w2:image>
-    			<w2:selectedImage></w2:selectedImage>
-    			<w2:expandedImage></w2:expandedImage>
-    			<w2:node>
-    				<w2:label>a21</w2:label>
-    				<w2:value>21</w2:value>
-    				<w2:checkbox></w2:checkbox>
-    				<w2:image></w2:image>
-    				<w2:selectedImage></w2:selectedImage>
-    				<w2:expandedImage></w2:expandedImage>
-    			</w2:node>
-    		</w2:node>
-    		<w2:node>
-    			<w2:label>a333333333333</w2:label>
-    			<w2:value>3</w2:value>
-    			<w2:checkbox></w2:checkbox>
-    			<w2:image></w2:image>
-    			<w2:selectedImage></w2:selectedImage>
-    			<w2:expandedImage></w2:expandedImage>
-    		</w2:node>
-    		<script type="javascript" ev:event="ondrop(dragNode, dropNode, dragControl, dropControl, e)"><![CDATA[
-				alert("1 " + dragControl.id + " -> " + dropControl.id);
-				// 자기자신에게 drag drop할때는 node만 appendNode를 통해 변경해주면 된다
-    			this.appendNode(dropNode, dragNode);
-    		 ]]></script>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-				alert('click');
-			]]></script>
-    		<script ev:event="ontoggleclick(nodeElement,index,isRendered)" type="javascript"><![CDATA[
-				alert( index + " : " + isRendered );
-			]]></script>
-    	</w2:treeview>
-    	<w2:treeview
-    		style="border:1px solid black;vertical-align:middle;word-wrap:break-word;background-color:#ffff80;position:absolute;top:50px;left:545px;width:200px;height:280px;"
-    		id="treeview3" tooltipDisplay="true" dataType="listed"
-    		rowHeight="20" toggleEvent="ondblclick" checkAllChildNodes=""
-    		showCheckbox="true">
-    		<w2:itemset nodeset="resGongTree/vector/data">
-    			<w2:label ref="table01/gong_nm/@value"></w2:label>
-    			<w2:value ref="table01/gong_code/@value"></w2:value>
-    			<w2:depth ref="table01/gong_depth/@value"></w2:depth>
-    			<w2:checkbox ref=""></w2:checkbox>
-    			<w2:iconImage ref=""></w2:iconImage>
-    			<w2:image ref=""></w2:image>
-    			<w2:selectedImage ref=""></w2:selectedImage>
-    			<w2:expandedImage ref=""></w2:expandedImage>
-    		</w2:itemset>
-    	</w2:treeview>
-    	<xf:trigger id="trigger1"
-    		style="position: absolute ;height:25px;width:150px;left:92px;top:360px;"
-    		type="button">
-    		<xf:label>appendData</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		var xmlDoc = WebSquare.ModelUtil.findInstanceNodes( "res/shopping/vector/data[@ref='"+value+"']" );
-    		
-    		treeview2.appendData(0, xmlDoc);
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger2"
-    		style="position: absolute ;height:25px;width:150px;left:92px;top:385px;"
-    		type="button">
-    		<xf:label>findNode</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.findNode( '01020702' );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger3"
-    		style="position: absolute ;height:25px;width:150px;left:92px;top:410px;"
-    		type="button">
-    		<xf:label>getSelectedLabel</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.findNode( '010207' );
-    		
-    		var returnValue = treeview3.getSelectedLabel();
-    		output4.setValue( returnValue );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger4"
-    		style="position: absolute ;height:25px;width:150px;left:92px;top:435px;"
-    		type="button">
-    		<xf:label>getSelectedValue</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.findNode( '0103' );
-    		
-    		var returnValue = treeview3.getSelectedValue();
-    		output4.setValue( returnValue );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger5"
-    		style="position: absolute ;height:25px;width:150px;left:92px;top:460px;"
-    		type="button">
-    		<xf:label>isLeaf</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.findNode( '01020701' );
-    		
-    		var returnValue = treeview3.isLeaf();
-    		output4.setValue( returnValue );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger6"
-    		style="position: absolute ;height:25px;width:150px;left:242px;top:360px;"
-    		type="button">
-    		<xf:label>disableCheckboxByValue</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.disableCheckboxByValue( '010102' , true , true );
-    		treeview3.disableCheckboxByValue( '010202' , true , true );
-    		treeview3.disableCheckboxByValue( '01020701' , true , true );
-    		treeview3.disableCheckboxByValue( '0103' , true , true );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger7"
-    		style="position: absolute ;height:25px;width:150px;left:242px;top:385px;"
-    		type="button">
-    		<xf:label>getParentValue</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		var returnValue = treeview3.getParentValue( '010202' );
-    		output4.setValue( returnValue );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger8"
-    		style="position: absolute ;height:25px;width:150px;left:242px;top:410px;"
-    		type="button">
-    		<xf:label>getChildData</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		var returnValue = treeview3.getChildData( '01' );
-    		var doc = WebSquare.xml.indent( returnValue[0] );
-
-    		textarea1.setValue( returnValue.length );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger9"
-    		style="position: absolute ;height:25px;width:150px;left:242px;top:435px;"
-    		type="button">
-    		<xf:label>getXPathByValue</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		var returnValue = treeview3.getXPathByValue( '010208' );
-    		output4.setValue( returnValue );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger10"
-    		style="position: absolute ;height:25px;width:150px;left:392px;top:360px;"
-    		type="button">
-    		<xf:label>spanAll(false)</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.spanAll( false );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger11"
-    		style="position: absolute ;height:25px;width:150px;left:392px;top:385px;"
-    		type="button">
-    		<xf:label>spanAll(true)</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.spanAll( true );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger12"
-    		style="position: absolute ;height:25px;width:150px;left:392px;top:410px;"
-    		type="button">
-    		<xf:label>collapseNode</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.collapseNode( '010207' );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger13"
-    		style="position: absolute ;height:25px;width:150px;left:392px;top:435px;"
-    		type="button">
-    		<xf:label>expandNode</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.expandNode( '010207' );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger14"
-    		style="position: absolute ;height:25px;width:150px;left:542px;top:360px;"
-    		type="button">
-    		<xf:label>checkByValue</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		treeview3.checkByValue( '010102' , true , true );
-    		treeview3.checkByValue( '010202' , true , true );
-    		treeview3.checkByValue( '01020701' , true , true );
-    		treeview3.checkByValue( '0103' , true , true );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger15"
-    		style="position: absolute ;height:25px;width:150px;left:542px;top:385px;"
-    		type="button">
-    		<xf:label>getCheckedValues</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		var returnValue = treeview3.getCheckedValues();
-    		output4.setValue( returnValue );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:trigger id="trigger16"
-    		style="position: absolute ;height:25px;width:150px;left:542px;top:410px;"
-    		type="button">
-    		<xf:label>getCheckedLabels</xf:label>
-    		<script ev:event="onclick" type="javascript"><![CDATA[
-    		
-    		var returnValue = treeview3.getCheckedLabels();
-    		output4.setValue( returnValue );
-    		
-    		 ]]></script>
-    	</xf:trigger>
-    	<xf:output id="output4"
-    		style="position: absolute ;left:276px;top:519px;width: 221px;height: 71px;"
-    		label="">
-    		<xf:label></xf:label>
-    	</xf:output>
-    	<xf:textarea id="textarea1"
-    		style="position: absolute ;left: 709px;top: 360px;width: 227px;height: 202px;">
-    	</xf:textarea>
-    </body>
+				// 새로운 항목을 등록함
+		    	cbx_chart_T1.addItem(value, name);
+		    	setTimeout(function() {
+		    		cbx_chart_T1.setSelectedIndex(5);
+		    		PageFunc.fn_selectChartSubInfoT1(5, value, true);
+		    	}, 500);
+		    };
+		    
+		    // 관심상품 등록
+		    PageFunc.fn_insertMyGoods = function() {
+		    	DWSAjax.post("/mkt/mkt7/mkt7001m01/insertMyGoods.do", {
+		    			ITEM_CD: PageParam.itemCd,
+                 		TYPE_CD: "03"
+		    		}, function(response) {
+		    			if (response.insertResult) {
+			    			if (confirm("관심상품으로 등록되었습니다. 관심상품 페이지로 이동하시겠습니까?")) {
+			    				dwsCommon.movePage("/dws/view/mkt/mkt7/mkt7001m01.do", { tabIndex: "1" });
+								window.scrollTo(0, 0);
+			    			}
+			    		} else {
+			    			alert("이미 관심상품으로 등록된 상품입니다.");
+			    		}
+		    		});	
+		    };
+		    
+		    // 매수 페이지로 이동
+		    PageFunc.fn_movePurchase = function(itemCd) {
+		    	var options = {
+					param : { 
+						itemCd: itemCd,
+						from: "mkt3001m04" 
+					}
+				};
+				dwsCommon.movePage("/dws/view/mkt/mkt3/mkt3002m01.do", options);
+				window.scrollTo(0, 0);
+		    };
+		    
+		    // 위험도 아이콘 이미지 URL
+		    PageFunc.fn_riskKey = function(code) {
+		    	if (code == "01") {				// 초고위험
+					return "01";
+				} else if (code == "02") {		// 고위험
+					return "01";
+				} else if (code == "03") {		// 중위험
+					return "02";
+				} else if (code == "04") {		// 저위험
+					return "02";
+				} else if (code == "05") {		// 초저위험
+					return "03";
+				} else {
+					return "03";
+				}
+		    };
+		    
+		    // 빈 문자열 처리
+		    PageFunc.fn_nvlNum8 = function(source) {
+		    	if (typeof source == "undefined" || source == null || isNaN(source) || source == "" || source === 0) {
+		    		return "-";
+		    	} else {
+		    		return (Math.floor((parseFloat(source) / 100000000) * 100) / 100).formatByComma();
+		    	}
+		    };
+		    
+		    // 빈 문자열 처리
+		    PageFunc.fn_nvlNumPer = function(source) {
+		    	if (typeof source == "undefined" || source == null || isNaN(source) || source == "" || source === 0) {
+		    		return "-";
+		    	} else {
+		    		return  (Math.floor(parseFloat(source) * 100) / 100).formatByComma();
+		    	}
+		    };
+		    
+		    // 사용자 정의 툴팁 처리
+		    PageFunc.fn_showTooltip = function(srcId) {
+		    	if (srcId == "grp_toolTip0") {
+			    	grp_toolTip0.show();
+			    	grp_toolTip1.hide();
+			    	grp_toolTip2.hide();
+		    	} else if (srcId == "grp_toolTip1") {
+			    	grp_toolTip0.hide();
+			    	grp_toolTip1.show();
+			    	grp_toolTip2.hide();
+		    	} else if (srcId == "grp_toolTip2") {
+			    	grp_toolTip0.hide();
+			    	grp_toolTip1.hide();
+			    	grp_toolTip2.show();
+		    	} else {
+		    		grp_toolTip0.hide();
+			    	grp_toolTip1.hide();
+			    	grp_toolTip2.hide();
+		    	}
+		    };
+		    
+		    // 상품문의 메시지
+		    PageFunc.fn_showMsg = function() {
+		    	alert(PageParam.msg);
+		    };
+		    
+		    PageFunc.fn_init();
+		]]></script>
+		<script src="/dws/cm/js/common.js" type="javascript"></script><!-- common script -->
+		<script src="/dws/cm/js/dwsAjax.js" type="javascript"></script><!-- ajax 모듈 스크립트 -->
+		<script src="/dws/cm/js/session.js" type="text/javascript"></script><!-- session 모듈 스크립트 -->
+		<script src="/dws/cm/js/jquery.cookies.js" type="text/javascript"></script>
+		<script src="/dws/cm/js/recentGoods.js" type="text/javascript"></script><!-- '오늘 본 상품' 모듈 스크립트 -->
+	</head>
+	<body>
+		<xf:group id="wrap" class="mkt3003t04">
+			<w2:wframe id="header_wp" src="/dws/view/com/header.xml"></w2:wframe>
+			<xf:group id="container">
+				<w2:wframe id="nav_wp" src="/dws/view/com/nav.xml"></w2:wframe>
+				<xf:group id="content">
+					<xf:group id="content_body">
+						<xf:group id="content_header">
+							<w2:wframe id="page_location" src="/dws/view/com/page_location.xml"></w2:wframe>
+							<xf:group id="page_title">
+								<w2:textbox id="txt_ITEM_NAME" tagname="h1" />
+								<xf:image id="img_RCMD_FUND_YN" alt="추천상품" class="product_tag_01" src="/dws/images/inc/tag_product_01.png" style="display:none;" />
+								<!-- SNS 버튼 -->
+								<xf:group class="sns_grp" id="group139">
+									<xf:group id="group140" tagname="a">
+										<w2:attributes>
+											<w2:href>#!</w2:href>
+											<w2:title>Facebook</w2:title>
+										</w2:attributes>
+										<xf:image alt="Facebook" id="image14" src="/dws/images/inc/bg_btn_event_f.png" />
+									</xf:group>
+									<xf:group id="group141" tagname="a">
+										<w2:attributes>
+											<w2:href>#!</w2:href>
+											<w2:title>Google+</w2:title>
+										</w2:attributes>
+										<xf:image alt="Google+" id="image15" src="/dws/images/inc/bg_btn_event_g.png" />
+									</xf:group>
+									<xf:group id="group142" tagname="a">
+										<w2:attributes>
+											<w2:href>#!</w2:href>
+											<w2:title>Twitter</w2:title>
+										</w2:attributes>
+										<xf:image alt="Twitter" id="image16" src="/dws/images/inc/bg_btn_event_t.png" />
+									</xf:group>
+									<xf:group id="group143" tagname="a">
+										<w2:attributes>
+											<w2:href>#!</w2:href>
+											<w2:title>Pinterest</w2:title>
+										</w2:attributes>
+										<xf:image alt="Pinterest" id="image17" src="/dws/images/inc/bg_btn_event_p.png" />
+									</xf:group>
+									<xf:group id="group144" tagname="a" class="mb_hide">
+										<w2:attributes>
+											<w2:href>#!</w2:href>
+											<w2:title>Print</w2:title>
+										</w2:attributes>
+										<xf:image alt="Print" id="image18" src="/dws/images/inc/bg_btn_print.png" />
+									</xf:group>
+								</xf:group>
+							</xf:group>
+						</xf:group>
+						<xf:group id="contentbox" class="contentbox">
+							<xf:group id="layout_5_5" class="layout_5_5">
+								<!-- 주요정보 -->
+								<xf:group id="leftarea_01" class="leftarea_01">
+									<xf:group id="group12" class="product_box_01">
+										<w2:span id="span1" class="txt1" label="수익률" />
+										<w2:span id="span2" class="txt2" label="(3개월)" />
+										<w2:span id="txt_MMS3_YIRT" dataType="number" class="txt3" displayFormat="#,###.00%" />
+									</xf:group>
+									<xf:group id="group13" class="product_box_02">
+										<w2:textbox id="txt_OPR_ATTR_NM" class="circle bg1" />
+										<w2:textbox id="txt_IVST_RISK_DEG_GRAD_NM" class="circle bg31" />
+										<xf:group id="group14" class="txtbox">
+											<w2:span id="span7" class="txt1" label="펀드규모" />
+											<w2:span id="span8" class="txt2" label="(Family)" />
+											<w2:span id="txt_FUND_SET_OTXT_AMT" dataType="number" class="txt3" displayFormat="#,###.00" />
+											<w2:span class="txt4" id="span12" label="억원" />
+											<w2:span class="txt5" id="span13" label="" />
+										</xf:group>
+									</xf:group>
+									<xf:group class="product_box_07" id="group145">
+										<xf:group class="tt_day" id="group146">
+											<w2:textbox id="textbox95" label="기준일 : " tagname="span" />
+											<w2:textbox id="txt_BSPR_DATE" tagname="span" dataType="date" displayFormat="yyyy-MM-dd" />
+										</xf:group>
+									</xf:group>
+									<xf:group id="group15" class="product_box_03">
+										<xf:image id="image5" alt="지금온라인 구매시 수수료 50% 할인!" src="/dws/images/contents/banner_01.png" />
+									</xf:group>
+								</xf:group>
+								<!-- 상품 투자 정보, PDF 다운로드, 상단버튼 -->
+								<xf:group id="rightarea_01" class="rightarea_01">
+									<!-- 상품 투자 정보 -->
+									<xf:group id="group17" class="product_box_05">
+										<table id="table1" summary="상품 투자 정보" class="w2tb tbl_01">
+											<xf:group tagname="caption">운용 정보</xf:group>
+											<xf:group tagname="colgroup">
+												<xf:group style="width:*;" tagname="col" />
+												<xf:group style="width:*;" tagname="col" />
+											</xf:group>
+											<xf:group tagname="tr">
+												<xf:group class="w2tb_th" tagname="th">
+													<w2:attributes>
+														<w2:scope>row</w2:scope>
+													</w2:attributes>
+													<w2:textbox id="textbox4" class="th_txt" label="운용사" tagname="span" />
+												</xf:group>
+												<xf:group class="w2tb_td" tagname="td">
+													<w2:textbox id="txt_OPRC_IFNM" class="txt" tagname="span" />
+												</xf:group>
+											</xf:group>
+											<xf:group tagname="tr">
+												<xf:group class="w2tb_th" tagname="th">
+													<w2:attributes>
+														<w2:scope>row</w2:scope>
+													</w2:attributes>
+													<w2:textbox id="textbox5" class="th_txt" label="기준가(전일대비)" tagname="span" />
+												</xf:group>
+												<xf:group class="w2tb_td" tagname="td">
+													<w2:textbox id="txt_TRD_BSPR" tagname="span" dataType="number" displayFormat="#,###.00" />
+													<w2:textbox id="textbox9" label=" (" tagname="span" />
+													<w2:textbox id="txt_YDAY_CMPR_YIRT" tagname="span" />
+													<w2:textbox id="textbox13" label=")" tagname="span" />
+												</xf:group>
+											</xf:group>
+											<xf:group tagname="tr">
+												<xf:group class="w2tb_th" tagname="th">
+													<w2:attributes>
+														<w2:scope>row</w2:scope>
+													</w2:attributes>
+													<w2:textbox id="textbox6" class="th_txt" label="투자지역" tagname="span" />
+												</xf:group>
+												<xf:group class="w2tb_td" tagname="td">
+													<w2:textbox id="txt_IVST_ZONE_NM" class="txt" tagname="span" />
+												</xf:group>
+											</xf:group>
+											<xf:group tagname="tr">
+												<xf:group class="w2tb_th" tagname="th">
+													<w2:attributes>
+														<w2:scope>row</w2:scope>
+													</w2:attributes>
+													<w2:textbox id="textbox7" class="th_txt" label="보수" tagname="span" />
+												</xf:group>
+												<xf:group class="w2tb_td" tagname="td">
+													<w2:textbox id="txt_TOT_FEE_RATE" class="txt" tagname="span" />
+												</xf:group>
+											</xf:group>
+											<xf:group tagname="tr">
+												<xf:group class="w2tb_th" tagname="th">
+													<w2:textbox class="th_txt" id="textbox97" label="설정일" tagname="span" />
+												</xf:group>
+												<xf:group class="w2tb_td" tagname="td">
+													<w2:textbox class="txt" id="txt_SET_DATE" tagname="span" dataType="date" displayFormat="yyyy-MM-dd" />
+												</xf:group>
+											</xf:group>
+										</table>
+									</xf:group>
+									<!-- PDF 다운로드 -->
+									<xf:group id="group18" class="product_box_06">
+										<xf:group id="group19" class="filedownload_01" tagname="ul">
+											<xf:group id="group20" tagname="li">
+												<xf:image id="image6" alt="PDF" src="/dws/images/contents/icon_pdf2.png" />
+												<w2:anchor id="btn_PDF1" class="txt link" outerDiv="false">
+													<xf:label><![CDATA[집합투자규약]]></xf:label>
+													<script ev:event="onclick" type="javascript"><![CDATA[
+														window.open("http://file.funddoctor.co.kr/app/file_download.asp?memb_cd=7070&pfund_cd=" + this.getUserData("ITEM_CD") + "&file_gb=R1");
+													]]></script>
+												</w2:anchor>
+											</xf:group>
+											<xf:group id="group21" tagname="li">
+												<xf:image id="image7" alt="PDF" src="/dws/images/contents/icon_pdf.png" />
+												<w2:anchor id="btn_PDF2" class="txt link" outerDiv="false">
+													<xf:label><![CDATA[투자설명서]]></xf:label>
+													<script ev:event="onclick" type="javascript"><![CDATA[
+														window.open("http://file.funddoctor.co.kr/app/file_download.asp?memb_cd=7070&pfund_cd=" + this.getUserData("ITEM_CD") + "&file_gb=R2");
+													]]></script>
+												</w2:anchor>
+											</xf:group>
+											<xf:group id="group22" tagname="li">
+												<xf:image id="image8" alt="PDF" src="/dws/images/contents/icon_pdf.png" />
+												<w2:anchor id="btn_PDF3" class="txt link" outerDiv="false">
+													<xf:label><![CDATA[간이투자설명서]]></xf:label>
+													<script ev:event="onclick" type="javascript"><![CDATA[
+														window.open("http://file.funddoctor.co.kr/app/file_download.asp?memb_cd=7070&pfund_cd=" + this.getUserData("ITEM_CD") + "&file_gb=R3");
+													]]></script>
+												</w2:anchor>
+											</xf:group>
+											<xf:group id="group23" tagname="li">
+												<xf:image id="image9" alt="PDF" src="/dws/images/contents/icon_pdf.png" />
+												<w2:anchor id="btn_PDF5" class="txt link" outerDiv="false">
+													<xf:label><![CDATA[자산운용보고서]]></xf:label>
+													<script ev:event="onclick" type="javascript"><![CDATA[
+														window.open("http://file.funddoctor.co.kr/app/file_download.asp?memb_cd=7070&pfund_cd=" + this.getUserData("ITEM_CD") + "&file_gb=R5");
+													]]></script>
+												</w2:anchor>
+											</xf:group>
+										</xf:group>
+									</xf:group>
+									<!-- 상단버튼 -->
+									<xf:group id="group24" class="product_btn_01">
+										<w2:anchor id="btn_buyTop" class="btn_u buy_confirm" outerDiv="false">
+											<xf:label><![CDATA[매수하기]]></xf:label>
+											<script ev:event="onclick" type="javascript"><![CDATA[
+												PageFunc.fn_movePurchase(PageParam.itemCd);
+											]]></script>
+										</w2:anchor>
+										<w2:anchor id="btn_concern" class="btn_u regist" outerDiv="false">
+											<xf:label><![CDATA[관심상품 등록]]></xf:label>
+											<script ev:event="onclick" type="javascript"><![CDATA[
+												if (this.getUserData("type") == "login") {
+													dwsCommon.LoginCheck.showLoginPopUp(function() {
+														PageFunc.fn_selectAfterLoginInfo();
+														PageFunc.fn_insertMyGoods();
+														fn_userSessionData();
+													});
+												} else if (this.getUserData("type") == "regist") {
+													PageFunc.fn_insertMyGoods();
+												}
+												window.scrollTo(0, 0);
+											]]></script>
+										</w2:anchor>
+										<w2:anchor id="anchor913" class="btn_u cancel" outerDiv="false">
+											<xf:label><![CDATA[전화걸기]]></xf:label>
+											<script ev:event="onclick" type="javascript"><![CDATA[
+												PageFunc.fn_showMsg(); 
+											]]></script>
+										</w2:anchor>
+										<w2:anchor id="anchor914" class="btn_u list" outerDiv="false">
+											<xf:label><![CDATA[목록]]></xf:label>
+											<script ev:event="onclick" type="javascript"><![CDATA[
+												var options = {};
+												if (PageParam.tabIndex) {
+													options = {
+														param : {
+															tabIndex :	PageParam.tabIndex
+														}
+													};
+												}
+												dwsCommon.movePage('/dws/view/mkt/mkt3/' + PageParam.from + '.do', options);
+												window.scrollTo(0, 0);
+											]]></script>
+										</w2:anchor>
+									</xf:group>
+								</xf:group>
+							</xf:group>
+							<xf:group id="group30" class="product_tab_01">
+								<w2:tabControl id="tab_main" spaInitCount="0" confirmTrueAction="exist" useConfirmMessage="false" class="tab_contents_02"
+									useTabKeyOnly="true" confirmFalseAction="new" tabScroll="false" alwaysDraw="true">
+									<w2:tabs id="tabs1" style="height:44px;" label="쉬운설명" disabled="false"></w2:tabs>
+									<w2:tabs id="tabs2" style="height:44px;" label="상세정보" disabled="false"></w2:tabs>
+									<w2:content id="content1" alwaysDraw="true">
+										<!-- 투자유형, 투자위험, 투자성향 -->
+										<xf:group id="group364" class="section">
+											<xf:group id="group32" class="layout_5_5">
+												<xf:group id="group33" class="leftarea_02">
+													<!-- 투자유형 -->
+													<xf:group id="group58" class="contbox">
+														<xf:group id="group59" class="title_area_02">
+															<xf:group id="group60" class="left_top_01">
+																<w2:textbox id="textbox26" label="투자유형" tagname="h2" />
+															</xf:group>
+														</xf:group>
+														<xf:group id="group71" class="product_detail_01">
+															<xf:group id="group61" class="cont_type_28" tagname="ul">
+																<xf:group id="group62" tagname="li">
+																	<w2:textbox id="txt_IVST_ZONE_NM_T0" tagname="span" />
+																</xf:group>
+																<xf:group id="group63" tagname="li">
+																	<w2:textbox id="txt_MAIN_IVST_TGT_T0" tagname="span" />
+																</xf:group>
+																<xf:group id="group70" tagname="li">
+																	<w2:textbox id="txt_OPRC_IFNM_T0" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group id="group95" class="fund_type_img">
+																<w2:textbox id="txt_ZEROIN_TYPE_LNM_T0" class="bg" />
+																<w2:textbox id="txt_ZEROIN_TYPE_NM_T0" class="label" />
+															</xf:group>
+														</xf:group>
+													</xf:group>
+													<!-- 투자위험, 투자성향 -->
+													<xf:group id="group72" class="contbox">
+														<xf:group id="group73" class="title_area_02">
+															<xf:group id="group74" class="left_top_01">
+																<w2:textbox id="textbox33" label="투자위험" tagname="h2" />
+															</xf:group>
+														</xf:group>
+														<xf:group id="group75" class="product_detail_02">
+															<!-- 투자위험 -->
+															<xf:group id="group76" class="cont_type_28" tagname="ul">
+																<xf:group id="group77" tagname="li">
+																	<w2:textbox id="textbox34" label="총 5개의 위험등급 중" tagname="span" />
+																	<xf:image id="RISK_IMG_T0" src="/dws/images/inc/icon_grade_01.png" />
+																	<w2:textbox id="txt_IVST_RISK_DEG_GRAD_NM_T0" tagname="span" />
+																	<w2:textbox id="txt_IVST_RISK_DEG_GRAD_T0" tagname="span" />
+																</xf:group>
+																<xf:group id="group78" tagname="li">
+																	<w2:textbox id="textbox35" label="표준편차(연) :" tagname="span" />
+																	<w2:textbox id="txt_YY_DEV_T0" class="point" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<!-- 투자성향 -->
+															<xf:group id="group80" class="notice">
+																<w2:span id="txt_cPatternNm_T0" class="msg_title orange" label="님 투자성향 :" />
+																<w2:span id="txt_cPatternTy_T0" class="high" />
+																<w2:anchor id="btn_cPattern_T0" title="투자정보확인서 화면 이동" href="#!" class="btn_b_cm cyber_account" outerDiv="false">
+																	<xf:label><![CDATA[변경]]></xf:label>
+																	<script ev:event="onclick" type="javascript"><![CDATA[
+																		if (this.getUserData("type") == "login") {
+																			dwsCommon.LoginCheck.showLoginPopUp(function() {
+																				PageFunc.fn_selectAfterLoginInfo();
+																				fn_userSessionData();
+																			});
+																		} else if (this.getUserData("type") == "change") {
+																			dwsCommon.movePage('/dws/view/mkm/mkm4/mkm4002m01.do');
+																		}
+																		return false;
+																	]]></script>
+																</w2:anchor>
+															</xf:group>
+														</xf:group>
+													</xf:group>
+													<xf:group id="group100" class="contbox">
+														<xf:group id="group101" class="title_area_02 question">
+															<xf:group id="group102" class="left_top_01">
+																<w2:textbox id="textbox60" label="구매방법" tagname="h2" />
+																<xf:group id="group904" class="btn_question">
+																	<xf:group id="group973" tagname="a">
+																		<w2:attributes>
+																			<w2:href>#!</w2:href>
+																			<w2:title>설명보기</w2:title>
+																		</w2:attributes>
+																		<xf:image id="img_question0" alt="설명보기" src="/dws/images/inc/btn_question.png" />
+																	</xf:group>
+																	<xf:group id="grp_toolTip0" class="tooltip_layer_wrap">
+																		<xf:group id="group967" class="tooltip_layer">
+																			<w2:anchor id="anchor942" class="close_btn" outerDiv="false">
+																				<script ev:event="onclick" type="javascript"><![CDATA[
+																					grp_toolTip0.hide();
+																				]]></script>
+																			</w2:anchor>
+																			<w2:textbox id="textbox989" label="&lt;strong&gt;보수란?&lt;/strong&gt;" />
+																			<w2:textbox id="textbox990" label="투자신탁의 운용 및 관리비용입니다. 재산을 운용해주는 대가로 고객이 지불하는 비용입니다." tagname="p" />
+																			<w2:textbox id="textbox991" label="&lt;strong&gt;선취수수료란?&lt;/strong&gt;" />
+																			<w2:textbox id="textbox992" label="펀드 가입시 가입금액의 일정비율에 해당하는 금액을 판매수수료로 선취하여 기준가계산에 영향을 미치지 않는 수수료입니다." tagname="p" />
+																			<w2:textbox id="textbox993" label="&lt;strong&gt;환매수수료란?&lt;/strong&gt;" />
+																			<w2:textbox id="textbox994" label="펀드의 환매(만기전 중도 현금인출)도 일정한 수수료를 물리고 있습니다. 이는 펀드운용의 안정성과 되사주는 투신사의 금융비용을 감안한 것입니다."
+																				tagname="p" />
+																			<xf:group id="group968" class="edge_cen" />
+																		</xf:group>
+																	</xf:group>
+																	<script ev:event="onclick" type="javascript"><![CDATA[
+																		PageFunc.fn_showTooltip("grp_toolTip0");
+																	]]></script>
+																</xf:group>
+															</xf:group>
+														</xf:group>
+														<xf:group id="group103" class="product_detail_03">
+															<xf:group id="group104" class="cont_type_28" tagname="ul">
+																<xf:group id="group105" tagname="li">
+																	<w2:textbox id="txt_SPCL_FRM_SECT_T0" tagname="span" />
+																</xf:group>
+																<xf:group id="group106" tagname="li">
+																	<w2:textbox id="txt_BUY_ENBL_TYPE_T0" tagname="span" />
+																</xf:group>
+																<xf:group id="group107" tagname="li">
+																	<w2:textbox id="textbox68" label="온라인 구매 시, 수수료/보수율 및 대금지급 기준은 아래와 같습니다." tagname="span" />
+																</xf:group>
+															</xf:group>
+														</xf:group>
+														<table id="table2" summary="온라인 구매 수수료/보수율 및 대금지급 기준" class="w2tb tbl_01" adaptive="" adaptiveThreshold="">
+															<xf:group tagname="caption">수수료/보수율 및 대금지급 기준표</xf:group>
+															<xf:group tagname="colgroup">
+																<xf:group style="width:35%;" tagname="col" />
+																<xf:group style="width:;" tagname="col" />
+															</xf:group>
+															<xf:group id="group381" tagname="tbody">
+																<xf:group tagname="tr" class="w2tb_tr">
+																	<xf:group class="w2tb_th" tagname="th">
+																		<w2:attributes>
+																			<w2:scope>col</w2:scope>
+																		</w2:attributes>
+																		<w2:span id="span142348247" label="보수" class="th_txt">
+																		</w2:span>
+																	</xf:group>
+																	<xf:group class="w2tb_td" tagname="td">
+																		<w2:textbox id="txt_TOT_FEE_RATE_T0" />
+																	</xf:group>
+																</xf:group>
+																<xf:group tagname="tr" class="w2tb_tr">
+																	<xf:group class="w2tb_th" tagname="th">
+																		<w2:attributes>
+																			<w2:scope>col</w2:scope>
+																		</w2:attributes>
+																		<w2:span class="th_txt" id="span147658216" label="선취수수료" />
+																	</xf:group>
+																	<xf:group class="w2tb_td" tagname="td">
+																		<w2:textbox id="txt_PANMAEBEFORE_T0" class="txt" />
+																	</xf:group>
+																</xf:group>
+																<xf:group class="w2tb_tr" id="group999" tagname="tr">
+																	<xf:group class="w2tb_th" tagname="th">
+																		<w2:attributes>
+																			<w2:scope>col</w2:scope>
+																		</w2:attributes>
+																		<w2:span class="th_txt" id="span1443621" label="환매수수료" displayFormatter="" />
+																	</xf:group>
+																	<xf:group class="w2tb_td" tagname="td">
+																		<w2:textbox id="txt_HWANMAE_T0" class="txt" />
+																	</xf:group>
+																</xf:group>
+																<xf:group class="w2tb_tr" id="group999252" tagname="tr">
+																	<xf:group class="w2tb_th" tagname="th">
+																		<w2:attributes>
+																			<w2:scope>col</w2:scope>
+																		</w2:attributes>
+																		<w2:span class="th_txt" id="span1423441" label="환매대금 지급일수" />
+																	</xf:group>
+																	<xf:group class="w2tb_td" tagname="td">
+																		<w2:textbox id="txt_BASE_TIME_AFT_BUY_DCNT2_T0" />
+																	</xf:group>
+																</xf:group>
+																<xf:group class="w2tb_tr" id="group9996777" tagname="tr">
+																	<xf:group class="w2tb_th" tagname="th">
+																		<w2:attributes>
+																			<w2:scope>col</w2:scope>
+																		</w2:attributes>
+																		<w2:span class="th_txt" id="span143562" label="환매기준가 적용일수" />
+																	</xf:group>
+																	<xf:group class="w2tb_td" tagname="td">
+																		<w2:textbox id="txt_BASE_TIME_AFT_BUY_DCNT1_T0" />
+																	</xf:group>
+																</xf:group>
+															</xf:group>
+														</table>
+													</xf:group>
+												</xf:group>
+												<!-- 최근 3개월 수익률 추이, 펀드규모 추이 -->
+												<xf:group id="group43" class="rightarea_02">
+													<!-- 최근 3개월 수익률 추이 -->
+													<xf:group id="group81" class="contbox">
+														<xf:group id="group82" class="title_area_02">
+															<xf:group id="group83" class="left_top_01">
+																<w2:textbox id="textbox43" label="최근 3개월 수익률 추이" tagname="h2" />
+															</xf:group>
+														</xf:group>
+														<xf:group id="group84" class="product_detail_03">
+															<xf:group id="group85" class="cont_type_28" tagname="ul">
+																<xf:group id="group87" tagname="li">
+																	<w2:textbox id="txt_BSPR_DATE_1_T0" class="point" tagname="span" dataType="date" displayFormat="yyyy-MM-dd" />
+																	<w2:textbox id="textbox48" label="를 기준으로 최근" tagname="span" />
+																	<w2:textbox id="textbox49" class="point space" label="3개월" tagname="span" />
+																	<w2:textbox id="textbox50" label="투자성과 수익율은" tagname="span" />
+																	<w2:textbox id="txt_MMS3_YIRT_T0" class="point" tagname="span" dataType="number" displayFormat="#,###.00%" />
+																	<w2:textbox id="textbox52" style="margin-left:5px;margin-top:-15px;" label="입니다." tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group id="group998" class="chart_01">
+																<w2:fusionchart id="charYirt3_T0" accessibility="true" chartType="MSLine" drawType="javascript" seriesType="advanced"
+																	style="width:100%;height:100%;">
+																</w2:fusionchart>
+															</xf:group>
+														</xf:group>
+													</xf:group>
+													<!-- 펀드규모 추이 -->
+													<xf:group id="group89" class="contbox">
+														<xf:group id="group90" class="title_area_02">
+															<xf:group id="group91" class="left_top_01">
+																<w2:textbox id="textbox53" label="펀드규모 추이" tagname="h2" />
+															</xf:group>
+														</xf:group>
+														<xf:group id="group92" class="product_detail_03">
+															<xf:group id="group93" class="cont_type_28" tagname="ul">
+																<xf:group id="group94" tagname="li">
+																	<w2:textbox id="txt_BSPR_DATE_2_T0" class="point" dataType="date" displayFormat="yyyy-MM-dd" tagname="span" />
+																	<w2:textbox id="textbox55" label="를 기준으로 모집된 펀드 금액은" tagname="span" />
+																	<w2:textbox id="txt_STPT_IND_T0" class="point space" tagname="span" />
+																	<w2:textbox id="textbox57" label="이며, 1년 전 대비" tagname="span" />
+																	<w2:textbox id="txt_STPT_IND_RT_T0" class="point space" tagname="span" />
+																	<w2:textbox id="textbox59" label="하였습니다." tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group id="group98" class="chart_01">
+																<w2:fusionchart id="charOtxt_T0" accessibility="true" chartType="MSLine" drawType="javascript" seriesType="advanced"
+																	style="width:100%;height:100%;">
+																</w2:fusionchart>
+															</xf:group>
+														</xf:group>
+													</xf:group>
+												</xf:group>
+											</xf:group>
+										</xf:group>
+										<!-- 구매방법, 온라인 구매 수수료/보수율 및 대금지급 기준 -->
+									</w2:content>
+									<w2:content id="content2" alwaysDraw="true">
+										<!-- 펀드 상세내용, 수익률 추이 -->
+										<xf:group id="group365" class="section">
+											<!-- 펀드 상세내용 -->
+											<xf:group id="group255" class="contbox">
+												<xf:group id="group256" class="title_area_01">
+													<xf:group id="group257" class="left_top_01">
+														<w2:textbox id="textbox183" label="펀드 상세내용" tagname="h2" />
+													</xf:group>
+												</xf:group>
+												<table summary="펀드 상세내용" id="table4" adaptive="layout" adaptiveThreshold="768" class="w2tb tbl_01">
+													<xf:group tagname="caption">펀드 상세내용</xf:group>
+													<xf:group tagname="colgroup">
+														<xf:group style="width:18%;" tagname="col" />
+														<xf:group tagname="col" />
+														<xf:group style="width:18%;" tagname="col" />
+														<xf:group tagname="col" />
+													</xf:group>
+													<xf:group tagname="tr">
+														<xf:group class="w2tb_th" tagname="th">
+															<w2:attributes>
+																<w2:scope>row</w2:scope>
+															</w2:attributes>
+															<w2:textbox id="textbox185" class="th_txt" label="투자지역/투자유형" tagname="span" />
+														</xf:group>
+														<xf:group class="w2tb_td" tagname="td">
+															<w2:textbox id="txt_IVST_ZONE_OPR_ATTR_NM_T1" class="txt mr0" tagname="span" />
+														</xf:group>
+														<xf:group class="w2tb_th" tagname="th">
+															<w2:attributes>
+																<w2:scope>row</w2:scope>
+															</w2:attributes>
+															<w2:textbox id="textbox197" class="th_txt" label="수탁사" tagname="span" />
+														</xf:group>
+														<xf:group class="w2tb_td" tagname="td">
+															<w2:textbox id="txt_SUTAKCOMPANY_T1" class="txt mr0" tagname="span" />
+														</xf:group>
+													</xf:group>
+													<xf:group tagname="tr">
+														<xf:group class="w2tb_th" tagname="th">
+															<w2:attributes>
+																<w2:scope>row</w2:scope>
+															</w2:attributes>
+															<w2:textbox id="textbox187" class="th_txt" label="입금:가격적용일" tagname="span" />
+														</xf:group>
+														<xf:group class="w2tb_td" tagname="td">
+															<w2:textbox id="txt_BASE_TIME_BEF_BUY_DCNT1_T1" class="txt mr0" tagname="span" />
+														</xf:group>
+														<xf:group class="w2tb_th" tagname="th">
+															<w2:attributes>
+																<w2:scope>row</w2:scope>
+															</w2:attributes>
+															<w2:textbox id="textbox198" class="th_txt" label="입금:매입일" tagname="span" />
+														</xf:group>
+														<xf:group class="w2tb_td" tagname="td">
+															<w2:textbox id="txt_BASE_TIME_BEF_BUY_DCNT2_T1" class="txt mr0" tagname="span" />
+														</xf:group>
+													</xf:group>
+													<xf:group tagname="tr">
+														<xf:group class="w2tb_th" tagname="th">
+															<w2:attributes>
+																<w2:scope>row</w2:scope>
+															</w2:attributes>
+															<w2:textbox id="textbox191" class="th_txt" label="환매:가격적용일" tagname="span" />
+														</xf:group>
+														<xf:group class="w2tb_td" tagname="td">
+															<w2:textbox id="txt_BASE_TIME_AFT_BUY_DCNT1_T1" class="txt mr0" tagname="span" />
+														</xf:group>
+														<xf:group class="w2tb_th" tagname="th">
+															<w2:attributes>
+																<w2:scope>row</w2:scope>
+															</w2:attributes>
+															<w2:textbox id="textbox199" class="th_txt" label="환매:출금일" tagname="span" />
+														</xf:group>
+														<xf:group class="w2tb_td" tagname="td">
+															<w2:textbox id="txt_BASE_TIME_AFT_BUY_DCNT2_T1" class="txt mr0" tagname="span" />
+														</xf:group>
+													</xf:group>
+												</table>
+											</xf:group>
+											<!-- 수익률 추이 -->
+											<xf:group id="group262" class="contbox">
+												<xf:group id="group263" class="title_area_01">
+													<xf:group id="group264" class="left_top_01">
+														<w2:textbox id="textbox216" label="수익률 추이" tagname="h2" />
+													</xf:group>
+												</xf:group>
+												<xf:group class="searchbox mbs" id="group383" style="margin-top:0;">
+													<xf:group id="group384" tagname="fieldset">
+														<w2:textbox id="textbox976" label="펀드매수하기 검색폼" tagname="legend"></w2:textbox>
+														<xf:group class="search_row" id="group385">
+															<xf:group class="search_column" id="group386">
+																<xf:group class="sh_cont" id="group387">
+																	<w2:textbox id="textbox10" label="주식종목은 1종목만 추가가능합니다." class="bk_name" style="margin-left:0;" />
+																	<w2:anchor class="btn_s_cm gray" id="anchor96" outerDiv="false">
+																		<xf:label><![CDATA[비교종목 추가하기]]></xf:label>
+																		<script ev:event="onclick" type="javascript"><![CDATA[
+																			dwsCommon.popup.open({
+																				url : "/dws/view/pop/wts/stcdSerPop.do"
+																			});
+																			window.scrollTo(0, 0);
+																		]]></script>
+																	</w2:anchor>
+																</xf:group>
+															</xf:group>
+														</xf:group>
+														<xf:group class="search_row" id="group388">
+															<xf:group class="search_column" id="group389">
+																<xf:group class="sh_cont" id="group390">
+																	<xf:select appearance="full" class="checkbox" id="cbx_chart_T1" renderType="checkboxgroup" selectedindex="-1">
+																		<xf:choices>
+																			<xf:item>
+																				<xf:label><![CDATA[코스피]]></xf:label>
+																				<xf:value>KOSPI</xf:value>
+																			</xf:item>
+																			<xf:item>
+																				<xf:label><![CDATA[코스닥]]></xf:label>
+																				<xf:value>KOSDAQ</xf:value>
+																			</xf:item>
+																			<xf:item>
+																				<xf:label><![CDATA[DOWJONES]]></xf:label>
+																				<xf:value>DOWJONES</xf:value>
+																			</xf:item>
+																			<xf:item>
+																				<xf:label><![CDATA[NASDAQ]]></xf:label>
+																				<xf:value>NASDAQ</xf:value>
+																			</xf:item>
+																			<xf:item>
+																				<xf:label><![CDATA[H(홍콩)지수]]></xf:label>
+																				<xf:value>HONGKONG</xf:value>
+																			</xf:item>
+																		</xf:choices>
+																		<script ev:event="onviewchange(info)" type="javascript"><![CDATA[
+																			PageFunc.fn_selectChartSubInfoT1(info.index, info.value, info.checked);
+																		]]></script>
+																	</xf:select>
+																</xf:group>
+															</xf:group>
+														</xf:group>
+													</xf:group>
+												</xf:group>
+												<xf:group class="btn_area_01" id="group391">
+													<xf:group class="right_bottom_01" id="group392">
+														<w2:textbox id="textbox977" label="수익률" style="padding:4px 10px 0;float:left;" tagname="span">
+														</w2:textbox>
+														<xf:group class="btn_group_01" id="group393">
+															<w2:anchor class="bnt_day on" id="btn_fc1Month_T1" outerDiv="false" style="width:40px;">
+																<xf:label><![CDATA[1개월]]></xf:label>
+																<script ev:event="onclick" type="javascript"><![CDATA[
+																	btn_fc1Month_T1.removeClass("on"); 
+																	btn_fc3Month_T1.removeClass("on");
+																	btn_fc1Year_T1.removeClass("on");
+																	
+																	btn_fc1Month_T1.addClass("on");
+																	
+																	PageFunc.fn_yirtChartDateT1(PageParam.b1month);
+																]]></script>
+															</w2:anchor>
+															<w2:anchor class="bnt_day" id="btn_fc3Month_T1" outerDiv="false" style="width:40px;">
+																<xf:label><![CDATA[3개월]]></xf:label>
+																<script ev:event="onclick" type="javascript"><![CDATA[
+																	btn_fc1Month_T1.removeClass("on"); 
+																	btn_fc3Month_T1.removeClass("on");
+																	btn_fc1Year_T1.removeClass("on");
+																	
+																	btn_fc3Month_T1.addClass("on");
+																	
+																	PageFunc.fn_yirtChartDateT1(PageParam.b3month);
+																]]></script>
+															</w2:anchor>
+															<w2:anchor class="bnt_day" id="btn_fc1Year_T1" outerDiv="false" style="width:40px;">
+																<xf:label><![CDATA[1년]]></xf:label>
+																<script ev:event="onclick" type="javascript"><![CDATA[
+																	btn_fc1Month_T1.removeClass("on"); 
+																	btn_fc3Month_T1.removeClass("on");
+																	btn_fc1Year_T1.removeClass("on");
+																	
+																	btn_fc1Year_T1.addClass("on");
+																	
+																	PageFunc.fn_yirtChartDateT1(PageParam.b1year);
+																]]></script>
+															</w2:anchor>
+														</xf:group>
+													</xf:group>
+												</xf:group>
+												<xf:group class="chart_area" id="group394" style="height:300px;">
+													<w2:fusionchart id="charYirt_T1" accessibility="true" chartType="MSLine" drawType="javascript" seriesType="advanced"
+														style="width:100%;height:300px;">
+													</w2:fusionchart>
+												</xf:group>
+											</xf:group>
+										</xf:group>
+										<!-- 동일유형 내 수익률 비교, 자산현황, 동일유형 내 평가, 주요자산 투자한도 -->
+										<xf:group id="group303" class="section">
+											<xf:group id="group9268" class="layout_5_5">
+												<xf:group id="group9269" class="leftarea_02">
+													<!-- 동일유형 내 수익률 비교, 자산현황 -->
+													<xf:group id="group9270" class="contbox">
+														<xf:group id="group9271" class="title_area_02 question">
+															<xf:group id="group9272" class="left_top_01">
+																<w2:textbox id="textbox218" label="동일유형 내 수익률 비교" tagname="h2" />
+																<xf:group id="group304" class="btn_question">
+																	<xf:group id="group373" tagname="a">
+																		<w2:attributes>
+																			<w2:href>#!</w2:href>
+																			<w2:title>설명보기</w2:title>
+																		</w2:attributes>
+																		<xf:image id="img_question1" alt="설명보기" src="/dws/images/inc/btn_question.png" />
+																	</xf:group>
+																	<xf:group id="grp_toolTip1" class="tooltip_layer_wrap">
+																		<xf:group id="group367" class="tooltip_layer">
+																			<w2:anchor id="anchor42" class="close_btn" outerDiv="false">
+																				<script ev:event="onclick" type="javascript"><![CDATA[
+																					grp_toolTip1.hide();
+																				]]></script>
+																			</w2:anchor>
+																			<w2:textbox id="textbox389" label="&lt;strong&gt;동일유형 내 수익률이란?&lt;/strong&gt;" />
+																			<w2:textbox id="textbox390" label="전체 동일 유형대상펀드를 100개라 가정했을때 해당펀드의 상대적인 순위를 나타냅니다." tagname="p" />
+																			<xf:group id="group368" class="edge_cen" />
+																		</xf:group>
+																	</xf:group>
+																	<script ev:event="onclick" type="javascript"><![CDATA[
+																		PageFunc.fn_showTooltip("grp_toolTip1");
+																	]]></script>
+																</xf:group>
+															</xf:group>
+															<xf:group class="right_bottom_01" id="group305">
+																<w2:textbox id="txt_SUIK_GIJUN_YMD" tagname="span" class="total_txt" dataType="date" displayFormat="yyyy-MM-dd, %" />
+															</xf:group>
+														</xf:group>
+														<table class="w2tb tbl_01 t_center" id="table6" summary="동일유형 내 수익률 비교">
+															<xf:group tagname="caption">동일유형 내 수익률 비교</xf:group>
+															<xf:group tagname="colgroup">
+																<xf:group style="width:25%;" tagname="col" />
+																<xf:group tagname="col" />
+																<xf:group tagname="col" />
+																<xf:group tagname="col" />
+																<xf:group tagname="col" />
+																<xf:group tagname="col" />
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" tagname="th">
+																	<w2:textbox class="th_txt" id="textbox246" label="구분" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_th" tagname="th" id="th_aa">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox247" label="1개월" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_th" tagname="th" id="th_bb">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox248" label="3개월" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_th" tagname="th" id="th_cc">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox249" label="6개월" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_th" tagname="th" id="th_dd">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox258" label="1년" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_th" tagname="th" id="th_ee">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox9259" label="3년" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" tagname="th" id="th_ff">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox250" label="펀드" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_aa th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_SILH_SUIK_RT_1_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_bb th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_SILH_SUIK_RT_3_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_cc th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_SILH_SUIK_RT_6_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_dd th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_SILH_SUIK_RT_12_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_ee th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_SILH_SUIK_RT_36_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" tagname="th" id="th_gg">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox262" label="벤치마크" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_aa th_gg</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_BM_SUIK_RT_1_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_bb th_gg</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_BM_SUIK_RT_3_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_cc th_gg</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_BM_SUIK_RT_6_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_dd th_gg</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_BM_SUIK_RT_12_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_ee th_gg</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_BM_SUIK_RT_36_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" tagname="th" id="th_hh">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox268" label="동일유형 평균" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_aa th_hh</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TYPE_AVG_1_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_bb th_hh</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TYPE_AVG_3_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_cc th_hh</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TYPE_AVG_6_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_dd th_hh</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TYPE_AVG_12_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_ee th_hh</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TYPE_AVG_36_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" tagname="th" id="th_ii">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox274" label="비교 결과" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_aa th_ii</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_GIGAN_SUIK_RANK2_1_T1" tagname="span" />
+																	<xf:image id="img_GIGAN_SUIK_RANK2_1_T1" src="/dws/images/inc/icon_status_02.png" style="display:none;" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_bb th_ii</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_GIGAN_SUIK_RANK2_3_T1" tagname="span" />
+																	<xf:image id="img_GIGAN_SUIK_RANK2_3_T1" src="/dws/images/inc/icon_status_02.png" style="display:none;" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_cc th_ii</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_GIGAN_SUIK_RANK2_6_T1" tagname="span" />
+																	<xf:image id="img_GIGAN_SUIK_RANK2_6_T1" src="/dws/images/inc/icon_status_02.png" style="display:none;" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_dd th_ii</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_GIGAN_SUIK_RANK2_12_T1" tagname="span" />
+																	<xf:image id="img_GIGAN_SUIK_RANK2_12_T1" src="/dws/images/inc/icon_status_02.png" style="display:none;" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_ee th_ii</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_GIGAN_SUIK_RANK2_36_T1" tagname="span" />
+																	<xf:image id="img_GIGAN_SUIK_RANK2_36_T1" src="/dws/images/inc/icon_status_02.png" style="display:none;" />
+																</xf:group>
+															</xf:group>
+														</table>
+														<xf:group class="cont_type_22 star" id="group327" tagname="ul">
+															<xf:group id="group329" tagname="li">
+																<w2:textbox id="txt_BM_NM_T1" tagname="span" />
+															</xf:group>
+														</xf:group>
+													</xf:group>
+													<!-- 자산현황 -->
+													<xf:group class="contbox" id="group333">
+														<xf:group class="title_area_02 question" id="group334">
+															<xf:group class="left_top_01" id="group335">
+																<w2:textbox id="textbox325" label="자산현황" tagname="h2" />
+															</xf:group>
+															<xf:group class="right_bottom_01" id="group337">
+																<w2:textbox class="total_txt" id="txt_AK_RT_GIJUN_YMD_T1" tagname="span" dataType="date" displayFormat="yyyy-MM-dd" />
+															</xf:group>
+														</xf:group>
+														<table class="w2tb tbl_01 t_center" id="table8" summary="자산현황">
+															<xf:group tagname="caption">자산현황</xf:group>
+															<xf:group tagname="colgroup">
+																<xf:group style="width:40%;" tagname="col" />
+																<xf:group tagname="col" />
+																<xf:group tagname="col" />
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" tagname="th">
+																	<w2:textbox class="th_txt" id="textbox327" label="구분" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_th" id="group338" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox328" label="평가액(억원)" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_th" id="group339" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox329" label="펀드내 비중(%)" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group343" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox333" label="국내주식" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group338 group343</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_STOCK_AK_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group339 group343</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_STOCK_RT_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group344" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox339" label="해외주식" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group338 group344</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_STOCK_OTHER_AK_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group339 group344</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_STOCK_OTHER_RT_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group345" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox345" label="국내채권" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group338 group345</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_BOND_AK_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group339 group345</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_BOND_RT_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group346" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox351" label="해외채권" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group338 group346</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_BOND_OTHER_AK_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group339 group346</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_BOND_OTHER_RT_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group349" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox358" label="펀드" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group338 group347</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_FUND_AK_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group339 group347</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_FUND_RT_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group350" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox361" label="유동성" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group338 group348</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_CASH_AK_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group339 group348</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_CASH_RT_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group351" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox364" label="주식선물 순포지션" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group338 group349</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_MESU_STOCK_AK_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group339 group349</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_MESU_STOCK_RT_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group352" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox367" label="채권선물 순포지션" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group338 group350</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_MESU_INTEREST_AK_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td t_right" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group339 group350</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_MESU_INTEREST_RT_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+														</table>
+													</xf:group>
+												</xf:group>
+												<!-- 동일유형 내 평가, 주요자산 투자한도 -->
+												<xf:group id="group288" class="rightarea_02">
+													<!-- 동일유형 내 평가 -->
+													<xf:group id="group289" class="contbox">
+														<xf:group class="title_area_02 question" id="group307">
+															<xf:group class="left_top_01" id="group308">
+																<w2:textbox id="textbox280" label="동일유형 내 평가" tagname="h2" />
+																<xf:group class="btn_question" id="group375">
+																	<xf:group id="group376" tagname="a">
+																		<w2:attributes>
+																			<w2:href>#!</w2:href>
+																			<w2:title>설명보기</w2:title>
+																		</w2:attributes>
+																		<xf:image alt="설명보기" id="img_question2" src="/dws/images/inc/btn_question.png" />
+																		<script ev:event="onclick" type="javascript"><![CDATA[
+																			PageFunc.fn_showTooltip("grp_toolTip2");
+																		]]></script>
+																	</xf:group>
+																	<xf:group id="grp_toolTip2" class="tooltip_layer_wrap">
+																		<xf:group class="tooltip_layer" id="group378">
+																			<w2:anchor class="close_btn" id="anchor44" outerDiv="false">
+																				<script ev:event="onclick" type="javascript"><![CDATA[
+																					grp_toolTip2.hide();
+																				]]></script>
+																			</w2:anchor>
+																			<w2:textbox id="textbox397" label="&lt;strong&gt;보수란?&lt;/strong&gt;" />
+																			<w2:textbox id="textbox398" label="투자신탁의 운용 및 관리비용입니다. 재산을 운용해준 대가로 고객이 지불하는 비용입니다." tagname="p" />
+																			<w2:textbox id="textbox399" label="&lt;strong&gt;Sharpe Ratio란?&lt;/strong&gt;" />
+																			<w2:textbox id="textbox400" label="펀드수익율이 균형 상태에서의 수익율보다 얼마나 높은지를 나타내는 지표입니다." tagname="p" />
+																			<w2:textbox id="textbox401" label="&lt;strong&gt;젠센알파란?&lt;/strong&gt;" />
+																			<w2:textbox id="textbox402" label="펀드의 초과수익이 얼마인지 측정하는 지표입니다." tagname="p" />
+																			<xf:group class="edge_cen" id="group379" />
+																		</xf:group>
+																	</xf:group>
+																</xf:group>
+															</xf:group>
+															<xf:group class="right_bottom_01" id="group310">
+																<w2:textbox class="total_txt" id="txt_YY_DEV_GIJUN_YMD_T1" tagname="span" dataType="date" displayFormat="yyyy-MM-dd, %" />
+															</xf:group>
+														</xf:group>
+														<table class="w2tb tbl_01 t_center" id="table7" summary="동일유형 내 평가">
+															<xf:group tagname="caption">동일유형 내 평가</xf:group>
+															<xf:group tagname="colgroup">
+																<xf:group style="width:25%;" tagname="col" />
+																<xf:group style="width:18%;" tagname="col" />
+																<xf:group style="width:18%;" tagname="col" />
+																<xf:group tagname="col" />
+															</xf:group>
+															<xf:group style="height:30px;" tagname="tr">
+																<xf:group class="w2tb_th" tagname="th">
+																	<w2:attributes>
+																		<w2:colspan>1</w2:colspan>
+																		<w2:rowspan>2</w2:rowspan>
+																	</w2:attributes>
+																	<w2:textbox id="textbox282" class="th_txt" label="구분" tagname="span" />
+																</xf:group>
+																<xf:group id="group320" class="w2tb_th" tagname="th">
+																	<w2:attributes>
+																		<w2:colspan>2</w2:colspan>
+																		<w2:rowspan>1</w2:rowspan>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox312" label="6개월(%)" tagname="span">
+																	</w2:textbox>
+																</xf:group>
+																<xf:group id="group322" class="w2tb_th" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																		<w2:colspan>1</w2:colspan>
+																		<w2:rowspan>2</w2:rowspan>
+																	</w2:attributes>
+																	<w2:textbox id="textbox285" class="th_txt" label="비교결과" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group311" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox283" label="펀드" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_th" id="group312" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox284" label="동일유형" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_td" id="group316" tagname="td">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox288" label="표준편차" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_aa th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_YY_DEV_1_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_bb th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_YY_DEV_2_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_cc th_ff</w2:headers>
+																	</w2:attributes>
+																	<xf:image id="img_YY_DEV_EVL_T1" src="/dws/images/inc/icon_status_01.png" style="display:none;" />
+																	<w2:textbox id="txt_YY_DEV_EVL_T1" label="-" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_td" id="group326" tagname="td">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox317" label="Sharpe Ratio" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_aa th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_SHARP_1_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_bb th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_SHARP_2_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_cc th_ff</w2:headers>
+																	</w2:attributes>
+																	<xf:image id="img_SHARP_EVL_T1" src="/dws/images/inc/icon_status_01.png" style="display:none;" />
+																	<w2:textbox id="txt_SHARP_EVL_T1" label="-" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_td" id="group325" tagname="td">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox313" label="젠센알파" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_aa th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_ALPHA_MKT_1_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_bb th_ff</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="txt_ALPHA_MKT_2_T1" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>th_cc th_ff</w2:headers>
+																	</w2:attributes>
+																	<xf:image id="img_ALPHA_MKT_EVL_T1" src="/dws/images/inc/icon_status_01.png" style="display:none;" />
+																	<w2:textbox id="txt_ALPHA_MKT_EVL_T1" label="-" tagname="span" />
+																</xf:group>
+															</xf:group>
+														</table>
+														<xf:group class="cont_type_22 star" id="group330" tagname="ul">
+															<xf:group id="group331" tagname="li">
+																<w2:textbox id="textbox323" label="표준편차가 동일유형보다 &amp;nbsp;%가 낮을 수록 안정적인 펀드입니다." tagname="span" />
+															</xf:group>
+															<xf:group id="group332" tagname="li">
+																<w2:textbox id="textbox324" label="Sharpe Ratio, 젠센알파는 동일유형보다 높을수록 투자성과가 좋은 펀드입니다." tagname="span" />
+															</xf:group>
+														</xf:group>
+													</xf:group>
+													<!-- 주요자산 투자한도 -->
+													<xf:group class="contbox" id="group353">
+														<xf:group class="title_area_02 question" id="group354">
+															<xf:group class="left_top_01" id="group355">
+																<w2:textbox id="textbox370" label="주요자산 투자한도" tagname="h2" />
+															</xf:group>
+														</xf:group>
+														<table class="w2tb tbl_01 t_center" id="table9" summary="주요자산 투자한도">
+															<xf:group tagname="caption">주요자산 투자한도</xf:group>
+															<xf:group tagname="colgroup">
+																<xf:group style="width:35%;" tagname="col" />
+																<xf:group tagname="col" />
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" tagname="th">
+																	<w2:textbox class="th_txt" id="textbox372" label="구분" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_th" id="group357" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>col</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox373" label="투자한도" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group359" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox375" label="총 주식" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group357 group359</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TOTALIVST_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group360" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox378" label="총 채권" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group357 group360</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TOTALBOND_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group361" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox381" label="유동성" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group357 group361</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TOTALCASH_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group362" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox384" label="수익증권" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group357 group362</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TOTALSUIK_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+															<xf:group tagname="tr">
+																<xf:group class="w2tb_th" id="group363" tagname="th">
+																	<w2:attributes>
+																		<w2:scope>row</w2:scope>
+																	</w2:attributes>
+																	<w2:textbox class="th_txt" id="textbox387" label="기타자산" tagname="span" />
+																</xf:group>
+																<xf:group class="w2tb_td" tagname="td">
+																	<w2:attributes>
+																		<w2:headers>group357 group363</w2:headers>
+																	</w2:attributes>
+																	<w2:textbox class="txt mr0" id="txt_TOTALETC_T1" tagname="span" />
+																</xf:group>
+															</xf:group>
+														</table>
+													</xf:group>
+												</xf:group>
+											</xf:group>
+										</xf:group>
+										<!-- 수수료/보수율 안내 -->
+										<xf:group class="section" id="group209">
+											<xf:group class="title_area_01" id="group210">
+												<xf:group class="left_top_01" id="group267">
+													<w2:textbox id="textbox217" label="수수료/보수율 안내" tagname="h2" />
+												</xf:group>
+											</xf:group>
+											<table adaptive="crosstab" adaptiveThreshold="768" class="w2tb tbl_01 t_center" id="table3" summary="수수료/보수율 안내">
+												<xf:group tagname="caption">수수료/보수율 및 대금지급 기준표</xf:group>
+												<xf:group tagname="colgroup">
+													<xf:group tagname="col" />
+													<xf:group tagname="col" />
+													<xf:group tagname="col" />
+													<xf:group tagname="col" />
+													<xf:group tagname="col" />
+													<xf:group tagname="col" />
+													<xf:group tagname="col" />
+													<xf:group style="width:15%;" tagname="col" />
+												</xf:group>
+												<xf:group style="height:30px;" tagname="tr">
+													<xf:group class="w2tb_th" tagname="th">
+														<w2:attributes>
+															<w2:colspan>5</w2:colspan>
+															<w2:scope>col</w2:scope>
+														</w2:attributes>
+														보수
+													</xf:group>
+													<xf:group class="w2tb_th" tagname="th">
+														<w2:attributes>
+															<w2:scope>col</w2:scope>
+														</w2:attributes>
+														판매수수료
+													</xf:group>
+													<xf:group class="w2tb_th" tagname="th">
+														환매정보
+														<w2:attributes>
+															<w2:colspan>2</w2:colspan>
+															<w2:scope>col</w2:scope>
+														</w2:attributes>
+													</xf:group>
+												</xf:group>
+												<xf:group tagname="tr">
+													<xf:group class="w2tb_th" tagname="th">
+														총보수
+														<w2:attributes>
+															<w2:scope>col</w2:scope>
+														</w2:attributes>
+													</xf:group>
+													<xf:group class="w2tb_th" tagname="th">
+														운용보수
+														<w2:attributes>
+															<w2:scope>col</w2:scope>
+														</w2:attributes>
+													</xf:group>
+													<xf:group class="w2tb_th" tagname="th">
+														판매보수
+														<w2:attributes>
+															<w2:scope>col</w2:scope>
+														</w2:attributes>
+													</xf:group>
+													<xf:group class="w2tb_th" tagname="th">
+														수탁보수
+														<w2:attributes>
+															<w2:scope>col</w2:scope>
+														</w2:attributes>
+													</xf:group>
+													<xf:group class="w2tb_th" tagname="th">
+														사무보수
+														<w2:attributes>
+															<w2:scope>col</w2:scope>
+														</w2:attributes>
+													</xf:group>
+													<xf:group class="w2tb_th" tagname="th">선취</xf:group>
+													<xf:group class="w2tb_th" tagname="th">환매제한기간</xf:group>
+													<xf:group class="w2tb_th" tagname="th">환매수수료율</xf:group>
+												</xf:group>
+												<xf:group tagname="tr">
+													<xf:group class="w2tb_td" tagname="td">
+														<w2:textbox id="txt_TOTALFEE_T1" class="txt" dataType="number" displayFormat="연 #,###.00%" />
+													</xf:group>
+													<xf:group class="w2tb_td" tagname="td">
+														<w2:textbox id="txt_UNYOUNGFEE_T1" class="txt" dataType="number" displayFormat="연 #,###.00%" />
+													</xf:group>
+													<xf:group class="w2tb_td" tagname="td">
+														<w2:textbox id="txt_PANMAEFEE_T1" class="txt" dataType="number" displayFormat="연 #,###.00%" />
+													</xf:group>
+													<xf:group class="w2tb_td" tagname="td">
+														<w2:textbox id="txt_SUTAKEFEE_T1" class="txt" dataType="number" displayFormat="연 #,###.00%" />
+													</xf:group>
+													<xf:group class="w2tb_td" tagname="td">
+														<w2:textbox id="txt_SAMUFEE_T1" class="txt" dataType="number" displayFormat="연 #,###.00%" />
+													</xf:group>
+													<xf:group class="w2tb_td" tagname="td">
+														<w2:textbox id="txt_PANMAEBEFORE_T1" class="txt" />
+													</xf:group>
+													<xf:group class="w2tb_td" tagname="td">
+														<w2:textbox id="txt_HWANMAE_T1" class="txt" />
+													</xf:group>
+													<xf:group class="w2tb_td" tagname="td">
+														<w2:textbox id="txt_HWANMAEFEE1_T1" class="txt" />
+													</xf:group>
+												</xf:group>
+											</table>
+										</xf:group>
+									</w2:content>
+									<script ev:event="onchange(tabID,idx,userTabID)" type="javascript"><![CDATA[
+										if (idx == 1) {
+											if (!PageParam.initT1) {
+												PageFunc.fn_selectDetailT1();
+			    								PageParam.initT1 = true;
+			    							}
+			    						}
+									]]></script>
+								</w2:tabControl>
+							</xf:group>
+							<!-- 하단영역 -->
+							<xf:group id="group382" style="/*padding:0 35px;*/" class="section">
+								<!-- 하단버튼 -->
+								<xf:group id="group111" class="btn_area_01 big">
+									<xf:group id="group112" class="left_top_01">
+										<w2:anchor id="anchor21" class="btn_u list" outerDiv="false">
+											<xf:label><![CDATA[목록]]></xf:label>
+											<script ev:event="onclick" type="javascript"><![CDATA[
+												dwsCommon.movePage('/dws/view/mkt/mkt3/' + PageParam.from + '.do');
+												window.scrollTo(0, 0);
+											]]></script>
+										</w2:anchor>
+									</xf:group>
+									<xf:group id="group113" class="right_top_01">
+										<w2:anchor id="btn_buyBottom" class="btn_u buy_confirm" outerDiv="false">
+											<xf:label><![CDATA[매수하기]]></xf:label>
+											<script ev:event="onclick" type="javascript"><![CDATA[
+												PageFunc.fn_movePurchase(PageParam.itemCd);
+											]]></script>
+										</w2:anchor>
+										<w2:anchor id="btn_concern2" class="btn_u regist" outerDiv="false">
+											<xf:label><![CDATA[관심상품 등록]]></xf:label>
+											<script ev:event="onclick" type="javascript"><![CDATA[
+												if (this.getUserData("type") == "login") {
+													dwsCommon.LoginCheck.showLoginPopUp(function() {
+														PageFunc.fn_selectAfterLoginInfo();
+														PageFunc.fn_insertMyGoods();
+														fn_userSessionData();
+													});
+												} else if (this.getUserData("type") == "regist") {
+													PageFunc.fn_insertMyGoods();
+												}  
+												window.scrollTo(0, 0);
+											]]></script>
+										</w2:anchor>
+									</xf:group>
+								</xf:group>
+								<!-- 동일 유형내 수익률 상위 펀드, 이 펀드를 조회한 고객님들이 본 상위펀드 -->
+								<xf:group id="group114" class="contbox">
+									<!-- 동일 유형내 수익률 상위 펀드 -->
+									<xf:group id="group115" class="title_area_02 clear_title">
+										<xf:group id="group116" class="left_top_01">
+											<w2:textbox id="textbox71" label="동일 유형내 수익률 상위 펀드" tagname="h2" />
+										</xf:group>
+										<xf:group id="group117" class="right_top_01">
+											<xf:group id="group118" class="select_menu_01">
+												<w2:anchor id="btn_suikRtB1" title="1개월 수익률 확인" href="#!" outerDiv="true">
+													<xf:label><![CDATA[1개월]]></xf:label>
+													<script ev:event="onclick" type="javascript"><![CDATA[
+														btn_suikRtB1.addClass("selected"); 
+														btn_suikRtB3.removeClass("selected");
+														btn_suikRtB6.removeClass("selected");
+														btn_suikRtB12.removeClass("selected");
+														
+														PageFunc.fn_selectTop3SuikRT("1");
+													]]></script>
+												</w2:anchor>
+												<w2:anchor id="btn_suikRtB3" title="3개월 수익률 확인" href="#!" outerDiv="true" class="selected">
+													<xf:label><![CDATA[3개월]]></xf:label>
+													<script ev:event="onclick" type="javascript"><![CDATA[
+														btn_suikRtB1.removeClass("selected"); 
+														btn_suikRtB3.addClass("selected");
+														btn_suikRtB6.removeClass("selected");
+														btn_suikRtB12.removeClass("selected");
+														
+														PageFunc.fn_selectTop3SuikRT("3");
+													]]></script>
+												</w2:anchor>
+												<w2:anchor id="btn_suikRtB6" title="6개월 수익률 확인" href="#!" outerDiv="true">
+													<xf:label><![CDATA[6개월]]></xf:label>
+													<script ev:event="onclick" type="javascript"><![CDATA[
+														btn_suikRtB1.removeClass("selected"); 
+														btn_suikRtB3.removeClass("selected");
+														btn_suikRtB6.addClass("selected");
+														btn_suikRtB12.removeClass("selected");
+														 
+														PageFunc.fn_selectTop3SuikRT("6");
+													]]></script>
+												</w2:anchor>
+												<w2:anchor id="btn_suikRtB12" title="12개월 수익률 확인" href="#!" outerDiv="true">
+													<xf:label><![CDATA[12개월]]></xf:label>
+													<script ev:event="onclick" type="javascript"><![CDATA[ 
+														btn_suikRtB1.removeClass("selected"); 
+														btn_suikRtB3.removeClass("selected");
+														btn_suikRtB6.removeClass("selected");
+														btn_suikRtB12.addClass("selected");
+														
+														PageFunc.fn_selectTop3SuikRT("12");
+													]]></script>
+												</w2:anchor>
+											</xf:group>
+										</xf:group>
+									</xf:group>
+									<xf:group id="group122" class="fund_list">
+										<xf:group id="group121" class="fund">
+											<xf:group id="group119" class="name">
+												<xf:image id="image11" alt="1" src="/dws/images/contents/num_1.png" />
+												<w2:textbox id="txt_FUND_FNM_B0" tagname="span">
+													<script ev:event="onclick" type="javascript"><![CDATA[ 
+														var ITEM_CD = this.getUserData("ITEM_CD");
+														if (ITEM_CD != "") {
+															var options = {
+																param : { 
+																	itemCd: ITEM_CD,
+																	from: PageParam.from 
+																}
+															};
+															dwsCommon.movePage("/dws/view/mkt/mkt3/mkt3001m04.do", options);
+															window.scrollTo(0, 0);
+														}
+													]]></script>
+												</w2:textbox>
+											</xf:group>
+											<xf:group id="group120" class="percent">
+												<w2:textbox id="txt_SILH_SUIK_RT_B0" tagname="span" dataType="number" displayFormat="#,###.#0" />
+												<w2:textbox id="txt_SILH_SUIK_RT_B0_PERCENT" label="%" tagname="span" />
+											</xf:group>
+										</xf:group>
+										<xf:group id="group123" class="fund">
+											<xf:group id="group124" class="name">
+												<xf:image id="image12" alt="2" src="/dws/images/contents/num_2.png" />
+												<w2:textbox id="txt_FUND_FNM_B1" tagname="span">
+													<script ev:event="onclick" type="javascript"><![CDATA[ 
+														var ITEM_CD = this.getUserData("ITEM_CD");
+														if (ITEM_CD != "") {
+															var options = {
+																param : { 
+																	itemCd: ITEM_CD,
+																	from: PageParam.from 
+																}
+															};
+															dwsCommon.movePage("/dws/view/mkt/mkt3/mkt3001m04.do", options);
+															window.scrollTo(0, 0);
+														}
+													]]></script>
+												</w2:textbox>
+											</xf:group>
+											<xf:group id="group125" class="percent">
+												<w2:textbox id="txt_SILH_SUIK_RT_B1" tagname="span" dataType="number" displayFormat="#,###.#0" />
+												<w2:textbox id="txt_SILH_SUIK_RT_B1_PERCENT" label="%" tagname="span" />
+											</xf:group>
+										</xf:group>
+										<xf:group id="group126" class="fund">
+											<xf:group id="group127" class="name">
+												<xf:image id="image13" alt="3" src="/dws/images/contents/num_3.png" />
+												<w2:textbox id="txt_FUND_FNM_B2" tagname="span">
+													<script ev:event="onclick" type="javascript"><![CDATA[ 
+														var ITEM_CD = this.getUserData("ITEM_CD");
+														if (ITEM_CD != "") {
+															var options = {
+																param : { 
+																	itemCd: ITEM_CD,
+																	from: PageParam.from 
+																}
+															};
+															dwsCommon.movePage("/dws/view/mkt/mkt3/mkt3001m04.do", options);
+															window.scrollTo(0, 0);
+														}
+													]]></script>
+												</w2:textbox>
+											</xf:group>
+											<xf:group id="group128" class="percent">
+												<w2:textbox id="txt_SILH_SUIK_RT_B2" tagname="span" dataType="number" displayFormat="#,###.#0" />
+												<w2:textbox id="txt_SILH_SUIK_RT_B2_PERCENT" label="%" tagname="span" />
+											</xf:group>
+										</xf:group>
+									</xf:group>
+								</xf:group>
+								<!-- 이 펀드를 조회한 고객님들이 본 상위펀드 -->
+								<xf:group id="group149" class="contbox">
+									<xf:group id="group150" class="title_area_02 clear_title">
+										<xf:group id="group151" class="left_top_01">
+											<w2:textbox id="textbox99" label="이 펀드를 조회한 고객님들이 본 상위펀드" tagname="h2" />
+										</xf:group>
+									</xf:group>
+									<xf:group id="group154" class="fund_list">
+										<xf:group id="group155" class="fund">
+											<xf:group id="group156" class="name">
+												<xf:image id="image20" alt="1" src="/dws/images/contents/num_1.png" />
+												<w2:textbox id="txt_ITEM_NM_B0" tagname="span">
+													<script ev:event="onclick" type="javascript"><![CDATA[ 
+														var ITEM_CD = this.getUserData("ITEM_CD");
+														if (ITEM_CD != "") {
+															var options = {
+																param : { 
+																	itemCd: ITEM_CD,
+																	from: PageParam.from 
+																}
+															};
+															dwsCommon.movePage("/dws/view/mkt/mkt3/mkt3001m04.do", options);
+															window.scrollTo(0, 0);
+														}
+													]]></script>
+												</w2:textbox>
+											</xf:group>
+											<xf:group id="group157" class="percent">
+												<w2:textbox id="txt_MMS3_YIRT_B0" tagname="span" dataType="number" displayFormat="#,###.#0" />
+												<w2:textbox id="txt_MMS3_YIRT_B0_PERCENT" label="%" tagname="span" />
+											</xf:group>
+										</xf:group>
+										<xf:group id="group158" class="fund">
+											<xf:group id="group159" class="name">
+												<xf:image id="image21" alt="2" src="/dws/images/contents/num_2.png" />
+												<w2:textbox id="txt_ITEM_NM_B1" tagname="span">
+													<script ev:event="onclick" type="javascript"><![CDATA[ 
+														var ITEM_CD = this.getUserData("ITEM_CD");
+														if (ITEM_CD != "") {
+															var options = {
+																param : { 
+																	itemCd: ITEM_CD,
+																	from: PageParam.from 
+																}
+															};
+															dwsCommon.movePage("/dws/view/mkt/mkt3/mkt3001m04.do", options);
+															window.scrollTo(0, 0);
+														}
+													]]></script>
+												</w2:textbox>
+											</xf:group>
+											<xf:group id="group160" class="percent">
+												<w2:textbox id="txt_MMS3_YIRT_B1" tagname="span" dataType="number" displayFormat="#,###.#0" />
+												<w2:textbox id="txt_MMS3_YIRT_B1_PERCENT" label="%" tagname="span" />
+											</xf:group>
+										</xf:group>
+										<xf:group id="group161" class="fund">
+											<xf:group id="group162" class="name">
+												<xf:image id="image22" alt="3" src="/dws/images/contents/num_3.png" />
+												<w2:textbox id="txt_ITEM_NM_B2" tagname="span">
+													<script ev:event="onclick" type="javascript"><![CDATA[ 
+														var ITEM_CD = this.getUserData("ITEM_CD");
+														if (ITEM_CD != "") {
+															var options = {
+																param : { 
+																	itemCd: ITEM_CD,
+																	from: PageParam.from 
+																}
+															};
+															dwsCommon.movePage("/dws/view/mkt/mkt3/mkt3001m04.do", options);
+															window.scrollTo(0, 0);
+														}
+													]]></script>
+												</w2:textbox>
+											</xf:group>
+											<xf:group id="group163" class="percent">
+												<w2:textbox id="txt_MMS3_YIRT_B2" tagname="span" dataType="number" displayFormat="#,###.#0" />
+												<w2:textbox id="txt_MMS3_YIRT_B2_PERCENT" label="%" tagname="span" />
+											</xf:group>
+										</xf:group>
+									</xf:group>
+								</xf:group>
+								<!-- 알려드립니다. -->
+								<xf:group id="group129" class="msg_box_01">
+									<w2:textbox id="textbox84" class="msg_title" label="알려드립니다." tagname="p" />
+									<w2:anchor class="btn_show" id="anchor911" outerDiv="false">
+										<xf:label><![CDATA[열기]]></xf:label>
+										<script ev:event="onclick" type="javascript"><![CDATA[
+											$("#" + this.id).next().toggleClass("mb_show");
+											$("#" + this.id).toggleClass("hide");
+										]]></script>
+									</w2:anchor>
+									<xf:group id="group130" class="msg_list_01" tagname="ul">
+										<xf:group id="group131" tagname="li">
+											<w2:textbox id="textbox85" label="현재 매수불가능한 상품들도 표시되므로 펀드매수화면에서 조회되는 펀드와 차이가 있을 수 있습니다." tagname="span" />
+										</xf:group>
+										<xf:group id="group132" tagname="li">
+											<w2:textbox id="textbox86" label="상기 내용은 정보 제공을 목적으로 제작되었으며, 당사가 그 정확성이나 완전성을 보장하지 않습니다." tagname="span" />
+										</xf:group>
+										<xf:group id="group133" tagname="li">
+											<w2:textbox id="textbox87" label="투자자 자신의 판단과 책임하에 투자전 의사 결정하시기 바랍니다." tagname="span" />
+										</xf:group>
+										<xf:group id="group134" tagname="li">
+											<w2:textbox id="textbox88" label="상기 상품은 실적배당상품으로 미래의 수익률을 보장하지 않으며 결과에 따라 이익 또는 손실이 투자자에게 귀속됩니다." tagname="span" />
+										</xf:group>
+										<xf:group id="group135" tagname="li">
+											<w2:textbox id="textbox89" label="이 금융상품은 예금자보호법에 따라 예금보험공사가 보호하지 않습니다." tagname="span" />
+										</xf:group>
+										<xf:group id="group136" tagname="li">
+											<w2:textbox id="textbox90" label="상품 투자전 약관, (간이)투자설명서, 상품세부 설명서 등을 확인하시고 직원과의 상담을 통해서 가입하시기 바랍니다." tagname="span" />
+										</xf:group>
+										<xf:group id="group137" tagname="li">
+											<w2:textbox id="textbox91" label="해외투자상품의 경우 기준통화의 환율변동에 따라 자산가치가 변동되어 원금손실 가능성이 있습니다." tagname="span" />
+										</xf:group>
+										<xf:group id="group138" tagname="li">
+											<w2:textbox id="textbox92" label="당일 기준가격 등은 오전 9시 이후부터 갱신되며 전산 에러 및 오류 등으로 인해 갱신 시간이 변동될 수 있습니다." tagname="span" />
+										</xf:group>
+										<xf:group id="group164" tagname="li">
+											<w2:textbox id="textbox112" label="추가적으로 궁금하신 사항은 당사 고객센터(1588-3322)로 문의해 주시기 바랍니다." tagname="span" />
+										</xf:group>
+									</xf:group>
+								</xf:group>
+							</xf:group>
+						</xf:group>
+					</xf:group>
+				</xf:group>
+			</xf:group>
+			<w2:wframe id="footer" src="/dws/view/com/footer.xml"></w2:wframe>
+		</xf:group>
+	</body>
 </html>

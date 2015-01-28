@@ -16,18 +16,6 @@ module.exports = function(grunt) {
             tests: ['tmp', 'result'],
             traverse: ['dest', 'result']
         },
-        copy: {
-            main: {
-                files: [
-                    {expand: true, src: ['src/**'], dest: 'dest/'}
-                ]
-            },
-            cwd: {
-                files: [
-                    {expand: true, cwd: 'src/', src: ['**'], dest: 'dest/'}
-                ]
-            }
-        },
         websquarejshint: {
             compile: {
                 options: {

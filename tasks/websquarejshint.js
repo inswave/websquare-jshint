@@ -31,7 +31,6 @@ module.exports = function(grunt) {
               force: false,
               reporterOutput: null
             }),
-            jshintOptions  = options.jshint || {},
             encoding = ( options.encoding || 'UTF-8' ).toLowerCase(),
             ast,
             compressor,
@@ -46,13 +45,14 @@ module.exports = function(grunt) {
                 png: 0,
                 jpg: 0
             },
-            scriptRegex = /(<script[\s]*?type=[\"\']javascript[\"\'][\s\S]*?>[\s]*<!\[CDATA\[)([\s\S]*?)(\]\]>[\s]*<\/script>)/ig,
+            scriptRegex = /(<script[\s]*?type=[\"\']javascript[\"\'][\s]*?>[\s]*<!\[CDATA\[)([\s\S]*?)(\]\]>[\s]*<\/script>)/ig,
             exceptRegex = /return\s*/,
             eventRegex  = /ev\:event/,
             pseudoFunc  = ['(function(){', '})'],
             min = '',
             sourceStr = '',
             logMsg = '',
+            globalStr = '',
             checkFilter = function ( source ) {
                 if ( options.filter instanceof RegExp ) {
                     if ( options.filter.test( source ) ) {
@@ -169,7 +169,6 @@ module.exports = function(grunt) {
                             cliOptions.config.globals[prop] = globalObj[prop];
                         }
                     }
-
                     logMsg += '    global object : ';
                     var first = true;
                     for(var prop in cliOptions.config.globals) {
@@ -183,6 +182,7 @@ module.exports = function(grunt) {
                         }
                     }
                     logMsg += '\n\n';
+                    grunt.verbose.writeln(JSON.stringify(cliOptions.config));
                 }
 
                 // Run JSHint on all file and collect results/data
@@ -296,6 +296,7 @@ module.exports = function(grunt) {
                     var node = dom.documentElement;
                     traverse(globalObj, node);
                 } catch(e) {
+                    grunt.log.warn("    XML Parsing exception\n");
                     logMsg += "    XML Parsing exception\n";
                 }
                 return globalObj;
@@ -419,9 +420,18 @@ module.exports = function(grunt) {
                                         retStr += arr.join("") + myArray[2];
                                     }
 
-                                    min = retStr;
-
                                     globalObj = extractWebSquareID(sourceStr, src);
+                                    globalStr = '/*global';
+                                    var first = true;
+                                    for(var prop in globalObj) {
+                                        if(globalObj.hasOwnProperty(prop)) {
+                                            globalStr += ' ' + prop + ':true'
+                                        }
+                                    }
+                                    globalStr += '*/';
+
+                                    min = globalStr + retStr;
+
 
                                 } else if( fileType === "JS" ) {
                                     grunt.log.warn( fileType + ' do jslint ' + src.cyan + ' -> ' + dest.cyan );
