@@ -438,7 +438,6 @@ module.exports = function(grunt) {
                                     try {
                                         grunt.log.warn('convert euc-kr to utf-8');
                                         sourceStr = euckr2utf8.convert(sourceStr).toString('UTF-8');
-                                        sourceStr = sourceStr.replace( /EUC[-]KR/, 'UTF-8' );
                                     } catch(e) {
                                         logMsg += "exception occured during convert euc-kr to utf-8. use original : " + src + "\n";
                                         grunt.log.warn('exception occured. use original');
